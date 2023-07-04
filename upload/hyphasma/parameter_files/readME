@@ -1,0 +1,30 @@
+- pf_ref
+    parameter files for simulations without Tfrs
+
+- pf_apo
+    parameter files for Apoptosis model
+    
+- pf_sg
+    parameter files for SemiGate model
+    
+- pf_sg38
+    parameter files for SemiGate.38 model
+    
+- pf_depl
+    parameter files for Tfr depletion experiment
+    
+In each parameter file the following can be found: 
+
+- 'TFR mode of interaction (-1: no interaction)' --> to change TfrModel
+    3 : Apoptosis model
+    13 : SemiGate model
+    19 : SemiGate.38 model
+    
+- 'Number of initial TFR' --> to change number of Tfrs
+
+- 'Tendency for TFR to stay in the LZ (weight in 0..1)' --> to change Tfrs motility type
+    0.1 : 'Tfh-like' indicated by NW abbreviation in file name
+    -5 : 'CC-like' indicated by R5 abbreviation in file name
+    
+NOTE:
+to run the simulations parameter files need to be in parameter_files folder as well as in to_run folder
