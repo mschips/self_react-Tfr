@@ -1,0 +1,28 @@
+echo Clear all local simulation result and analysis files ...
+rm *.out 2>/dev/null
+rm *.dat 2>/dev/null
+rm *.pov 2>/dev/null
+rm *.ppm 2>/dev/null
+rm *.ps 2>/dev/null
+rm *.eps 2>/dev/null
+rm *.gif 2>/dev/null
+rm *.gle 2>/dev/null
+rm *.exp 2>/dev/null
+rm *.C 2>/dev/null
+rm *.h 2>/dev/null
+rm *.o 2>/dev/null
+rm *~ 2>/dev/null
+rm ./*/*~ 2>/dev/null
+rm movie 2>/dev/null
+rm resultpage.* 2>/dev/null
+rm standard.par 2>/dev/null
+rm average* 2>/dev/null
+rm brainbow* 2>/dev/null
+rm anatrack.cpp 2>/dev/null
+rm mkanatrack 2>/dev/null
+rm mktrackfigs 2>/dev/null
+rm mkfigure 2>/dev/null
+echo ... done.
+
+
+
