@@ -1,0 +1,53 @@
+#!/bin/bash
+#
+# meyer-hermann, 2015-11-09
+# This shell sript is used to generate a series of identical simulations
+# but with different random seed.
+# The simulations are started with the parameter file provided as command line parameter.
+# The simulations are enumerated according to the command line parameters.
+# The simulations are saved in a subdirectory of <results> with the name of the
+# parameter file extended by <-all>.
+# Each simulation instance is enumerated and saved in a directory with this number
+# in this subdirectory.
+# 
+# Remark: statjob may be called by statjob_mkloop in order to distribute a large
+#         number of simulations onto different cores.
+# Remark: The set of simulations saved in the subdirectory with the parameter file name
+#         may be further analysed by methods saved in <tools>.
+#
+if [ -z $3 ]; then
+echo "This script expects three argument: "
+echo "The name of the parameter file in the directory <parameter_files> without suffix,"
+echo "and the first and last enumeration index for saving the results in numbered directories."
+echo "exit statjob."
+else
+parname=`basename $1`
+parfullname=./parameter_files/$parname
+runname=./results/$parname"-all"
+mkdir $runname
+ifirst=$2
+ilast=$3
+echo "run from "$ifirst" to "$ilast
+while [ $ifirst -le $ilast ]; do
+    n=$ifirst
+    echo
+    echo RUN n=$n
+    n4dir=$n
+    if [ $n -lt 10 ];
+	then n4dir="00"$n4dir
+	else if [ $n -lt 100 ];
+	     then n4dir="0"$n4dir
+             fi
+    fi
+    n4dir=$runname"/"$n4dir
+    ./hyphasma $parfullname
+    ./save2dir $parname
+    mv ./results/$parname $n4dir
+    let ifirst='ifirst + 1'
+done
+echo
+echo done.
+echo runs saved and enumerated in $runname
+echo
+fi
+

@@ -1,0 +1,24 @@
+if [ -z $1 ]; then
+echo "This script expects one argument: The name of the parameter file without suffix"
+else
+targetname=`basename $1`
+directory=results/$targetname
+mkdir ./$directory
+if [ -f ./parameter_files/$targetname".par" ]; then
+  cp ./parameter_files/$targetname".par" ./$directory
+else
+  echo "Parameter file ./parameter_files/"$targetname".par does not exist."
+  echo "Copy the generating parameter file(s) by hand into ./results/"$targetname
+fi
+mv ./*.ppm ./$directory
+mv ./*.dat ./$directory
+mv ./*.pov ./$directory
+mv ./*.out ./$directory
+mv ./*.txt ./$directory
+#mv ./*.eps ./$directory
+#mv ./resultpage.tex ./$directory
+#mv ./resultpage.pdf ./$directory
+echo "This run was saved in ./"$directory"."
+echo "Further analysis can be done with software in the subdirectory <tools>."
+#evince ./$directory"/resultpage.pdf"
+fi

@@ -1,0 +1,12 @@
+#
+# meyer-hermann, 2015-11-10
+#
+# The settings for simulations on different cores are given here.
+# This shell script is called from <runmulticore> and <runmulticore_collect>.
+#
+# set the number of cores to be used:
+ncores=20
+# set the number of runs to be done on each core:
+nrunspercore=1
+# set the parameter file name to be used:
+parfile=Reference_TfhDND_Tfr.0_Self.0.02_IntTime.0.05_NW_BaseLongOut_Tfh.250_Red.0.02_SelfMode.0

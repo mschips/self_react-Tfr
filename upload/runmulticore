@@ -1,0 +1,51 @@
+#
+# meyer-hermann, 2015-11-09
+#
+# This shell script is started from a hyphasma parent directory,
+# in which the directory hyphasma with all subdirectories needed for simulations is present.
+# The script generates a set of enumerated copies of hyphasma extended with <tmpXX>
+# where XX is the respective number.
+# In goes into each of these directories and starts a set of simulations by calling runmulti
+# with changing parameters.
+#
+. runmulticore_settings
+echo "Running with ncores="$ncores", nrunspercore="$nrunspercore", parfile="$parfile" ..."
+cd ./hyphasma/
+rm hyphasma
+make
+./clean
+cd ..
+cp runmulti ./hyphasma/
+let ncores='ncores - 1'
+for n in $(seq 0 $ncores); do
+  sleep 1
+  echo INSTALL n=$n
+  ndirectory=$n
+  if [ $n -lt 10 ];
+     then ndirectory="0"$ndirectory
+  fi
+  ndirectory="hyphasma_tmp"$ndirectory
+  mkdir $ndirectory
+  cp -r hyphasma/bin $ndirectory"/"
+  cp -r hyphasma/build $ndirectory"/"
+#  cp -r hyphasma/data $ndirectory"/"
+#  cp -r hyphasma/gle $ndirectory"/"
+  cp -r hyphasma/parameter_files $ndirectory"/"
+  cp -r hyphasma/src $ndirectory"/"
+#  cp -r hyphasma/tests $ndirectory"/"
+ # cp -r hyphasma/tools $ndirectory"/"
+  cp hyphasma/* $ndirectory"/" 2>/dev/null
+  cd $ndirectory
+  pwd
+  mkdir results
+  istart=$n
+  let istart='istart * nrunspercore'
+  istop=$istart
+  let istop='istop + nrunspercore - 1'
+  ./runmulti $parfile $istart $istop > runmulti.log &
+  echo STARTED runs $istart to $istop
+  echo
+  cd ..
+done
+
+( speaker-test -t sine -f 1000 )& pid=$! ; sleep 0.5s ; kill -9 $pid

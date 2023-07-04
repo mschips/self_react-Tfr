@@ -1,0 +1,26 @@
+#
+# meyer-hermann, 2015-11-09
+#
+# This shell script is started from a hyphasma parent directory,
+# in which the directory <hyphasma> with all its subdirectories needed for simulations is present.
+# It is started after termination of all simulations induced by <runmulticore>.
+# Its purpose is to recollect all simulations to the <results> folder in <hyphasma>.
+#
+. runmulticore_settings
+echo "Running COLLECT with ncores="$ncores", nrunspercore="$nrunspercore", parfile="$parfile" ..."
+targetdir=results/$parfile"-all"
+echo Moving all results to $targetdir in ./hyphasma ...
+mkdir ./hyphasma/$targetdir
+let ncores='ncores - 1'
+for n in $(seq 0 $ncores); do
+  echo MOVE n=$n
+  n4dir=$n
+  if [ $n -lt 10 ];
+     then n4dir="0"$n4dir
+  fi
+  n4dir=./hyphasma_tmp$n4dir"/"$targetdir
+  echo $n4dir"/"*
+  echo "./hyphasma/"$targetdir"/"
+  mv $n4dir"/"* "./hyphasma/"$targetdir"/"
+done
+echo ... done.
