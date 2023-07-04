@@ -1,7 +1,7 @@
 - upload contains:
     - files to start multiple runs
     - hyphasma folder which contains:
-        - files necessary for running hyphasma
+        - files necessary for running the simulations
         - src folder containing code files
         - results folder containing results folder and R scripts to generate the paper figures
         - parameter_files folder (readME file in parameter_files folder)
