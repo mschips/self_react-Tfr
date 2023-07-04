@@ -1,0 +1,2102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALPHA_RESOLUTION	track.cpp	/^int TRACK::ALPHA_RESOLUTION=36;$/;"	m	class:TRACK	file:
+ALPHA_RESOLUTION	track.h	/^  static int V_RESOLUTION,ALPHA_RESOLUTION;$/;"	m	class:TRACK
+APeakNumber	setparam.h	/^      int totalA,APeakNumber;$/;"	m	class:Werte
+Abstand	grid.cpp	/^double grid::Abstand(const long int& n, const long int& n2) {$/;"	f	class:grid
+Abstandquad	ss.cpp	/^double SS::Abstandquad(long& n, long& n2) {$/;"	f	class:SS
+Antigen	ss.h	/^   long* Antigen;$/;"	m	class:SS
+Avogadro	cellthis.h	/^  static const double Avogadro = 6.02205e+23; \/\/ mol^-1$/;"	m	class:cellbeta
+BCRexpression	cellthis.h	/^  double BCRexpression;$/;"	m	class:cellCC
+BC_ag_preloaded	setparam.h	/^      double divide_ag_asymmetric,asymmetric_polarity_index,smooth_PI,BC_ag_preloaded;$/;"	m	class:Werte
+BC_integral	cellman.h	/^   long BC_integral;$/;"	m	class:cellman
+BETA	space.h	/^  BETA,$/;"	e	enum:states
+BETA_K_elongation	setparam.h	/^	BETA_K_elongation,    \/\/ Elongation in units of spherical cell radius, at which$/;"	m	class:Werte
+BETA_Narray	setparam.h	/^      long CB_Narray,CC_Narray,TC_Narray,FDC_Narray,OUT_Narray,STROMA_Narray,BETA_Narray;$/;"	m	class:Werte
+BETA_Nini	setparam.h	/^      long BETA_Nini;         \/\/ Total Number of initial betacells:$/;"	m	class:Werte
+BETA_distance_tolerance	setparam.h	/^	BETA_distance_tolerance,$/;"	m	class:Werte
+BETA_elongation	setparam.h	/^	BETA_elongation,      \/\/ Cell elongation by active movement$/;"	m	class:Werte
+BETA_grow	setparam.h	/^	BETA_grow,$/;"	m	class:Werte
+BETA_half_tolerance_deformation	setparam.h	/^	BETA_half_tolerance_deformation,$/;"	m	class:Werte
+BETA_list	cellman.h	/^   dynarray<cellbeta> BETA_list;$/;"	m	class:cellman
+BETA_max_adhesion	setparam.h	/^	BETA_max_adhesion,    \/\/ maximum adhesion force in % of full stickness$/;"	m	class:Werte
+BETA_max_pro	setparam.h	/^	BETA_max_pro,         \/\/ maximal distance for CB-proliferation from dividing cell$/;"	m	class:Werte
+BETA_n_v_states	setparam.h	/^	BETA_n_v_states;      \/\/ # of velocity states$/;"	m	class:Werte
+BETA_persistence	setparam.h	/^	BETA_persistence,     \/\/ average time gap in minutes between changes of direction of the$/;"	m	class:Werte
+BETA_pos	setparam.h	/^      dynarray<long int> BETA_pos;      \/\/ position in space$/;"	m	class:Werte
+BETA_proliferate	setparam.h	/^	BETA_proliferate,     \/\/ Rate per hr$/;"	m	class:Werte
+BETA_radius	setparam.h	/^	BETA_radius,$/;"	m	class:Werte
+BETA_shrink	setparam.h	/^	BETA_shrink,$/;"	m	class:Werte
+BETA_smoothmove	setparam.h	/^ 	BETA_smoothmove;     \/\/ Distributes a barycenter movement thought to overcome one $/;"	m	class:Werte
+BETA_v	setparam.h	/^	BETA_v,               \/\/ velocity$/;"	m	class:Werte
+BETA_v_cytosol	setparam.h	/^	BETA_v_cytosol,       \/\/ Strength of reshaping forces (cytosolic elements speed)$/;"	m	class:Werte
+BETA_v_factor	setparam.h	/^	BETA_v_factor,        \/\/ for 2 velocities: the factor by which the velocity is reduced $/;"	m	class:Werte
+BETA_v_modi	setparam.h	/^	BETA_v_modi,          \/\/ modus of velocity state treatment $/;"	m	class:Werte
+BETA_v_switch_deltat	setparam.h	/^	BETA_v_switch_deltat, \/\/ Mean duration in a v-state in minutes$/;"	m	class:Werte
+BrdU	cell.h	/^  double BrdU;$/;"	m	class:cell
+CB	space.h	/^  CB,$/;"	e	enum:states
+CB2OUT_prob	setparam.h	/^	CB_fixed_times_of_divisions,CB_fixed_times_of_divisions_in_expansion,CB2OUT_prob;$/;"	m	class:Werte
+CB_D_cytosol	setparam.h	/^      double CB_D_cytosol;  \/\/ Diffusion constant for fragments in the cytosol.$/;"	m	class:Werte
+CB_K_elongation	setparam.h	/^      double CB_K_elongation; \/\/ Elongation in units of spherical cell radius, at which$/;"	m	class:Werte
+CB_Narray	setparam.h	/^      long CB_Narray,CC_Narray,TC_Narray,FDC_Narray,OUT_Narray,STROMA_Narray,BETA_Narray;$/;"	m	class:Werte
+CB_average	cellman.h	/^   double CB_end,CB_average,CB_variance;$/;"	m	class:cellman
+CB_differ2OUT	cellman.cpp	/^short int cellman::CB_differ2OUT(long i, long li, space& l, SS& shape) {$/;"	f	class:cellman
+CB_dt_G0	setparam.h	/^      double CB_dt_G0,CB_dt_G1,CB_dt_G2,CB_dt_S,CB_dt_M;$/;"	m	class:Werte
+CB_dt_G1	setparam.h	/^      double CB_dt_G0,CB_dt_G1,CB_dt_G2,CB_dt_S,CB_dt_M;$/;"	m	class:Werte
+CB_dt_G2	setparam.h	/^      double CB_dt_G0,CB_dt_G1,CB_dt_G2,CB_dt_S,CB_dt_M;$/;"	m	class:Werte
+CB_dt_M	setparam.h	/^      double CB_dt_G0,CB_dt_G1,CB_dt_G2,CB_dt_S,CB_dt_M;$/;"	m	class:Werte
+CB_dt_S	setparam.h	/^      double CB_dt_G0,CB_dt_G1,CB_dt_G2,CB_dt_S,CB_dt_M;$/;"	m	class:Werte
+CB_dtphase_width	setparam.h	/^      double CB_dtphase_width;$/;"	m	class:Werte
+CB_elongation	setparam.h	/^      double CB_elongation; \/\/ Cell elongation by active movement$/;"	m	class:Werte
+CB_end	cellman.h	/^   double CB_end,CB_average,CB_variance;$/;"	m	class:cellman
+CB_fixed_times_of_divisions	setparam.h	/^	CB_fixed_times_of_divisions,CB_fixed_times_of_divisions_in_expansion,CB2OUT_prob;$/;"	m	class:Werte
+CB_fixed_times_of_divisions_in_expansion	setparam.h	/^	CB_fixed_times_of_divisions,CB_fixed_times_of_divisions_in_expansion,CB2OUT_prob;$/;"	m	class:Werte
+CB_haffinity	ss.h	/^   double OUT_haffinity,OUT_steepness,CB_haffinity,CC_haffinity;$/;"	m	class:SS
+CB_list	cellman.h	/^   dynarray<cellCB> CB_list;$/;"	m	class:cellman
+CB_max_adhesion	setparam.h	/^      double CB_max_adhesion; \/\/ maximum adhesion force in % of full stickness$/;"	m	class:Werte
+CB_maxvolume4differ2CC	setparam.h	/^	CB_maxvolume4differ2CC, \/\/ fraction of total volume up to which CB may differentiate$/;"	m	class:Werte
+CB_n_v_states	setparam.h	/^      short CB_n_v_states;  \/\/ # of velocity states$/;"	m	class:Werte
+CB_persistence	setparam.h	/^      double CB_persistence;\/\/ average time gap in minutes between changes of direction of the$/;"	m	class:Werte
+CB_radius	setparam.h	/^      double CB_radius;$/;"	m	class:Werte
+CB_smoothmove	setparam.h	/^      double CB_smoothmove; \/\/ Distributes a barycenter movement thought to overcome one $/;"	m	class:Werte
+CB_v_modi	setparam.h	/^      short CB_v_modi;      \/\/ modus of velocity state treatment$/;"	m	class:Werte
+CB_variance	cellman.h	/^   double CB_end,CB_average,CB_variance;$/;"	m	class:cellman
+CBreceptor_activation	setparam.h	/^	CBreceptor_activation;$/;"	m	class:Werte
+CBreceptor_binding	setparam.h	/^	CBreceptor_binding,$/;"	m	class:Werte
+CBreceptor_dissociation	setparam.h	/^	CBreceptor_dissociation,$/;"	m	class:Werte
+CBreceptor_total	setparam.h	/^	CBreceptor_total,$/;"	m	class:Werte
+CBreceptor_use	setparam.h	/^      short CBreceptor_use;$/;"	m	class:Werte
+CC	space.h	/^  CC,$/;"	e	enum:states
+CC2CBratio	cellman.h	/^   double t_dark_end,CC2CBratio,t_1st_under100;$/;"	m	class:cellman
+CC_FDC_selection	cellthis.cpp	/^unsigned short cellCC::CC_FDC_selection=1;$/;"	m	class:cellCC	file:
+CC_FDC_selection	cellthis.h	/^  static unsigned short CC_FDC_selection;$/;"	m	class:cellCC
+CC_FDC_selection	setparam.h	/^      unsigned short CC_FDC_selection;$/;"	m	class:Werte
+CC_ICAM_delay	setparam.h	/^      double CC_test_delay,CC_ICAM_delay;$/;"	m	class:Werte
+CC_IgE_prob_CXCR5down	setparam.h	/^      double IgE_BCRlevel,IgE_factor_cellcycle,IgE_factor_divisions,CC_IgE_prob_CXCR5down;$/;"	m	class:Werte
+CC_Narray	setparam.h	/^      long CB_Narray,CC_Narray,TC_Narray,FDC_Narray,OUT_Narray,STROMA_Narray,BETA_Narray;$/;"	m	class:Werte
+CC_affinity	cellthis.h	/^  double * CC_affinity;$/;"	m	class:cellTC
+CC_apoptotic_motility_mode	setparam.h	/^      short CC_apoptotic_motility_mode;$/;"	m	class:Werte
+CC_differ2CB	cellman.cpp	/^short cellman::CC_differ2CB(long i, long li, space& l, SS& shape) {$/;"	f	class:cellman
+CC_differ2out	cellman.cpp	/^short cellman::CC_differ2out(long i, long li, space& l, SS& shape) {$/;"	f	class:cellman
+CC_haffinity	ss.h	/^   double OUT_haffinity,OUT_steepness,CB_haffinity,CC_haffinity;$/;"	m	class:SS
+CC_list	cellman.h	/^   dynarray<cellCC> CC_list;$/;"	m	class:cellman
+CC_n_v_states	setparam.h	/^      short CC_n_v_states;  \/\/ # of velocity states$/;"	m	class:Werte
+CC_nn	cellthis.h	/^  long * CC_nn;$/;"	m	class:cellTC
+CC_persistence	setparam.h	/^      double CC_persistence;\/\/ average time gap in minutes between changes of direction of the$/;"	m	class:Werte
+CC_test_delay	setparam.h	/^      double CC_test_delay,CC_ICAM_delay;$/;"	m	class:Werte
+CC_total	cellman.h	/^   long CC_total; \/\/ Zaehle alle jemals erzeugten CCs $/;"	m	class:cellman
+CC_v_modi	setparam.h	/^      short CC_v_modi;      \/\/ modus of velocity state treatment$/;"	m	class:Werte
+CONST_DYN_GLU_FIELD	signals.cpp	/^double sigs::CONST_DYN_GLU_FIELD=10.;$/;"	m	class:sigs	file:
+CONST_DYN_GLU_FIELD	signals.h	/^  static double CONST_DYN_GLU_FIELD;$/;"	m	class:sigs
+CXCL12	signals.h	/^  CXCL12,            \/\/ Ligand for CXCR4 expressed on B cells$/;"	e	enum:signal_molecule
+CXCL12crit	cell.cpp	/^double cell::CXCL12crit=-1.;$/;"	m	class:cell	file:
+CXCL12crit	cell.h	/^  static double CXCL12crit,CXCL13crit;$/;"	m	class:cell
+CXCL12crit	setparam.h	/^      double CXCL12crit,CXCL13crit;$/;"	m	class:Werte
+CXCL12recrit	cell.cpp	/^double cell::CXCL12recrit=-1.;$/;"	m	class:cell	file:
+CXCL12recrit	cell.h	/^  static double CXCL12recrit,CXCL13recrit;$/;"	m	class:cell
+CXCL12recrit	setparam.h	/^      double CXCL12recrit,CXCL13recrit;$/;"	m	class:Werte
+CXCL13	signals.h	/^  CXCL13,            \/\/ Ligand for CXCR5 expressed on B cells$/;"	e	enum:signal_molecule
+CXCL13crit	cell.cpp	/^double cell::CXCL13crit=-1.;$/;"	m	class:cell	file:
+CXCL13crit	cell.h	/^  static double CXCL12crit,CXCL13crit;$/;"	m	class:cell
+CXCL13crit	setparam.h	/^      double CXCL12crit,CXCL13crit;$/;"	m	class:Werte
+CXCL13recrit	cell.cpp	/^double cell::CXCL13recrit=-1.;$/;"	m	class:cell	file:
+CXCL13recrit	cell.h	/^  static double CXCL12recrit,CXCL13recrit;$/;"	m	class:cell
+CXCL13recrit	setparam.h	/^      double CXCL12recrit,CXCL13recrit;$/;"	m	class:Werte
+CXCR4down	setparam.h	/^      double CXCR4down;     \/\/ rate of CXCR4 downregulation (-1 for none)$/;"	m	class:Werte
+CXCR5down	setparam.h	/^      double CXCR5down;     \/\/ rate of CXCR5 downregulation (-1 for none)$/;"	m	class:Werte
+CXCR5failure	cellthis.h	/^  short CXCR5failure;$/;"	m	class:cellCC
+C_Ca_L	setparam.h	/^	            lambda_Ca_L,C_Ca_L,    n_Ca_L,$/;"	m	class:betaWerte
+C_IP3_act	setparam.h	/^	g_IP3_max,  gbar_IP3,  C_IP3_act,    n_IP3_act, tau_IP3,$/;"	m	class:betaWerte
+C_K_Ca	cellthis.h	/^		       g_K_Ca,C_K_Ca,                             \/\/ 13-14$/;"	e	enum:cellbeta::beta_quantities
+C_P	setparam.h	/^	k_IP3_plus,k_IP3_minus,C_P,n_P,$/;"	m	class:betaWerte
+C_m	setparam.h	/^	R_bc,Sur_ER,Vol_ER,C_m,$/;"	m	class:betaWerte
+C_sK_Ca	setparam.h	/^	gbar_sK_Ca, C_sK_Ca,   kappa_sK_Ca,tau_sK_Ca,$/;"	m	class:betaWerte
+Ca	cellthis.h	/^  enum beta_quantities{V,K,Na,Ca,                                 \/\/ 0-3$/;"	e	enum:cellbeta::beta_quantities
+Ca_0	setparam.h	/^	glu_0,IP3_0,K_0,Na_0,Ca_0,$/;"	m	class:betaWerte
+Ca_ER	cellthis.h	/^		       Ca_ER,V_ER,IP3,g_IP3,h_IP3,                \/\/ 15-19$/;"	e	enum:cellbeta::beta_quantities
+Ca_ER_0	setparam.h	/^	K_ext,Na_ext,Ca_ext,Ca_ER_0,$/;"	m	class:betaWerte
+Ca_L	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+Ca_L	setparam.h	/^			 Ca_L,Ca_T,SERCA,IP3,gap,N_beta_proteins};$/;"	e	enum:betaWerte::beta_proteins
+Ca_T	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+Ca_T	setparam.h	/^			 Ca_L,Ca_T,SERCA,IP3,gap,N_beta_proteins};$/;"	e	enum:betaWerte::beta_proteins
+Ca_ext	setparam.h	/^	K_ext,Na_ext,Ca_ext,Ca_ER_0,$/;"	m	class:betaWerte
+Cbar_IP3_inh	setparam.h	/^	                       Cbar_IP3_inh, n_IP3_inh, theta_IP3,$/;"	m	class:betaWerte
+D	signals.h	/^  double D[signals];$/;"	m	class:sigs
+DEC205	cellthis.h	/^  bool DEC205,DEC205_ova,                \/\/ expressing DEC205?$/;"	m	class:cellCB
+DEC205	cellthis.h	/^  bool DEC205,DEC205_ova;                        \/\/ expressing DEC205?$/;"	m	class:cellCC
+DEC205	cellthis.h	/^  bool DEC205;$/;"	m	class:cellOUT
+DEC205_forces_output	cellman.h	/^     TC_factor_dec205ova,DEC205_forces_output,p_CB2OUT;$/;"	m	class:cellman
+DEC205_forces_output	setparam.h	/^	TC_dec205ova_time,TC_factor_dec205ova,DEC205_p_factor,DEC205_forces_output;$/;"	m	class:Werte
+DEC205_induce_CBdifferentiation	setparam.h	/^      bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_CBdifferentiation,retain_DEC205_ag;$/;"	m	class:Werte
+DEC205_induce_differentiation	cellman.h	/^   bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_differentiation,retain_DEC205_ag;$/;"	m	class:cellman
+DEC205_ova	cellthis.h	/^  bool DEC205,DEC205_ova,                \/\/ expressing DEC205?$/;"	m	class:cellCB
+DEC205_ova	cellthis.h	/^  bool DEC205,DEC205_ova;                        \/\/ expressing DEC205?$/;"	m	class:cellCC
+DEC205_ova_activity	cellman.h	/^   double def_DEC205_t0,inject_antiDEC205OVA_t0,p_DEC205,DEC205_ova_activity,$/;"	m	class:cellman
+DEC205_p_factor	setparam.h	/^	TC_dec205ova_time,TC_factor_dec205ova,DEC205_p_factor,DEC205_forces_output;$/;"	m	class:Werte
+DELTA_ALPHA	track.cpp	/^double TRACK::DELTA_ALPHA=5.0; \/\/ microns\/min$/;"	m	class:TRACK	file:
+DELTA_ALPHA	track.h	/^  static double DELTA_V,DELTA_ALPHA;$/;"	m	class:TRACK
+DELTA_S	track.cpp	/^double TRACK::DELTA_S=0.1; \/\/ axis-ratio$/;"	m	class:TRACK	file:
+DELTA_S	track.h	/^  static double DELTA_S;$/;"	m	class:TRACK
+DELTA_T	track.cpp	/^double TRACK::DELTA_T=0.01666666666666666666666666667; \/\/ 1 minute$/;"	m	class:TRACK	file:
+DELTA_T	track.h	/^  static double DELTA_T;$/;"	m	class:TRACK
+DELTA_V	track.cpp	/^double TRACK::DELTA_V=2.0; \/\/ microns\/min$/;"	m	class:TRACK	file:
+DELTA_V	track.h	/^  static double DELTA_V,DELTA_ALPHA;$/;"	m	class:TRACK
+DOKU_LIMIT	dynarray.h	/^const int DOKU_LIMIT=255000;$/;"	v
+DYN_DOKU	dynarray.h	/^const char DYN_DOKU=0;$/;"	v
+D_CB	setparam.h	/^      double D_CB;          \/\/ Diffusion (alternative to cell velocity -- if v is used take -1)$/;"	m	class:Werte
+D_CC	setparam.h	/^      double D_CC;          \/\/ Diffusion (alternative to cell velocity -- if v is used take -1)$/;"	m	class:Werte
+D_CXCL12	setparam.h	/^      double D_differ2CC,D_CXCL12,D_CXCL13,D_antibody,D_antigen,D_SEMA4D;$/;"	m	class:Werte
+D_CXCL13	setparam.h	/^      double D_differ2CC,D_CXCL12,D_CXCL13,D_antibody,D_antigen,D_SEMA4D;$/;"	m	class:Werte
+D_SEMA4D	setparam.h	/^      double D_differ2CC,D_CXCL12,D_CXCL13,D_antibody,D_antigen,D_SEMA4D;$/;"	m	class:Werte
+D_antibody	setparam.h	/^      double D_differ2CC,D_CXCL12,D_CXCL13,D_antibody,D_antigen,D_SEMA4D;$/;"	m	class:Werte
+D_antigen	setparam.h	/^      double D_differ2CC,D_CXCL12,D_CXCL13,D_antibody,D_antigen,D_SEMA4D;$/;"	m	class:Werte
+D_blast2	setparam.h	/^      double D_blast2;$/;"	m	class:Werte
+D_differ2CC	setparam.h	/^      double D_differ2CC,D_CXCL12,D_CXCL13,D_antibody,D_antigen,D_SEMA4D;$/;"	m	class:Werte
+D_glucose	setparam.h	/^      double D_glucose,D_glucose_H2O,D_oxygen,D_oxygen_H2O;$/;"	m	class:Werte
+D_glucose_H2O	setparam.h	/^      double D_glucose,D_glucose_H2O,D_oxygen,D_oxygen_H2O;$/;"	m	class:Werte
+D_oxygen	setparam.h	/^      double D_glucose,D_glucose_H2O,D_oxygen,D_oxygen_H2O;$/;"	m	class:Werte
+D_oxygen_H2O	setparam.h	/^      double D_glucose,D_glucose_H2O,D_oxygen,D_oxygen_H2O;$/;"	m	class:Werte
+DimShapeSpace	setparam.h	/^      int DimShapeSpace;$/;"	m	class:Werte
+DimSpace	setparam.h	/^      short int DimSpace;$/;"	m	class:Werte
+EpitopWeight	setparam.h	/^      short int EpitopWeight;$/;"	m	class:Werte
+Euler	ode.h	/^enum ode_method{Euler,RungeKutta_2nd,RungeKutta_4th,all_ode_methods};$/;"	e	enum:ode_method
+FDC	space.h	/^  FDC,$/;"	e	enum:states
+FDC_Narray	setparam.h	/^      long CB_Narray,CC_Narray,TC_Narray,FDC_Narray,OUT_Narray,STROMA_Narray,BETA_Narray;$/;"	m	class:Werte
+FDC_list	cellman.h	/^   dynarray<cellFDC> FDC_list;$/;"	m	class:cellman
+FDClength	setparam.h	/^      int FDClength;$/;"	m	class:Werte
+FDClisti	space.h	/^   long FDClisti;$/;"	m	class:spacepoint
+FDCnetwork	setparam.h	/^      double FDCnetwork;$/;"	m	class:Werte
+FDCnumber	setparam.h	/^      int FDCnumber;$/;"	m	class:Werte
+FDCpointnumber	cellman.h	/^   long GCpointnumber,FDCpointnumber;$/;"	m	class:cellman
+FDCselected	cellthis.h	/^enum centrocytes {unselected,contact,FDCselected,TCcontact,selected,apoptosis};$/;"	e	enum:centrocytes
+FDCsignalling	setparam.h	/^      double TCell,output,output_DEC,FDCsignalling;$/;"	m	class:Werte
+FDCstates	cellthis.h	/^enum FDCstates {none,soma,dendrite};$/;"	g
+FDCtransparent	cellman.h	/^   short FDCtransparent;$/;"	m	class:cellman
+FDCtransparent	setparam.h	/^      short int FDCtransparent;$/;"	m	class:Werte
+FDCvesicle	setparam.h	/^      short FDCvesicle;$/;"	m	class:Werte
+FRAGMENT_STEP	cell.h	/^  static const int FRAGMENT_STEP=8192;$/;"	m	class:frag_cell
+FULL_RUNGE	cellthis.h	/^  static const bool FULL_RUNGE=true;$/;"	m	class:cellbeta
+Faraday	cellthis.h	/^  static const double Faraday = 9.6485309e+04; \/\/ Faraday constant in C\/(mol)$/;"	m	class:cellbeta
+GC	setparam.h	/^enum representation{GC,tumour,islet};$/;"	e	enum:representation
+GC_radius	setparam.h	/^      double GC_radius;$/;"	m	class:Werte
+GCkinetics	kinetics.cpp	/^GCkinetics::GCkinetics(const double& par_dt) {$/;"	f	class:GCkinetics
+GCkinetics	kinetics.h	/^  GCkinetics() {};$/;"	f	class:GCkinetics
+GCkinetics	kinetics.h	/^class GCkinetics {$/;"	c
+GCpointnumber	cellman.h	/^   long GCpointnumber,FDCpointnumber;$/;"	m	class:cellman
+GCvolume_t	kinetics.h	/^  long GCvolume_t[n_vol_max];$/;"	m	class:GCkinetics
+GammaGauss	setparam.h	/^      double GammaGauss,amplitudeGauss;$/;"	m	class:Werte
+H2_NaK	setparam.h	/^	Ihat_NaK,   H_NaK,     n_NaK,     H2_NaK,    n2_NaK,     alpha_NaK,$/;"	m	class:betaWerte
+H_K_Ca	setparam.h	/^	gbar_K_Ca,  H_K_Ca,    n_K_Ca,    V_h_K_Ca,  kappa_K_Ca, tau_K_Ca,$/;"	m	class:betaWerte
+H_NCX	setparam.h	/^	Ihat_NCX,   H_NCX,     n_NCX,      alpha_NCX,$/;"	m	class:betaWerte
+H_NaK	setparam.h	/^	Ihat_NaK,   H_NaK,     n_NaK,     H2_NaK,    n2_NaK,     alpha_NaK,$/;"	m	class:betaWerte
+H_PMCA	setparam.h	/^	Ihat_PMCA,  H_PMCA,    n_PMCA,     alpha_PMCA,$/;"	m	class:betaWerte
+H_SERCA	setparam.h	/^	Ihat_SERCA, H_SERCA, n_SERCA,$/;"	m	class:betaWerte
+I	cellthis.cpp	/^double cellbeta::I[N_currents];$/;"	m	class:cellbeta	file:
+I	cellthis.h	/^  static double I[N_currents];$/;"	m	class:cellbeta
+ICAM_delay	cellthis.cpp	/^long cellCC::ICAM_delay=-1;$/;"	m	class:cellCC	file:
+ICAM_delay	cellthis.h	/^  static long test_delay, ICAM_delay;$/;"	m	class:cellCC
+IP3	cellthis.h	/^		       Ca_ER,V_ER,IP3,g_IP3,h_IP3,                \/\/ 15-19$/;"	e	enum:cellbeta::beta_quantities
+IP3	setparam.h	/^			 Ca_L,Ca_T,SERCA,IP3,gap,N_beta_proteins};$/;"	e	enum:betaWerte::beta_proteins
+IP3_0	setparam.h	/^	glu_0,IP3_0,K_0,Na_0,Ca_0,$/;"	m	class:betaWerte
+IgA	setparam.h	/^enum Ig_classes{IgM,IgG,IgE,IgA,nIg_classes};$/;"	e	enum:Ig_classes
+IgE	setparam.h	/^enum Ig_classes{IgM,IgG,IgE,IgA,nIg_classes};$/;"	e	enum:Ig_classes
+IgE_BCRlevel	cellthis.cpp	/^double cellCC::IgE_BCRlevel=0.3;$/;"	m	class:cellCC	file:
+IgE_BCRlevel	cellthis.h	/^  static double IgE_BCRlevel, IgE_prob_CXCR5down;$/;"	m	class:cellCC
+IgE_BCRlevel	setparam.h	/^      double IgE_BCRlevel,IgE_factor_cellcycle,IgE_factor_divisions,CC_IgE_prob_CXCR5down;$/;"	m	class:Werte
+IgE_factor_cellcycle	cellthis.cpp	/^double cellCB::IgE_factor_cellcycle=1.0;$/;"	m	class:cellCB	file:
+IgE_factor_cellcycle	cellthis.h	/^  static double IgE_factor_cellcycle, IgE_factor_divisions;$/;"	m	class:cellCB
+IgE_factor_cellcycle	setparam.h	/^      double IgE_BCRlevel,IgE_factor_cellcycle,IgE_factor_divisions,CC_IgE_prob_CXCR5down;$/;"	m	class:Werte
+IgE_factor_divisions	cellthis.cpp	/^double cellCB::IgE_factor_divisions=1.0;$/;"	m	class:cellCB	file:
+IgE_factor_divisions	cellthis.h	/^  static double IgE_factor_cellcycle, IgE_factor_divisions;$/;"	m	class:cellCB
+IgE_factor_divisions	setparam.h	/^      double IgE_BCRlevel,IgE_factor_cellcycle,IgE_factor_divisions,CC_IgE_prob_CXCR5down;$/;"	m	class:Werte
+IgE_prob_CXCR5down	cellthis.cpp	/^double cellCC::IgE_prob_CXCR5down=0.;$/;"	m	class:cellCC	file:
+IgE_prob_CXCR5down	cellthis.h	/^  static double IgE_BCRlevel, IgE_prob_CXCR5down;$/;"	m	class:cellCC
+IgG	setparam.h	/^enum Ig_classes{IgM,IgG,IgE,IgA,nIg_classes};$/;"	e	enum:Ig_classes
+IgM	setparam.h	/^enum Ig_classes{IgM,IgG,IgE,IgA,nIg_classes};$/;"	e	enum:Ig_classes
+IgX	cellthis.h	/^  immunoglobulin_class IgX;$/;"	m	class:cellCB
+IgX	cellthis.h	/^  immunoglobulin_class IgX;$/;"	m	class:cellCC
+IgX	cellthis.h	/^  immunoglobulin_class IgX;$/;"	m	class:cellOUT
+Ig_class	cellthis.h	/^  Ig_classes Ig_class;$/;"	m	class:immunoglobulin_class
+Ig_classes	setparam.h	/^enum Ig_classes{IgM,IgG,IgE,IgA,nIg_classes};$/;"	g
+Ihat_NCX	setparam.h	/^	Ihat_NCX,   H_NCX,     n_NCX,      alpha_NCX,$/;"	m	class:betaWerte
+Ihat_NaK	setparam.h	/^	Ihat_NaK,   H_NaK,     n_NaK,     H2_NaK,    n2_NaK,     alpha_NaK,$/;"	m	class:betaWerte
+Ihat_PMCA	setparam.h	/^	Ihat_PMCA,  H_PMCA,    n_PMCA,     alpha_PMCA,$/;"	m	class:betaWerte
+Ihat_SERCA	setparam.h	/^	Ihat_SERCA, H_SERCA, n_SERCA,$/;"	m	class:betaWerte
+Index	grid.cpp	/^long grid::Index(const double * k) {$/;"	f	class:grid
+Index	grid.cpp	/^long grid::Index(const double * k, const int* per_dim) {$/;"	f	class:grid
+Index	grid.cpp	/^long grid::Index(const int& i, const int& j) {$/;"	f	class:grid
+Index	grid.cpp	/^long grid::Index(const int& i, const int& j, const int& k) {$/;"	f	class:grid
+Index	grid.cpp	/^long int grid::Index(const long * k) {$/;"	f	class:grid
+Index	grid.cpp	/^long int grid::Index(const long * k, const int* per_dim) {$/;"	f	class:grid
+Index	ss.cpp	/^long int SS::Index(long int* k) {$/;"	f	class:SS
+J_Ca	cellthis.cpp	/^double cellbeta::J_K,cellbeta::J_Na,cellbeta::J_Ca,cellbeta::J_ions;$/;"	m	class:cellbeta	file:
+J_Ca	cellthis.h	/^  static double J_K,J_Na,J_Ca,J_ions;$/;"	m	class:cellbeta
+J_K	cellthis.cpp	/^double cellbeta::J_K,cellbeta::J_Na,cellbeta::J_Ca,cellbeta::J_ions;$/;"	m	class:cellbeta	file:
+J_K	cellthis.h	/^  static double J_K,J_Na,J_Ca,J_ions;$/;"	m	class:cellbeta
+J_Na	cellthis.cpp	/^double cellbeta::J_K,cellbeta::J_Na,cellbeta::J_Ca,cellbeta::J_ions;$/;"	m	class:cellbeta	file:
+J_Na	cellthis.h	/^  static double J_K,J_Na,J_Ca,J_ions;$/;"	m	class:cellbeta
+J_ions	cellthis.cpp	/^double cellbeta::J_K,cellbeta::J_Na,cellbeta::J_Ca,cellbeta::J_ions;$/;"	m	class:cellbeta	file:
+J_ions	cellthis.h	/^  static double J_K,J_Na,J_Ca,J_ions;$/;"	m	class:cellbeta
+K	cellthis.h	/^  enum beta_quantities{V,K,Na,Ca,                                 \/\/ 0-3$/;"	e	enum:cellbeta::beta_quantities
+K_0	setparam.h	/^	glu_0,IP3_0,K_0,Na_0,Ca_0,$/;"	m	class:betaWerte
+K_ATP	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+K_ATP	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+K_Ca	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+K_Ca	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+K_V	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+K_V	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+K_buf	setparam.h	/^	cal_0,K_cal,buf_0,K_buf,buf_ER_0,K_buf_ER,$/;"	m	class:betaWerte
+K_buf_ER	setparam.h	/^	cal_0,K_cal,buf_0,K_buf,buf_ER_0,K_buf_ER,$/;"	m	class:betaWerte
+K_cal	setparam.h	/^	cal_0,K_cal,buf_0,K_buf,buf_ER_0,K_buf_ER,$/;"	m	class:betaWerte
+K_elongation	cellthis.cpp	/^double cellCB::K_elongation=2.0;$/;"	m	class:cellCB	file:
+K_elongation	cellthis.cpp	/^double cellbeta::K_elongation=2.0;$/;"	m	class:cellbeta	file:
+K_elongation	cellthis.h	/^    K_elongation,$/;"	m	class:cellCB
+K_elongation	cellthis.h	/^    K_elongation,$/;"	m	class:cellbeta
+K_ext	setparam.h	/^	K_ext,Na_ext,Ca_ext,Ca_ER_0,$/;"	m	class:betaWerte
+Ki67	cell.h	/^  short int Ki67;$/;"	m	class:cell
+Kontrolle	dynarray.h	/^   char Kontrolle;$/;"	m	class:dynarray
+LOCAL_FILES	cellthis.h	/^  static const bool LOCAL_FILES=false;$/;"	m	class:cellbeta
+MAXDIM	setparam.h	/^const long int MAXDIM=2000;$/;"	v
+MAXDIMSMALL	setparam.h	/^const long int MAXDIMSMALL=30;$/;"	v
+MAX_COLUMNS	track.h	/^  const static int MAX_COLUMNS=10;$/;"	m	class:TRACK
+MFaraday	cellthis.h	/^  static const double MFaraday = 9.6485309e-02; \/\/ Faraday constant in C\/(micromol)$/;"	m	class:cellbeta
+NCX	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+NCX	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+N_A	setparam.h	/^  static const double N_A = 6.02205e+23; \/\/ mol^-1$/;"	m	class:Parameter
+N_GC	cellman.cpp	/^double cellman::N_GC=1000; \/\/ number$/;"	m	class:cellman	file:
+N_GC	cellman.h	/^   static double N_GC;$/;"	m	class:cellman
+N_GC	setparam.h	/^      double N_GC,V_blood;$/;"	m	class:Werte
+N_OBJECTS	track.h	/^  int N_OBJECTS,max_N_OBJECTS;$/;"	m	class:TRACK
+N_PRE_WORDS	signals.h	/^  static const int N_PRE_WORDS=20;$/;"	m	class:sigs
+N_beta_proteins	setparam.h	/^			 Ca_L,Ca_T,SERCA,IP3,gap,N_beta_proteins};$/;"	e	enum:betaWerte::beta_proteins
+N_cells	space.h	/^  N_cells$/;"	e	enum:states
+N_currents	cellthis.h	/^		     SERCA,cIP3,N_currents};$/;"	e	enum:cellbeta::beta_currents
+N_equations	cellthis.h	/^		       N_equations};                                                 \/\/ 44$/;"	e	enum:cellbeta::beta_quantities
+N_grid_states	gridpoint.h	/^enum grid_states{nothing,object,object_border,external,N_grid_states};$/;"	e	enum:grid_states
+N_mutation	ss.cpp	/^double SS::N_mutation(long* k, long* l) {$/;"	f	class:SS
+N_random_laws	setparam.h	/^      enum random_laws{equal,poisson,gauss,N_random_laws};$/;"	e	enum:betaWerte::random_laws
+Na	cellthis.h	/^  enum beta_quantities{V,K,Na,Ca,                                 \/\/ 0-3$/;"	e	enum:cellbeta::beta_quantities
+NaK	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+NaK	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+Na_0	setparam.h	/^	glu_0,IP3_0,K_0,Na_0,Ca_0,$/;"	m	class:betaWerte
+Na_V	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+Na_V	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+Na_ext	setparam.h	/^	K_ext,Na_ext,Ca_ext,Ca_ER_0,$/;"	m	class:betaWerte
+Ncolours	rainbow.h	/^  int Ncolours;$/;"	m	class:rainbow
+Ny	random.h	/^  static const double Ny=10;$/;"	m	class:gauss_randomize
+OUT_Narray	setparam.h	/^      long CB_Narray,CC_Narray,TC_Narray,FDC_Narray,OUT_Narray,STROMA_Narray,BETA_Narray;$/;"	m	class:Werte
+OUT_haffinity	ss.h	/^   double OUT_haffinity,OUT_steepness,CB_haffinity,CC_haffinity;$/;"	m	class:SS
+OUT_list	cellman.h	/^   dynarray<cellOUT> OUT_list;$/;"	m	class:cellman
+OUT_persistence	setparam.h	/^      double OUT_persistence;\/\/ average time gap in minutes between changes of the polarity$/;"	m	class:Werte
+OUT_steepness	ss.h	/^   double OUT_haffinity,OUT_steepness,CB_haffinity,CC_haffinity;$/;"	m	class:SS
+PMCA	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+PMCA	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+PM_differentiate	ss.cpp	/^void SS::PM_differentiate(cells a, cells b, double dt) {$/;"	f	class:SS
+PPDIM	track.h	/^  int PPDIM[3];$/;"	m	class:TRACK
+P_IP3	setparam.h	/^	P_IP3,     kappa_IP3,$/;"	m	class:betaWerte
+Parameter	setparam.h	/^  Parameter() { };$/;"	f	class:Parameter
+Parameter	setparam.h	/^class Parameter {$/;"	c
+PointsPerDim	ss.h	/^   long int PointsPerDim;$/;"	m	class:SS
+PointsTotal	ss.h	/^   long int PointsTotal;$/;"	m	class:SS
+RANDOMISE_SEQUENCE	cellthis.h	/^  static const bool RANDOMISE_SEQUENCE=false;$/;"	m	class:cellbeta
+R_bc	setparam.h	/^	R_bc,Sur_ER,Vol_ER,C_m,$/;"	m	class:betaWerte
+RungeKutta_2nd	ode.h	/^enum ode_method{Euler,RungeKutta_2nd,RungeKutta_4th,all_ode_methods};$/;"	e	enum:ode_method
+RungeKutta_4th	ode.h	/^enum ode_method{Euler,RungeKutta_2nd,RungeKutta_4th,all_ode_methods};$/;"	e	enum:ode_method
+Rydberg	cellthis.h	/^  static const double Rydberg = 8.315;  \/\/ in J\/(K*mol)$/;"	m	class:cellbeta
+SEMA4D	signals.h	/^  SEMA4D,            \/\/ soluble SEMA4D semaphorin$/;"	e	enum:signal_molecule
+SERCA	cellthis.h	/^		     SERCA,cIP3,N_currents};$/;"	e	enum:cellbeta::beta_currents
+SERCA	setparam.h	/^			 Ca_L,Ca_T,SERCA,IP3,gap,N_beta_proteins};$/;"	e	enum:betaWerte::beta_proteins
+SIGNAL_MAX	signals.h	/^  static const double SIGNAL_MAX = 1.0e+25;$/;"	m	class:sigs
+SIGNAL_TIME_RESOLUTION	signals.h	/^  static const int SIGNAL_TIME_RESOLUTION = 1; \/\/ recommend 2$/;"	m	class:sigs
+SMOOTH_DIFFERENTIATION	cellthis.cpp	/^bool cellCB::SMOOTH_DIFFERENTIATION=false;$/;"	m	class:cellCB	file:
+SMOOTH_DIFFERENTIATION	cellthis.cpp	/^bool cellCC::SMOOTH_DIFFERENTIATION=false;$/;"	m	class:cellCC	file:
+SMOOTH_DIFFERENTIATION	cellthis.h	/^  static bool SMOOTH_DIFFERENTIATION;$/;"	m	class:cellCB
+SMOOTH_DIFFERENTIATION	cellthis.h	/^  static bool SMOOTH_DIFFERENTIATION;$/;"	m	class:cellCC
+SS	ss.cpp	/^SS::SS() $/;"	f	class:SS
+SS	ss.cpp	/^SS::SS(Parameter& par, ofstream& ana)$/;"	f	class:SS
+SS	ss.h	/^class SS {$/;"	c
+SSRangePerDim	setparam.h	/^      long int SSStates, SSRangePerDim;$/;"	m	class:Werte
+SSStates	setparam.h	/^      long int SSStates, SSRangePerDim;$/;"	m	class:Werte
+SSlogs	ss.h	/^const short int SSlogs = number;$/;"	v
+SSpoint	ss.cpp	/^SSpoint::SSpoint() $/;"	f	class:SSpoint
+SSpoint	ss.h	/^class SSpoint {$/;"	c
+STROMA_Narray	setparam.h	/^      long CB_Narray,CC_Narray,TC_Narray,FDC_Narray,OUT_Narray,STROMA_Narray,BETA_Narray;$/;"	m	class:Werte
+STROMA_list	cellman.h	/^   dynarray<long> STROMA_list;$/;"	m	class:cellman
+S_RESOLUTION	track.cpp	/^int TRACK::S_RESOLUTION=100;$/;"	m	class:TRACK	file:
+S_RESOLUTION	track.h	/^  static int S_RESOLUTION;$/;"	m	class:TRACK
+Seeder	ss.h	/^   long* Seeder;$/;"	m	class:SS
+Show_tracks	track.cpp	/^void TRACK::Show_tracks() {$/;"	f	class:TRACK
+StartOutput	setparam.h	/^      double StartOutput;$/;"	m	class:Werte
+Start_Differentiation	setparam.h	/^      double Start_Mutation,Start_Differentiation;$/;"	m	class:Werte
+Start_Mutation	setparam.h	/^      double Start_Mutation,Start_Differentiation;$/;"	m	class:Werte
+Stop_movement	track.cpp	/^void TRACK::Stop_movement(long i, states s, double t, double* r, double* pol) {$/;"	f	class:TRACK
+Sur_ER	setparam.h	/^	R_bc,Sur_ER,Vol_ER,C_m,$/;"	m	class:betaWerte
+T	setparam.h	/^	T,$/;"	m	class:betaWerte
+TC	space.h	/^  TC,$/;"	e	enum:states
+TC_CC_selection	cellthis.cpp	/^short cellCC::TC_CC_selection=0;$/;"	m	class:cellCC	file:
+TC_CC_selection	cellthis.h	/^  static short TC_CC_selection;$/;"	m	class:cellCC
+TC_CC_selection	setparam.h	/^      short TC_CC_selection; \/\/ 1 if TC rescue CC from apoptosis$/;"	m	class:Werte
+TC_CCcontact	cellthis.h	/^enum tcells{TCnormal,TC_CCcontact};$/;"	e	enum:tcells
+TC_Narray	setparam.h	/^      long CB_Narray,CC_Narray,TC_Narray,FDC_Narray,OUT_Narray,STROMA_Narray,BETA_Narray;$/;"	m	class:Werte
+TC_dec205ova_time	setparam.h	/^	TC_dec205ova_time,TC_factor_dec205ova,DEC205_p_factor,DEC205_forces_output;$/;"	m	class:Werte
+TC_factor_dec205ova	cellman.h	/^     TC_factor_dec205ova,DEC205_forces_output,p_CB2OUT;$/;"	m	class:cellman
+TC_factor_dec205ova	setparam.h	/^	TC_dec205ova_time,TC_factor_dec205ova,DEC205_p_factor,DEC205_forces_output;$/;"	m	class:Werte
+TC_list	cellman.h	/^   dynarray<cellTC> TC_list;$/;"	m	class:cellman
+TC_persistence	setparam.h	/^      double TC_persistence;\/\/ average time gap in minutes between changes of direction of the$/;"	m	class:Werte
+TC_radius	setparam.h	/^      double TC_radius;$/;"	m	class:Werte
+TC_rescue_time	setparam.h	/^	TC_time,TC_rescue_time; \/\/ Duration of TC-CC interaction and minimum duration for selection$/;"	m	class:Werte
+TC_time	setparam.h	/^	TC_time,TC_rescue_time; \/\/ Duration of TC-CC interaction and minimum duration for selection$/;"	m	class:Werte
+TCcontact	cellthis.h	/^enum centrocytes {unselected,contact,FDCselected,TCcontact,selected,apoptosis};$/;"	e	enum:centrocytes
+TCell	setparam.h	/^      double TCell,output,output_DEC,FDCsignalling;$/;"	m	class:Werte
+TCnormal	cellthis.h	/^enum tcells{TCnormal,TC_CCcontact};$/;"	e	enum:tcells
+TCselect_prob	cellthis.cpp	/^double cellCC::TCselect_prob=1.;$/;"	m	class:cellCC	file:
+TCselect_prob	cellthis.h	/^    TCselect_prob,$/;"	m	class:cellCC
+TEST_AMPLITUDE	signals.cpp	/^double sigs::TEST_AMPLITUDE=0.;$/;"	m	class:sigs	file:
+TEST_AMPLITUDE	signals.h	/^  static double TEST_AMPLITUDE;$/;"	m	class:sigs
+TEST_MODE	signals.cpp	/^bool sigs::TEST_MODE=false;$/;"	m	class:sigs	file:
+TEST_MODE	signals.h	/^  static bool TEST_MODE;$/;"	m	class:sigs
+TEST_SOURCE	signals.cpp	/^double sigs::TEST_SOURCE=0;$/;"	m	class:sigs	file:
+TEST_SOURCE	signals.h	/^  static double TEST_SOURCE;$/;"	m	class:sigs
+TEST_SUF	signals.cpp	/^suffix sigs::TEST_SUF="0000";$/;"	m	class:sigs	file:
+TEST_SUF	signals.h	/^  static suffix TEST_SUF;$/;"	m	class:sigs
+TRACK	track.cpp	/^TRACK::TRACK() {$/;"	f	class:TRACK
+TRACK	track.h	/^class TRACK {$/;"	c
+TRACKFROM	track.cpp	/^double TRACK::TRACKFROM=0.0; $/;"	m	class:TRACK	file:
+TRACKFROM	track.h	/^  static double TRACKFROM;$/;"	m	class:TRACK
+TRACKUNTIL	track.cpp	/^double TRACK::TRACKUNTIL=1.0; \/\/ hours$/;"	m	class:TRACK	file:
+TRACKUNTIL	track.h	/^  static double TRACKUNTIL;$/;"	m	class:TRACK
+ToFileStep	setparam.h	/^      long int ToFileStep;$/;"	m	class:Werte
+V	cellthis.h	/^  enum beta_quantities{V,K,Na,Ca,                                 \/\/ 0-3$/;"	e	enum:cellbeta::beta_quantities
+V_0	setparam.h	/^      double V_0,$/;"	m	class:betaWerte
+V_ER	cellthis.h	/^		       Ca_ER,V_ER,IP3,g_IP3,h_IP3,                \/\/ 15-19$/;"	e	enum:cellbeta::beta_quantities
+V_ER_0	cellthis.cpp	/^double cellbeta::V_ER_0;$/;"	m	class:cellbeta	file:
+V_ER_0	cellthis.h	/^  static double V_ER_0;$/;"	m	class:cellbeta
+V_RESOLUTION	track.cpp	/^int TRACK::V_RESOLUTION=100;$/;"	m	class:TRACK	file:
+V_RESOLUTION	track.h	/^  static int V_RESOLUTION,ALPHA_RESOLUTION;$/;"	m	class:TRACK
+V_blood	cellman.cpp	/^double cellman::V_blood=1.e+13; \/\/ micrometer^3$/;"	m	class:cellman	file:
+V_blood	cellman.h	/^   static double V_blood;$/;"	m	class:cellman
+V_blood	setparam.h	/^      double N_GC,V_blood;$/;"	m	class:Werte
+V_h_Ca_L	setparam.h	/^	gbar_Ca_L,  tau_Ca_L,  V_h_Ca_L,   kappa_Ca_L,theta_Ca_L,W_h_Ca_L,   $/;"	m	class:betaWerte
+V_h_Ca_T	setparam.h	/^	gbar_Ca_T,  tau_Ca_T,  V_h_Ca_T,   kappa_Ca_T,  theta_Ca_T,W_h_Ca_T,   lambda_Ca_T,$/;"	m	class:betaWerte
+V_h_K_Ca	setparam.h	/^	gbar_K_Ca,  H_K_Ca,    n_K_Ca,    V_h_K_Ca,  kappa_K_Ca, tau_K_Ca,$/;"	m	class:betaWerte
+V_h_K_V	setparam.h	/^	gbar_K_V,   tau_K_V,   V_h_K_V,    kappa_K_V, theta_K_V, W_h_K_V,    lambda_K_V,$/;"	m	class:betaWerte
+V_h_Na_V	setparam.h	/^	gbar_Na_V,  tau_Na_V,  V_h_Na_V,   kappa_Na_V,theta_Na_V,W_h_Na_V,   lambda_Na_V,$/;"	m	class:betaWerte
+V_h_fNa_V	setparam.h	/^	gbar_fNa_V, tau_fNa_V, V_h_fNa_V,  kappa_fNa_V,$/;"	m	class:betaWerte
+Value	setparam.h	/^  Werte Value;$/;"	m	class:Parameter
+Vbar_Ca_delta	setparam.h	/^	Vbar_Ca_delta,$/;"	m	class:betaWerte
+Vergleich	dynarray.h	/^char dynarray<vartyp>::Vergleich(dynarray<vartyp>& a) {$/;"	f	class:dynarray
+Vol_ER	setparam.h	/^	R_bc,Sur_ER,Vol_ER,C_m,$/;"	m	class:betaWerte
+W_h_Ca_L	setparam.h	/^	gbar_Ca_L,  tau_Ca_L,  V_h_Ca_L,   kappa_Ca_L,theta_Ca_L,W_h_Ca_L,   $/;"	m	class:betaWerte
+W_h_Ca_T	setparam.h	/^	gbar_Ca_T,  tau_Ca_T,  V_h_Ca_T,   kappa_Ca_T,  theta_Ca_T,W_h_Ca_T,   lambda_Ca_T,$/;"	m	class:betaWerte
+W_h_K_V	setparam.h	/^	gbar_K_V,   tau_K_V,   V_h_K_V,    kappa_K_V, theta_K_V, W_h_K_V,    lambda_K_V,$/;"	m	class:betaWerte
+W_h_Na_V	setparam.h	/^	gbar_Na_V,  tau_Na_V,  V_h_Na_V,   kappa_Na_V,theta_Na_V,W_h_Na_V,   lambda_Na_V,$/;"	m	class:betaWerte
+Werte	setparam.cpp	/^Werte::Werte()$/;"	f	class:Werte
+Werte	setparam.h	/^class Werte {$/;"	c
+Write_cellnumber_in_zones	track.cpp	/^void TRACK::Write_cellnumber_in_zones(char prename[20], double* hess, double zpos0) {$/;"	f	class:TRACK
+Write_fdc_contact_times	track.cpp	/^void TRACK::Write_fdc_contact_times() {$/;"	f	class:TRACK
+Write_files	track.cpp	/^void TRACK::Write_files() {$/;"	f	class:TRACK
+Write_files	track.cpp	/^void TRACK::Write_files(bool generate_raw) {$/;"	f	class:TRACK
+Write_movement	track.cpp	/^void TRACK::Write_movement(long i, states s, double t, double* r, double* pol,$/;"	f	class:TRACK
+Write_movement	track.cpp	/^void TRACK::Write_movement(long i, states s, double t, double*r, double* pol, $/;"	f	class:TRACK
+Write_reached_distance	track.cpp	/^void TRACK::Write_reached_distance() {$/;"	f	class:TRACK
+Write_shape	track.cpp	/^void TRACK::Write_shape() {$/;"	f	class:TRACK
+Write_speed	track.cpp	/^void TRACK::Write_speed() {$/;"	f	class:TRACK
+Write_trace_begin	track.cpp	/^void TRACK::Write_trace_begin(char prename[20]) {$/;"	f	class:TRACK
+Write_trace_dead	track.cpp	/^void TRACK::Write_trace_dead(char prename[20]) {$/;"	f	class:TRACK
+Write_trace_end	track.cpp	/^void TRACK::Write_trace_end(char prename[20]) {$/;"	f	class:TRACK
+Write_track_types	track.cpp	/^void TRACK::Write_track_types(char prename[20], int from, bool relative) {$/;"	f	class:TRACK
+Write_tracks	track.cpp	/^void TRACK::Write_tracks(char prename[20], int from, bool relative) {$/;"	f	class:TRACK
+Write_trans_zone	track.cpp	/^void TRACK::Write_trans_zone(char prename[20], double* hess, double thick) {$/;"	f	class:TRACK
+Write_turning_angle	track.cpp	/^void TRACK::Write_turning_angle() {$/;"	f	class:TRACK
+_Euler	ode.cpp	/^void ode::_Euler(double* y_n, $/;"	f	class:ode
+_Euler	odelist.cpp	/^void odelist::_Euler(double* y_n, $/;"	f	class:odelist
+_RungeKutta_2nd	ode.cpp	/^void ode::_RungeKutta_2nd(double* y_n, $/;"	f	class:ode
+_RungeKutta_2nd	odelist.cpp	/^void odelist::_RungeKutta_2nd(double* y_n, $/;"	f	class:odelist
+_RungeKutta_4th	ode.cpp	/^void ode::_RungeKutta_4th(double* y_n, $/;"	f	class:ode
+_RungeKutta_4th	odelist.cpp	/^void odelist::_RungeKutta_4th(double* y_n, $/;"	f	class:odelist
+ab_concentration	cellman.h	/^   ofstream ab_concentration;$/;"	m	class:cellman
+ab_injection_amount	cellman.cpp	/^double cellman::ab_injection_amount=0.;$/;"	m	class:cellman	file:
+ab_injection_amount	cellman.h	/^   static double ab_injection_amount;$/;"	m	class:cellman
+ab_injection_bin	cellman.cpp	/^int cellman::ab_injection_bin=-1; \/\/ no injection$/;"	m	class:cellman	file:
+ab_injection_bin	cellman.h	/^   static int ab_injection_bin;$/;"	m	class:cellman
+ab_injection_time	cellman.cpp	/^double cellman::ab_injection_time=-1.; $/;"	m	class:cellman	file:
+ab_injection_time	cellman.h	/^   static double ab_injection_time;$/;"	m	class:cellman
+ab_resolution	cell.cpp	/^int cell::ab_resolution=0;$/;"	m	class:cell	file:
+ab_resolution	cell.h	/^  static int ab_resolution;$/;"	m	class:cell
+ab_sign_errors	cellthis.cpp	/^long cellFDC::ab_sign_errors=0;$/;"	m	class:cellFDC	file:
+ab_sign_errors	cellthis.h	/^  static long ab_sign_errors,ag_sign_errors,ic_sign_errors,ic_calculations;$/;"	m	class:cellFDC
+action	track.h	/^    action_types action;$/;"	m	struct:TRACK::track_data
+action_types	track.h	/^enum action_types{trackini,movement,polarisation,fdcdetachment,deathORend};$/;"	g
+actualize	signals.cpp	/^void sigs::actualize() {$/;"	f	class:sigs
+actualize	signals.cpp	/^void spoint::actualize() {$/;"	f	class:spoint
+actualize	signals.cpp	/^void spoint::actualize(const signal_molecule& a) {$/;"	f	class:spoint
+add	dynarray.h	/^template<class vartyp> long dynarray<vartyp>::add(const vartyp& was) {$/;"	f	class:dynarray
+addTC	cellman.cpp	/^void cellman::addTC(long nTC, space& l, double restrict, SS& shape, ofstream& anafile) {$/;"	f	class:cellman
+add_antigen	cellthis.cpp	/^void cellFDC::add_antigen() {$/;"	f	class:cellFDC
+add_cell	ss.cpp	/^void SS::add_cell(cells typ, long int pos) {$/;"	f	class:SS
+add_moves	cell.h	/^  double add_moves;$/;"	m	class:cell
+add_new_track	track.cpp	/^long TRACK::add_new_track(states s, double t, double* r, double* pol,$/;"	f	class:TRACK
+add_number	random.cpp	/^void pre_randomize::add_number(short& n) {$/;"	f	class:pre_randomize
+addchar	setparam.cpp	/^void addchar(suffix& tmp) { \/\/ suffix declared in setparam.h$/;"	f
+adhesion_time	cell.cpp	/^long cell::adhesion_time=0;$/;"	m	class:cell	file:
+adhesion_time	cell.h	/^  static long adhesion_time;$/;"	m	class:cell
+adhesion_time	setparam.h	/^      double adhesion_time; \/\/ time needed to establish adhesion of a cell fragment with others$/;"	m	class:Werte
+adhesive	cell.h	/^  double adhesive; \/\/ expression level of adhesion molecules in %$/;"	m	class:cell
+aff_cb_dz	cellman.h	/^   ofstream aff_cb_dz;$/;"	m	class:cellman
+aff_cb_lz	cellman.h	/^   ofstream aff_cb_lz;$/;"	m	class:cellman
+aff_cc_dz	cellman.h	/^   ofstream aff_cc_dz;$/;"	m	class:cellman
+aff_cc_lz	cellman.h	/^   ofstream aff_cc_lz;$/;"	m	class:cellman
+aff_out_dz	cellman.h	/^   ofstream aff_out_dz;$/;"	m	class:cellman
+aff_out_lz	cellman.h	/^   ofstream aff_out_lz;$/;"	m	class:cellman
+affinity	ss.cpp	/^double SS::affinity(long int n, long int n2) {$/;"	f	class:SS
+affinity	ss.cpp	/^double SS::affinity(long int n, long int n2, double& tr) {$/;"	f	class:SS
+affinity_norm	ss.cpp	/^double SS::affinity_norm(long int n, long int n2) {$/;"	f	class:SS
+affinity_resolution	cellman.h	/^  static const unsigned short affinity_resolution=10;$/;"	m	class:cellman
+ag_binding_probability	ss.cpp	/^double SS::ag_binding_probability(long& n, long& n2, double& threshold) {$/;"	f	class:SS
+ag_collected	cellman.h	/^   ofstream ag_collected;$/;"	m	class:cellman
+ag_deleted_in_fresh_CC	cellthis.cpp	/^bool cellCC::ag_deleted_in_fresh_CC=true;$/;"	m	class:cellCC	file:
+ag_deleted_in_fresh_CC	cellthis.h	/^  static bool ag_deleted_in_fresh_CC;$/;"	m	class:cellCC
+ag_deleted_in_fresh_CC	setparam.h	/^	ag_loaded_CB_stop_mutation,ag_deleted_in_fresh_CC;$/;"	m	class:Werte
+ag_loaded_CB_diff2output	cellthis.cpp	/^bool cellCB::ag_loaded_CB_diff2output=false;$/;"	m	class:cellCB	file:
+ag_loaded_CB_diff2output	cellthis.h	/^  static bool ag_loaded_CB_diff2output;$/;"	m	class:cellCB
+ag_loaded_CB_diff2output	setparam.h	/^      bool retain_ag,ag_loaded_CB_diff2output,ag_loaded_CC_directly2TFH,$/;"	m	class:Werte
+ag_loaded_CB_stop_mutation	cellthis.cpp	/^bool cellCB::ag_loaded_CB_stop_mutation=false;$/;"	m	class:cellCB	file:
+ag_loaded_CB_stop_mutation	cellthis.h	/^  static bool ag_loaded_CB_stop_mutation;$/;"	m	class:cellCB
+ag_loaded_CB_stop_mutation	setparam.h	/^	ag_loaded_CB_stop_mutation,ag_deleted_in_fresh_CC;$/;"	m	class:Werte
+ag_loaded_CC_directly2TFH	cellthis.cpp	/^bool cellCC::ag_loaded_CC_directly2TFH=false;$/;"	m	class:cellCC	file:
+ag_loaded_CC_directly2TFH	cellthis.h	/^  static bool ag_loaded_CC_directly2TFH;$/;"	m	class:cellCC
+ag_loaded_CC_directly2TFH	setparam.h	/^      bool retain_ag,ag_loaded_CB_diff2output,ag_loaded_CC_directly2TFH,$/;"	m	class:Werte
+ag_per_FDC	setparam.h	/^      double ag_per_FDC,ag_saturation_FDC;$/;"	m	class:Werte
+ag_presentation	cellman.h	/^   ofstream ag_presentation;$/;"	m	class:cellman
+ag_saturation_FDC	setparam.h	/^      double ag_per_FDC,ag_saturation_FDC;$/;"	m	class:Werte
+ag_sign_errors	cellthis.cpp	/^long cellFDC::ag_sign_errors=0;$/;"	m	class:cellFDC	file:
+ag_sign_errors	cellthis.h	/^  static long ab_sign_errors,ag_sign_errors,ic_sign_errors,ic_calculations;$/;"	m	class:cellFDC
+ag_threshold	cellthis.cpp	/^double cellFDC::ag_threshold=1.e-08; \/\/ Mol$/;"	m	class:cellFDC	file:
+ag_threshold	cellthis.h	/^  static double ag_threshold;$/;"	m	class:cellFDC
+ag_threshold	setparam.h	/^      double ic_k_on,ic_k_off,ag_threshold;$/;"	m	class:Werte
+all_ode_methods	ode.h	/^enum ode_method{Euler,RungeKutta_2nd,RungeKutta_4th,all_ode_methods};$/;"	e	enum:ode_method
+allow_exchange	cellman.h	/^   bool allow_exchange;$/;"	m	class:cellman
+allow_exchange	setparam.h	/^      bool allow_exchange; \/\/ Makes exchange of contact inhibited cells possible >=v7.05.1$/;"	m	class:Werte
+alltypes	grid.h	/^enum grid_types{cellspace,molecules,alltypes};$/;"	e	enum:grid_types
+alpha	cell.h	/^  double alpha,alpha_mean10;$/;"	m	class:frag_cell
+alpha_NCX	setparam.h	/^	Ihat_NCX,   H_NCX,     n_NCX,      alpha_NCX,$/;"	m	class:betaWerte
+alpha_NaK	setparam.h	/^	Ihat_NaK,   H_NaK,     n_NaK,     H2_NaK,    n2_NaK,     alpha_NaK,$/;"	m	class:betaWerte
+alpha_PMCA	setparam.h	/^	Ihat_PMCA,  H_PMCA,    n_PMCA,     alpha_PMCA,$/;"	m	class:betaWerte
+alpha_mean	cell.h	/^  double alpha_mean;$/;"	m	class:frag_cell
+alpha_mean10	cell.h	/^  double alpha,alpha_mean10;$/;"	m	class:frag_cell
+alpha_resolution	setparam.h	/^      int v_resolution,s_resolution,alpha_resolution;$/;"	m	class:Werte
+amplitude	ss.h	/^   double width2,amplitude;$/;"	m	class:SS
+amplitudeGauss	setparam.h	/^      double GammaGauss,amplitudeGauss;$/;"	m	class:Werte
+analysis	rainbow.cpp	/^void rainbow::analysis() {$/;"	f	class:rainbow
+antiDEC205OVA_tend	setparam.h	/^      double def_DEC205_t0,inject_antiDEC205OVA_t0,antiDEC205OVA_tend,p_DEC205,$/;"	m	class:Werte
+antibodies	cellman.h	/^   double * antibodies;$/;"	m	class:cellman
+antibodies_degradation	cellman.cpp	/^double cellman::antibodies_degradation=2.e-06; \/\/ half value is 30 days: prob=log(2.)*timestep(0.002hr)\/720.hr$/;"	m	class:cellman	file:
+antibodies_degradation	cellman.h	/^   static double antibodies_degradation;$/;"	m	class:cellman
+antibodies_degradation	setparam.h	/^      double antibodies_production,antibodies_degradation;$/;"	m	class:Werte
+antibodies_k_off	cellman.h	/^   double * antibodies_k_off;$/;"	m	class:cellman
+antibodies_k_on	cellman.h	/^   double * antibodies_k_on;$/;"	m	class:cellman
+antibodies_production	cellman.cpp	/^double cellman::antibodies_production=1.e-17; \/\/ mol \/ hour and cell$/;"	m	class:cellman	file:
+antibodies_production	cellman.h	/^   static double antibodies_production;$/;"	m	class:cellman
+antibodies_production	setparam.h	/^      double antibodies_production,antibodies_degradation;$/;"	m	class:Werte
+antibodies_resolution	cellman.cpp	/^int cellman::antibodies_resolution=10;$/;"	m	class:cellman	file:
+antibodies_resolution	cellman.h	/^   static int antibodies_resolution;$/;"	m	class:cellman
+antibodies_resolution	setparam.h	/^      int antibodies_resolution;$/;"	m	class:Werte
+antibody	signals.h	/^  antibody,          \/\/ soluble antibody specific for antigen$/;"	e	enum:signal_molecule
+antigen	signals.h	/^  antigen,           \/\/ soluble antigen$/;"	e	enum:signal_molecule
+antigen_amount	cellthis.h	/^  double * antigen_amount;$/;"	m	class:cellFDC
+antigen_amount_per_FDC	cellthis.cpp	/^double cellFDC::antigen_amount_per_FDC=1.e+08;$/;"	m	class:cellFDC	file:
+antigen_amount_per_FDC	cellthis.h	/^  static double antigen_amount_per_FDC,antigen_saturation;$/;"	m	class:cellFDC
+antigen_presence	cellthis.cpp	/^short cellFDC::antigen_presence(const long& fragpos) {$/;"	f	class:cellFDC
+antigen_saturation	cellthis.cpp	/^double cellFDC::antigen_saturation=1.;$/;"	m	class:cellFDC	file:
+antigen_saturation	cellthis.h	/^  static double antigen_amount_per_FDC,antigen_saturation;$/;"	m	class:cellFDC
+apoptose	cellthis.cpp	/^short cellCC::apoptose(SS& shape) {$/;"	f	class:cellCC
+apoptosis	cellthis.h	/^enum centrocytes {unselected,contact,FDCselected,TCcontact,selected,apoptosis};$/;"	e	enum:centrocytes
+apoptosis	setparam.h	/^      double shrink,apoptosis,apoptosis4FDCselected,macrophage,ignore_affinity,$/;"	m	class:Werte
+apoptosis4FDCselected	setparam.h	/^      double shrink,apoptosis,apoptosis4FDCselected,macrophage,ignore_affinity,$/;"	m	class:Werte
+apoptotic_motility_mode	cellthis.cpp	/^short cellCC::apoptotic_motility_mode=1;$/;"	m	class:cellCC	file:
+apoptotic_motility_mode	cellthis.h	/^  static short v_modi,n_v_states,apoptotic_motility_mode;$/;"	m	class:cellCC
+arraydim	random.h	/^  int arraydim;$/;"	m	class:gauss_randomize
+ask_differentiate	cellthis.cpp	/^short cellCB::ask_differentiate() {$/;"	f	class:cellCB
+ask_mitosis	cellthis.cpp	/^long cellCB::ask_mitosis(long* pp, space& l) {$/;"	f	class:cellCB
+ask_mitosis	cellthis.cpp	/^long cellbeta::ask_mitosis(long* pp, space& l) {$/;"	f	class:cellbeta
+asymmetric_polarity_index	cellthis.cpp	/^double cellCB::asymmetric_polarity_index=1.0;$/;"	m	class:cellCB	file:
+asymmetric_polarity_index	cellthis.h	/^  static double asymmetric_polarity_index,smooth_PI;$/;"	m	class:cellCB
+asymmetric_polarity_index	setparam.h	/^      double divide_ag_asymmetric,asymmetric_polarity_index,smooth_PI,BC_ag_preloaded;$/;"	m	class:Werte
+attribute_DEC205	cellman.cpp	/^void cellman::attribute_DEC205(space& l) {$/;"	f	class:cellman
+attribute_neighbors	cell.cpp	/^void frag_cell::attribute_neighbors(states celltype, const long& li,$/;"	f	class:frag_cell
+attributed_mutation_prob	cellthis.cpp	/^long cellCB::attributed_mutation_prob[mutation_bins]={};$/;"	m	class:cellCB	file:
+attributed_mutation_prob	cellthis.h	/^  static long attributed_mutation_prob[mutation_bins];$/;"	m	class:cellCB
+attributed_n_of_divisions	cellthis.cpp	/^long cellCB::attributed_n_of_divisions[max_n_of_divisions+1]={};$/;"	m	class:cellCB	file:
+attributed_n_of_divisions	cellthis.h	/^  static long attributed_n_of_divisions[max_n_of_divisions+1];$/;"	m	class:cellCB
+average_ab_affinity	cellman.cpp	/^double cellman::average_ab_affinity() {$/;"	f	class:cellman
+average_affinity	cellthis.cpp	/^double cellOUT::average_affinity=0.;$/;"	m	class:cellOUT	file:
+average_affinity	cellthis.h	/^  static double average_affinity,max_affinity;$/;"	m	class:cellOUT
+average_seeder_affinity	cellthis.cpp	/^double cellCB::average_seeder_affinity=0.0;$/;"	m	class:cellCB	file:
+average_seeder_affinity	cellthis.h	/^  static double p_pro,delta_p_pro,average_seeder_affinity,p_CXCR4down;$/;"	m	class:cellCB
+axis	cellman.h	/^   ofstream axis;$/;"	m	class:cellman
+barycenter	cell.h	/^  double barycenter[3];$/;"	m	class:frag_cell
+belegt	dynarray.h	/^   long int belegt;$/;"	m	class:dynarray
+benutzt	dynarray.h	/^template<class vartyp> long int dynarray<vartyp>::benutzt() { return belegt; }$/;"	f	class:dynarray
+best_affinity	ss.cpp	/^double SS::best_affinity(long pos) {$/;"	f	class:SS
+best_affinity_norm	ss.cpp	/^double SS::best_affinity_norm(long pos) {$/;"	f	class:SS
+betaValue	setparam.h	/^  betaWerte betaValue;$/;"	m	class:Parameter
+betaWerte	setparam.cpp	/^betaWerte::betaWerte() {  $/;"	f	class:betaWerte
+betaWerte	setparam.h	/^class betaWerte {$/;"	c
+beta_a	cellman.h	/^   ofstream beta_a;$/;"	m	class:cellman
+beta_b	cellman.h	/^   ofstream beta_b;$/;"	m	class:cellman
+beta_currents	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	g	class:cellbeta
+beta_g	cellman.h	/^   ofstream beta_g;$/;"	m	class:cellman
+beta_i	cellman.h	/^   ofstream beta_i;$/;"	m	class:cellman
+beta_index	cellthis.cpp	/^suffix cellbeta::beta_index="0000";$/;"	m	class:cellbeta	file:
+beta_index	cellthis.h	/^  static suffix beta_index;$/;"	m	class:cellbeta
+beta_n	cellman.h	/^   ofstream beta_n;$/;"	m	class:cellman
+beta_proteins	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	g	class:betaWerte
+beta_quantities	cellthis.h	/^  enum beta_quantities{V,K,Na,Ca,                                 \/\/ 0-3$/;"	g	class:cellbeta
+beta_r	cellman.h	/^   ofstream beta_r;$/;"	m	class:cellman
+betadt	cellthis.cpp	/^double cellbeta::betadt;$/;"	m	class:cellbeta	file:
+betadt	cellthis.h	/^  static double betadt;$/;"	m	class:cellbeta
+betandt	cellthis.cpp	/^long cellbeta::betandt;$/;"	m	class:cellbeta	file:
+betandt	cellthis.h	/^  static long betandt;$/;"	m	class:cellbeta
+bind_TC	cellthis.cpp	/^void cellCC::bind_TC(cellTC& tcell, space& l, SS& shape) {$/;"	f	class:cellCC
+bind_antigen	cellthis.cpp	/^short cellCC::bind_antigen(cellFDC& fdc, SS& shape, const long& FDCposition, double& threshold) {$/;"	f	class:cellCC
+bind_receptor_ligand	cell.cpp	/^double frag_cell::bind_receptor_ligand(const signal_molecule& sig,$/;"	f	class:frag_cell
+bind_ss_receptor_ligand	cell.cpp	/^double frag_cell::bind_ss_receptor_ligand(const signal_molecule& sig,$/;"	f	class:frag_cell
+birth	rainbow.h	/^    bool birth;$/;"	m	struct:rainbow::rainbow_data
+blast1	space.h	/^  blast1,$/;"	e	enum:states
+blast2	space.h	/^  blast2,$/;"	e	enum:states
+blast2_distance_tolerance	setparam.h	/^      double blast2_distance_tolerance,blast2_half_tolerance_deformation;$/;"	m	class:Werte
+blast2_grow	setparam.h	/^      double blast2_proliferate,blast2_grow;$/;"	m	class:Werte
+blast2_half_tolerance_deformation	setparam.h	/^      double blast2_distance_tolerance,blast2_half_tolerance_deformation;$/;"	m	class:Werte
+blast2_proliferate	setparam.h	/^      double blast2_proliferate,blast2_grow;$/;"	m	class:Werte
+blast2_radius	setparam.h	/^      double blast2_radius;$/;"	m	class:Werte
+borderpoints	cell.h	/^  int borderpoints;$/;"	m	class:frag_cell
+born_index	cell.h	/^  long index,born_index;$/;"	m	class:cell
+born_time	cell.h	/^  double born_time;$/;"	m	class:cell
+bound_CXCL12	setparam.h	/^      double bound_differ2CC,bound_CXCL12,bound_CXCL13,bound_ab,bound_ag,bound_SEMA4D;$/;"	m	class:Werte
+bound_CXCL13	setparam.h	/^      double bound_differ2CC,bound_CXCL12,bound_CXCL13,bound_ab,bound_ag,bound_SEMA4D;$/;"	m	class:Werte
+bound_SEMA4D	setparam.h	/^      double bound_differ2CC,bound_CXCL12,bound_CXCL13,bound_ab,bound_ag,bound_SEMA4D;$/;"	m	class:Werte
+bound_ab	setparam.h	/^      double bound_differ2CC,bound_CXCL12,bound_CXCL13,bound_ab,bound_ag,bound_SEMA4D;$/;"	m	class:Werte
+bound_ag	setparam.h	/^      double bound_differ2CC,bound_CXCL12,bound_CXCL13,bound_ab,bound_ag,bound_SEMA4D;$/;"	m	class:Werte
+bound_differ2CC	setparam.h	/^      double bound_differ2CC,bound_CXCL12,bound_CXCL13,bound_ab,bound_ag,bound_SEMA4D;$/;"	m	class:Werte
+bound_glucose	setparam.h	/^      double bound_glucose,bound_oxygen;$/;"	m	class:Werte
+bound_oxygen	setparam.h	/^      double bound_glucose,bound_oxygen;$/;"	m	class:Werte
+boundary	signals.h	/^  spoint boundary;$/;"	m	class:sigs
+boundary_set	signals.cpp	/^void sigs::boundary_set(const long& i, const signal_molecule& sig_type, const double& zahl) {$/;"	f	class:sigs
+buf_0	setparam.h	/^	cal_0,K_cal,buf_0,K_buf,buf_ER_0,K_buf_ER,$/;"	m	class:betaWerte
+buf_ER_0	setparam.h	/^	cal_0,K_cal,buf_0,K_buf,buf_ER_0,K_buf_ER,$/;"	m	class:betaWerte
+cIP3	cellthis.h	/^		     SERCA,cIP3,N_currents};$/;"	e	enum:cellbeta::beta_currents
+cal_0	setparam.h	/^	cal_0,K_cal,buf_0,K_buf,buf_ER_0,K_buf_ER,$/;"	m	class:betaWerte
+calc_BETA	cellman.cpp	/^void cellman::calc_BETA(long* m, long mlang, space& l, sigs& s, dynarray<long>& redo) {$/;"	f	class:cellman
+calc_CB	cellman.cpp	/^void cellman::calc_CB(long* m, long mlang, short int ss_save, $/;"	f	class:cellman
+calc_CC	cellman.cpp	/^void cellman::calc_CC(long * m, long mlang, space& l, sigs& s, SS& shape, dynarray<long>& redo) {$/;"	f	class:cellman
+calc_FDC	cellman.cpp	/^void cellman::calc_FDC(space& l, sigs& s) {$/;"	f	class:cellman
+calc_OUT	cellman.cpp	/^void cellman::calc_OUT(space& l, sigs& s, SS& shape, dynarray<long>& redo) {$/;"	f	class:cellman
+calc_TC	cellman.cpp	/^void cellman::calc_TC(long * m, long mlang, space& l, sigs& s, SS& shape, dynarray<long>& redo) {$/;"	f	class:cellman
+calc_stroma	cellman.cpp	/^void cellman::calc_stroma(sigs& s) {$/;"	f	class:cellman
+call_solver	cellman.cpp	/^void cellman::call_solver(dynarray<cellbeta>& list, space& l) {$/;"	f	class:cellman
+cb_G0	cellthis.h	/^		  cb_G1,cb_G0,cb_S,cb_G2,cb_M, \/\/ keep these together!$/;"	e	enum:centroblasts
+cb_G1	cellthis.h	/^		  cb_G1,cb_G0,cb_S,cb_G2,cb_M, \/\/ keep these together!$/;"	e	enum:centroblasts
+cb_G2	cellthis.h	/^		  cb_G1,cb_G0,cb_S,cb_G2,cb_M, \/\/ keep these together!$/;"	e	enum:centroblasts
+cb_M	cellthis.h	/^		  cb_G1,cb_G0,cb_S,cb_G2,cb_M, \/\/ keep these together!$/;"	e	enum:centroblasts
+cb_S	cellthis.h	/^		  cb_G1,cb_G0,cb_S,cb_G2,cb_M, \/\/ keep these together!$/;"	e	enum:centroblasts
+cb_differentiate	cellthis.h	/^enum centroblasts{cb_normal,cb_differentiate,$/;"	e	enum:centroblasts
+cb_divide	cellthis.h	/^		  cb_divide,cb_stop_dividing,$/;"	e	enum:centroblasts
+cb_normal	cellthis.h	/^enum centroblasts{cb_normal,cb_differentiate,$/;"	e	enum:centroblasts
+cb_statenumber	cellthis.h	/^		  cb_statenumber};$/;"	e	enum:centroblasts
+cb_stop_dividing	cellthis.h	/^		  cb_divide,cb_stop_dividing,$/;"	e	enum:centroblasts
+cbhighaff	cellman.h	/^   ofstream cbhighaff;$/;"	m	class:cellman
+ccdiff	setparam.h	/^	selection,ccdiff,ccdiff_delay,ccdiff_delay_DEC,final_differentiation_rate,$/;"	m	class:Werte
+ccdiff_delay	setparam.h	/^	selection,ccdiff,ccdiff_delay,ccdiff_delay_DEC,final_differentiation_rate,$/;"	m	class:Werte
+ccdiff_delay_DEC	setparam.h	/^	selection,ccdiff,ccdiff_delay,ccdiff_delay_DEC,final_differentiation_rate,$/;"	m	class:Werte
+cell	cell.cpp	/^cell::cell() {$/;"	f	class:cell
+cell	cell.cpp	/^cell::cell(const cell& x) {$/;"	f	class:cell
+cell	cell.h	/^class cell {$/;"	c
+cell	space.h	/^   states cell;$/;"	m	class:spacepoint
+cellCB	cellthis.cpp	/^cellCB::cellCB() $/;"	f	class:cellCB
+cellCB	cellthis.cpp	/^cellCB::cellCB(const cellCB& x) {$/;"	f	class:cellCB
+cellCB	cellthis.cpp	/^cellCB::cellCB(const cellCC& x) {$/;"	f	class:cellCB
+cellCB	cellthis.h	/^class cellCB : public frag_cell {$/;"	c
+cellCC	cellthis.cpp	/^cellCC::cellCC() {$/;"	f	class:cellCC
+cellCC	cellthis.cpp	/^cellCC::cellCC(const cellCC& x) {$/;"	f	class:cellCC
+cellCC	cellthis.h	/^class cellCC : public cell {$/;"	c
+cellFDC	cellthis.cpp	/^cellFDC::cellFDC() $/;"	f	class:cellFDC
+cellFDC	cellthis.cpp	/^cellFDC::cellFDC(const cellFDC& x) {$/;"	f	class:cellFDC
+cellFDC	cellthis.h	/^class cellFDC : public frag_cell {$/;"	c
+cellOUT	cellthis.cpp	/^cellOUT::cellOUT() {$/;"	f	class:cellOUT
+cellOUT	cellthis.cpp	/^cellOUT::cellOUT(const cellOUT& x) {$/;"	f	class:cellOUT
+cellOUT	cellthis.h	/^class cellOUT : public frag_cell {$/;"	c
+cellTC	cellthis.cpp	/^cellTC::cellTC() $/;"	f	class:cellTC
+cellTC	cellthis.cpp	/^cellTC::cellTC(const cellTC& x) {$/;"	f	class:cellTC
+cellTC	cellthis.h	/^class cellTC : public cell {$/;"	c
+cell_status	cell.h	/^enum cell_status{proliferate,quiescent,necrotic};$/;"	g
+cellbeta	cellthis.cpp	/^cellbeta::cellbeta() $/;"	f	class:cellbeta
+cellbeta	cellthis.cpp	/^cellbeta::cellbeta(const cellbeta& x) $/;"	f	class:cellbeta
+cellbeta	cellthis.h	/^class cellbeta : public frag_cell {$/;"	c
+cellknot	space.h	/^   spacepoint * cellknot;$/;"	m	class:space
+cellman	cellman.cpp	/^cellman::cellman()    $/;"	f	class:cellman
+cellman	cellman.cpp	/^cellman::cellman(Parameter& par, space& l, sigs& s, SS& shape, ofstream& ana)    $/;"	f	class:cellman
+cellman	cellman.h	/^class cellman {$/;"	c
+cells	ss.h	/^enum cells {sCB,$/;"	g
+cellspace	grid.h	/^enum grid_types{cellspace,molecules,alltypes};$/;"	e	enum:grid_types
+centroblasts	cellthis.h	/^enum centroblasts{cb_normal,cb_differentiate,$/;"	g
+centrocytes	cellthis.h	/^enum centrocytes {unselected,contact,FDCselected,TCcontact,selected,apoptosis};$/;"	g
+changed_nn	cellthis.h	/^  short changed_nn;$/;"	m	class:cellTC
+changed_polarity	cell.h	/^  short changed_polarity;$/;"	m	class:cell
+check_GCvolume	kinetics.cpp	/^void GCkinetics::check_GCvolume(const long& vol, const double& t) {$/;"	f	class:GCkinetics
+check_all	cellman.cpp	/^short cellman::check_all(space& l, SS& shape) {$/;"	f	class:cellman
+check_barycenter	cell.cpp	/^void frag_cell::check_barycenter(space& l) {$/;"	f	class:frag_cell
+check_connection	cell.cpp	/^int frag_cell::check_connection(states celltype, const long& li, space& l) {$/;"	f	class:frag_cell
+check_connection	cell.cpp	/^int frag_cell::check_connection(states celltype,$/;"	f	class:frag_cell
+check_for_ring	cell.cpp	/^short frag_cell::check_for_ring(const states& celltype, $/;"	f	class:frag_cell
+check_listi	cellman.cpp	/^void cellman::check_listi(space& l) {$/;"	f	class:cellman
+check_neighbors_for_border	space.cpp	/^long space::check_neighbors_for_border(const long i, const long& ref, double& min_distance,$/;"	f	class:space
+checkit	cellman.h	/^   short checkit;$/;"	m	class:cellman
+chemo_half	cell.cpp	/^double cell::chemo_half=2.e-10;$/;"	m	class:cell	file:
+chemo_half	cell.h	/^  static double chemo_max,chemo_steep,chemo_half;$/;"	m	class:cell
+chemo_half	setparam.h	/^	chemo_half;         \/\/ chemokine-gradient of half weight (of chemo_max)$/;"	m	class:Werte
+chemo_max	cell.cpp	/^double cell::chemo_max=10.;$/;"	m	class:cell	file:
+chemo_max	cell.h	/^  static double chemo_max,chemo_steep,chemo_half;$/;"	m	class:cell
+chemo_max	setparam.h	/^      double chemo_max,     \/\/ maximum weight relative to diffusion, $/;"	m	class:Werte
+chemo_steep	cell.cpp	/^double cell::chemo_steep=1.e+10;$/;"	m	class:cell	file:
+chemo_steep	cell.h	/^  static double chemo_max,chemo_steep,chemo_half;$/;"	m	class:cell
+chemo_steep	setparam.h	/^	chemo_steep,        \/\/ steepness of reduction for smaller chemokine gradients$/;"	m	class:Werte
+chi2_sum	kinetics.h	/^  double chi2_sum;$/;"	m	class:GCkinetics
+class_switch	cellthis.cpp	/^void immunoglobulin_class::class_switch() {$/;"	f	class:immunoglobulin_class
+clear_knot	space.cpp	/^void space::clear_knot(const long& i) {$/;"	f	class:space
+clock	cell.h	/^  long clock;$/;"	m	class:cell
+close_files	cellman.cpp	/^void cellman::close_files() {$/;"	f	class:cellman
+close_files	ss.cpp	/^void SS::close_files() {$/;"	f	class:SS
+collagen_cluster	setparam.h	/^      double wall_level,collagen_density,collagen_cluster;$/;"	m	class:Werte
+collagen_density	setparam.h	/^      double wall_level,collagen_density,collagen_cluster;$/;"	m	class:Werte
+collectFDCperiod	cellthis.cpp	/^double cellCC::collectFDCperiod=0.;$/;"	m	class:cellCC	file:
+collectFDCperiod	cellthis.h	/^  static double collectFDCperiod;$/;"	m	class:cellCC
+collectFDCperiod	setparam.h	/^      double collectFDCperiod;$/;"	m	class:Werte
+collectFDCsignals	cellthis.cpp	/^bool cellCC::collectFDCsignals=false;$/;"	m	class:cellCC	file:
+collectFDCsignals	cellthis.h	/^  static bool collectFDCsignals;$/;"	m	class:cellCC
+collectFDCsignals	setparam.h	/^      bool collectFDCsignals;$/;"	m	class:Werte
+colour	rainbow.h	/^    int colour;$/;"	m	struct:rainbow::rainbow_data
+const_dynamic_glucose_field	setparam.h	/^      double const_dynamic_glucose_field,fix_glucose_gradient_min,fix_glucose_gradient_max;$/;"	m	class:Werte
+contact	cell.cpp	/^short int frag_cell::contact(states celltype, space& l) {$/;"	f	class:frag_cell
+contact	cellthis.h	/^enum centrocytes {unselected,contact,FDCselected,TCcontact,selected,apoptosis};$/;"	e	enum:centrocytes
+contact2FDC	cellthis.cpp	/^long cellCC::contact2FDC(space& l) {$/;"	f	class:cellCC
+contact_inhibited	cell.h	/^  bool contact_inhibited;$/;"	m	class:cell
+correct_average_affinity	ss.cpp	/^void SS::correct_average_affinity(cells celltyp, long& pos, double& average) {$/;"	f	class:SS
+corrs	cellman.h	/^   ofstream corrs;$/;"	m	class:cellman
+count_dec205_ova_positive	cellman.cpp	/^void cellman::count_dec205_ova_positive() {$/;"	f	class:cellman
+critical_nutrient	cell.cpp	/^double cell::critical_nutrient=2.5e-08; \/\/ Mol^2$/;"	m	class:cell	file:
+critical_nutrient	cell.h	/^  static double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:cell
+critical_nutrient	setparam.h	/^      double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:Werte
+cum_ag	cellman.h	/^   ofstream cum_ag;$/;"	m	class:cellman
+cum_vol	cellman.h	/^   ofstream cum_vol;$/;"	m	class:cellman
+cummulative_ag_collection_all	cellthis.cpp	/^long cellCC::cummulative_ag_collection_all[max_n_of_ag_portions+1]={ 0 };$/;"	m	class:cellCC	file:
+cummulative_ag_collection_all	cellthis.h	/^  static long cummulative_ag_collection_all[max_n_of_ag_portions+1];$/;"	m	class:cellCC
+cummulative_ag_collection_selected	cellthis.cpp	/^long cellCC::cummulative_ag_collection_selected[max_n_of_ag_portions+1]={ 0 };$/;"	m	class:cellCC	file:
+cummulative_ag_collection_selected	cellthis.h	/^  static long cummulative_ag_collection_selected[max_n_of_ag_portions+1];$/;"	m	class:cellCC
+cummulative_attributed_mutation_prob	cellthis.cpp	/^long cellCB::cummulative_attributed_mutation_prob[mutation_bins]={};$/;"	m	class:cellCB	file:
+cummulative_attributed_mutation_prob	cellthis.h	/^  static long cummulative_attributed_mutation_prob[mutation_bins];$/;"	m	class:cellCB
+cummulative_attributed_n_of_divisions	cellthis.cpp	/^long cellCB::cummulative_attributed_n_of_divisions[max_n_of_divisions+1]={};$/;"	m	class:cellCB	file:
+cummulative_attributed_n_of_divisions	cellthis.h	/^  static long cummulative_attributed_n_of_divisions[max_n_of_divisions+1];$/;"	m	class:cellCB
+currents	cellthis.h	/^  ofstream result,result2,currents,currents_rho,reversal,gapfile;$/;"	m	class:cellbeta
+currents_rho	cellthis.h	/^  ofstream result,result2,currents,currents_rho,reversal,gapfile;$/;"	m	class:cellbeta
+cycle_state_time	cellthis.h	/^  double cycle_state_time;$/;"	m	class:cellCB
+cyster07angle_wt	random.cpp	/^double gauss_randomize::cyster07angle_wt(int angle) {$/;"	f	class:gauss_randomize
+cyster_initialize	random.cpp	/^void gauss_randomize::cyster_initialize() {$/;"	f	class:gauss_randomize
+dark_zone	cellman.h	/^   ofstream dark_zone;$/;"	m	class:cellman
+daughter1_index	rainbow.h	/^    long daughter1_index, daughter2_index;$/;"	m	struct:rainbow::rainbow_data
+daughter2_index	rainbow.h	/^    long daughter1_index, daughter2_index;$/;"	m	struct:rainbow::rainbow_data
+deathORend	track.h	/^enum action_types{trackini,movement,polarisation,fdcdetachment,deathORend};$/;"	e	enum:action_types
+dec205_max_antigen	cellman.cpp	/^double cellman::dec205_max_antigen=10000.;$/;"	m	class:cellman	file:
+dec205_max_antigen	cellman.h	/^   static double dec205_max_antigen; $/;"	m	class:cellman
+decompose	space.cpp	/^long space::decompose(const long& i, const long& li, const states& s) {$/;"	f	class:space
+def_DEC205	cellman.h	/^   bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_differentiation,retain_DEC205_ag;$/;"	m	class:cellman
+def_DEC205	setparam.h	/^      bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_CBdifferentiation,retain_DEC205_ag;$/;"	m	class:Werte
+def_DEC205_t0	cellman.h	/^   double def_DEC205_t0,inject_antiDEC205OVA_t0,p_DEC205,DEC205_ova_activity,$/;"	m	class:cellman
+def_DEC205_t0	setparam.h	/^      double def_DEC205_t0,inject_antiDEC205OVA_t0,antiDEC205OVA_tend,p_DEC205,$/;"	m	class:Werte
+def_ptrfield	dynarray.h	/^void dynarray<vartyp>::def_ptrfield(const long int& laenge) {$/;"	f	class:dynarray
+deformable_correction	cell.cpp	/^double frag_cell::deformable_correction() {$/;"	f	class:frag_cell
+del_BETA	cellman.cpp	/^short int cellman::del_BETA(long int i, long li, space& l) {$/;"	f	class:cellman
+del_CB	cellman.cpp	/^short int cellman::del_CB(long int i, long li, space& l, SS& shape) {$/;"	f	class:cellman
+del_CC	cellman.cpp	/^short int cellman::del_CC(long i, long li, space& l) {$/;"	f	class:cellman
+del_OUT	cellman.cpp	/^short int cellman::del_OUT(long i, long li, space& l) {$/;"	f	class:cellman
+del_TC	cellman.cpp	/^short int cellman::del_TC(long i, long li, space& l) {$/;"	f	class:cellman
+del_fragment	cell.cpp	/^void frag_cell::del_fragment(const long& nr) {$/;"	f	class:frag_cell
+del_fragment	cell.cpp	/^void frag_cell::del_fragment(const long& nr, long * frags, int& max) {$/;"	f	class:frag_cell
+delete_all	dynarray.h	/^template<class vartyp> void dynarray<vartyp>::delete_all() { belegt=0; }$/;"	f	class:dynarray
+deliberate_memory	cell.cpp	/^void frag_cell::deliberate_memory() {$/;"	f	class:frag_cell
+delta_alpha	setparam.h	/^      double delta_v,delta_s,delta_alpha,trackfrom,trackuntil,track_delta_t;$/;"	m	class:Werte
+delta_p_pro	cellthis.cpp	/^double cellCB::delta_p_pro=0.;$/;"	m	class:cellCB	file:
+delta_p_pro	cellthis.h	/^  static double p_pro,delta_p_pro,average_seeder_affinity,p_CXCR4down;$/;"	m	class:cellCB
+delta_s	setparam.h	/^      double delta_v,delta_s,delta_alpha,trackfrom,trackuntil,track_delta_t;$/;"	m	class:Werte
+delta_v	cellman.cpp	/^double cellman::delta_v=2.;$/;"	m	class:cellman	file:
+delta_v	cellman.h	/^  static double delta_v;$/;"	m	class:cellman
+delta_v	setparam.h	/^      double delta_v,delta_s,delta_alpha,trackfrom,trackuntil,track_delta_t;$/;"	m	class:Werte
+delta_velocity	cellman.h	/^   long * delta_velocity, * delta_velocity_euklid;$/;"	m	class:cellman
+delta_velocity_euklid	cellman.h	/^   long * delta_velocity, * delta_velocity_euklid;$/;"	m	class:cellman
+deltat	setparam.h	/^      double deltat, tmin, tmax;$/;"	m	class:Werte
+deltat_v	cell.cpp	/^double cell::deltat_v=1.0; \/\/ the unit is in minutes$/;"	m	class:cell	file:
+deltat_v	cell.h	/^  static double deltat_v;$/;"	m	class:cell
+dendrite	cellthis.h	/^enum FDCstates {none,soma,dendrite};$/;"	e	enum:FDCstates
+destruct	cellthis.h	/^  void destruct() { delete[] fragments; } \/\/ Destruktor des Fragment-Feldes$/;"	f	class:cellCB
+destruct	cellthis.h	/^  void destruct() { delete[] fragments; } \/\/ Destruktor des Fragment-Feldes$/;"	f	class:cellbeta
+destruct	dynarray.h	/^void dynarray<vartyp>::destruct() {$/;"	f	class:dynarray
+diag_n	gridpoint.h	/^   long int diag_n[12];$/;"	m	class:gridpoint
+dif2OUTorCB	cellthis.cpp	/^short cellCC::dif2OUTorCB(double& dt) {$/;"	f	class:cellCC
+dif_delay	cellthis.cpp	/^double cellCC::dif_delay=-1.;$/;"	m	class:cellCC	file:
+dif_delay	cellthis.h	/^  static double dif_delay,dif_delay_DEC;$/;"	m	class:cellCC
+dif_delay_DEC	cellthis.cpp	/^double cellCC::dif_delay_DEC=-1.;$/;"	m	class:cellCC	file:
+dif_delay_DEC	cellthis.h	/^  static double dif_delay,dif_delay_DEC;$/;"	m	class:cellCC
+diff2output	cellthis.h	/^    diff2output;$/;"	m	class:cellCB
+diff_steps	signals.h	/^  unsigned int diff_steps[signals]; \/\/ number of internal time steps for diffusion$/;"	m	class:sigs
+differ2CC_CB	cellman.cpp	/^short int cellman::differ2CC_CB(long i, long li, space& l, SS& shape) {$/;"	f	class:cellman
+diffusion_mode	signals.h	/^  short diffusion_mode;$/;"	m	class:sigs
+diffusion_tolerance_min	cellthis.cpp	/^double cellCB::diffusion_tolerance_min=0.01;$/;"	m	class:cellCB	file:
+diffusion_tolerance_min	cellthis.cpp	/^double cellbeta::diffusion_tolerance_min=0.01;$/;"	m	class:cellbeta	file:
+diffusion_tolerance_min	cellthis.h	/^    diffusion_tolerance_min,$/;"	m	class:cellCB
+diffusion_tolerance_min	cellthis.h	/^    diffusion_tolerance_min,$/;"	m	class:cellbeta
+diffusion_tolerance_steepness	cellthis.cpp	/^double cellCB::diffusion_tolerance_steepness=0.01;$/;"	m	class:cellCB	file:
+diffusion_tolerance_steepness	cellthis.cpp	/^double cellbeta::diffusion_tolerance_steepness=0.01;$/;"	m	class:cellbeta	file:
+diffusion_tolerance_steepness	cellthis.h	/^    diffusion_tolerance_steepness,$/;"	m	class:cellCB
+diffusion_tolerance_steepness	cellthis.h	/^    diffusion_tolerance_steepness,$/;"	m	class:cellbeta
+dim	grid.h	/^   unsigned short dim,dim2;$/;"	m	class:grid
+dim	ss.h	/^   short int dim;$/;"	m	class:SS
+dim	track.h	/^  short dim;$/;"	m	class:TRACK
+dim2	grid.h	/^   unsigned short dim,dim2;$/;"	m	class:grid
+dirichlet	signals.h	/^  bool dirichlet[signals];$/;"	m	class:sigs
+distance_tolerance	setparam.h	/^      double distance_tolerance,half_tolerance_deformation;$/;"	m	class:Werte
+divide_ag_asymmetric	cellman.h	/^   double divide_ag_asymmetric;$/;"	m	class:cellman
+divide_ag_asymmetric	setparam.h	/^      double divide_ag_asymmetric,asymmetric_polarity_index,smooth_PI,BC_ag_preloaded;$/;"	m	class:Werte
+do_diffuse	cell.cpp	/^short int cell::do_diffuse(states celltype, double p, const long& li, space& l) {$/;"	f	class:cell
+do_grow	cell.cpp	/^short frag_cell::do_grow(states celltype, const long& li, $/;"	f	class:frag_cell
+do_inject_antiDEC205OVA	cellman.cpp	/^void cellman::do_inject_antiDEC205OVA(space& l, SS& shape, ofstream& ana) {$/;"	f	class:cellman
+do_inject_antibody	cellman.cpp	/^void cellman::do_inject_antibody(ofstream& ana) {$/;"	f	class:cellman
+do_mitosis	cell.cpp	/^short frag_cell::do_mitosis(states celltype, $/;"	f	class:frag_cell
+do_mutate	cell.cpp	/^short cell::do_mutate(SS& shape) {$/;"	f	class:cell
+do_switch_classes	cellthis.cpp	/^short immunoglobulin_class::do_switch_classes=0;$/;"	m	class:immunoglobulin_class	file:
+do_switch_classes	cellthis.h	/^  static short do_switch_classes;$/;"	m	class:immunoglobulin_class
+do_switch_classes	setparam.h	/^      short do_switch_classes;$/;"	m	class:Werte
+drandom	random.cpp	/^double drandom() {$/;"	f
+drandom	random.cpp	/^double drandom(double bis) {$/;"	f
+dt	cellman.h	/^   double dt;$/;"	m	class:cellman
+dt	kinetics.h	/^  double dt;$/;"	m	class:GCkinetics
+dt	setparam.h	/^      double dt; \/\/ step size dt = 1 min (internally this is half of the value given here)$/;"	m	class:betaWerte
+dt	track.h	/^  double time,dt;$/;"	m	class:TRACK
+dt_output	setparam.h	/^      double dt_output;  \/\/ step size of writing in output file (every hour)$/;"	m	class:betaWerte
+dtphase	cellthis.cpp	/^double cellCB::dtphase[cb_statenumber]={ 0 };$/;"	m	class:cellCB	file:
+dtphase	cellthis.h	/^  static double dtphase[cb_statenumber];$/;"	m	class:cellCB
+dtphase_frequency	cellthis.cpp	/^int cellCB::dtphase_frequency[phase_number][dtphase_resolution]={ { 0 } };$/;"	m	class:cellCB	file:
+dtphase_frequency	cellthis.h	/^  static int dtphase_frequency[phase_number][dtphase_resolution];$/;"	m	class:cellCB
+dtphase_resolution	cellthis.h	/^  static const int dtphase_resolution=21;$/;"	m	class:cellCB
+dx	grid.h	/^   double dx;$/;"	m	class:grid
+dx	setparam.h	/^      double dx,dx_signal;$/;"	m	class:Werte
+dx_CB	setparam.h	/^	dx_CB,         \/\/ maximal distance for CB-proliferation from dividing cell$/;"	m	class:Werte
+dx_blast2	setparam.h	/^      double dx_blast2;$/;"	m	class:Werte
+dx_signal	setparam.h	/^      double dx,dx_signal;$/;"	m	class:Werte
+dy	setparam.h	/^      double dy;   \/\/ ### maximum tolerance of double t-step deviation (in cell fractions)$/;"	m	class:betaWerte
+dydt	ode.h	/^  double* dydt;$/;"	m	class:ode
+dydt	odelist.h	/^  double* dydt;$/;"	m	class:odelist
+dynarray	dynarray.h	/^class dynarray {$/;"	c
+dynarray	dynarray.h	/^dynarray<vartyp>::dynarray() { $/;"	f	class:dynarray
+dynarray	dynarray.h	/^dynarray<vartyp>::dynarray(dynarray<vartyp>& tmp) { \/\/ Self-Konstruktor$/;"	f	class:dynarray
+dynarray	dynarray.h	/^dynarray<vartyp>::dynarray(long int laenge, char control, char fixed) { $/;"	f	class:dynarray
+electrophysiology	cellthis.cpp	/^void cellbeta::electrophysiology(double thr, double dthr, sigs& s, $/;"	f	class:cellbeta
+elongation	cell.h	/^  double elongation;$/;"	m	class:frag_cell
+elongation	cellthis.cpp	/^double cellCB::elongation=1.0;$/;"	m	class:cellCB	file:
+elongation	cellthis.cpp	/^double cellbeta::elongation=1.0;$/;"	m	class:cellbeta	file:
+elongation	cellthis.h	/^    elongation,$/;"	m	class:cellCB
+elongation	cellthis.h	/^    elongation,$/;"	m	class:cellbeta
+elongation	track.h	/^    double elongation,l2s_axis;$/;"	m	struct:TRACK::track_data
+enclosed_object	cell.cpp	/^short frag_cell::enclosed_object(const long& source, const long& target,$/;"	f	class:frag_cell
+end_of_tail	space.cpp	/^long space::end_of_tail(const long& start, long back, $/;"	f	class:space
+enlarge	dynarray.h	/^template<class vartyp> char dynarray<vartyp>::enlarge(const long int& biswo) {$/;"	f	class:dynarray
+equal	setparam.h	/^      enum random_laws{equal,poisson,gauss,N_random_laws};$/;"	e	enum:betaWerte::random_laws
+erase	dynarray.h	/^template<class vartyp> char dynarray<vartyp>::erase(const long int& wo) {$/;"	f	class:dynarray
+erase_jump	dynarray.h	/^template<class vartyp> char dynarray<vartyp>::erase_jump(const long int& wo) {$/;"	f	class:dynarray
+euklid	ss.cpp	/^double SS::euklid(long int * k, long int * l) {$/;"	f	class:SS
+evaluate_colours	rainbow.cpp	/^unsigned long rainbow::evaluate_colours(double time, long* colour_frequency) {$/;"	f	class:rainbow
+exit2tz	cellthis.cpp	/^bool cellOUT::exit2tz=false;$/;"	m	class:cellOUT	file:
+exit2tz	cellthis.h	/^  static bool exit2tz;$/;"	m	class:cellOUT
+exit2tz	setparam.h	/^      bool smooth_differentiation,smooth_dif2out,exit2tz;$/;"	m	class:Werte
+external	gridpoint.h	/^enum grid_states{nothing,object,object_border,external,N_grid_states};$/;"	e	enum:grid_states
+fFind	setparam.cpp	/^short Werte::fFind(char* parname, ifstream& s, int n) {$/;"	f	class:Werte
+fFind	setparam.cpp	/^short betaWerte::fFind(char* parname, ifstream& s, int n) {$/;"	f	class:betaWerte
+fGet	setparam.cpp	/^void Werte::fGet(char* parname)$/;"	f	class:Werte
+fGet	setparam.cpp	/^void betaWerte::fGet(char* parname)$/;"	f	class:betaWerte
+fNa_V	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+fNa_V	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+fPut	setparam.cpp	/^ofstream& Werte::fPut(ofstream& s)$/;"	f	class:Werte
+fPut	setparam.cpp	/^ofstream& betaWerte::fPut(ofstream& s)$/;"	f	class:betaWerte
+factor_N_OBJECTS	track.h	/^  const static int factor_N_OBJECTS=10;$/;"	m	class:TRACK
+fdc_clock	cellthis.h	/^  double fdc_clock;$/;"	m	class:cellCC
+fdc_contact_time	track.h	/^    double fdc_contact_time;$/;"	m	struct:TRACK::track_data
+fdc_encounters	cellthis.cpp	/^int cellCC::fdc_encounters[fdc_max_encounters];$/;"	m	class:cellCC	file:
+fdc_encounters	cellthis.h	/^  static int fdc_encounters[fdc_max_encounters];$/;"	m	class:cellCC
+fdc_max_encounters	cellthis.h	/^  static const int fdc_max_encounters=50;$/;"	m	class:cellCC
+fdcdetachment	track.h	/^enum action_types{trackini,movement,polarisation,fdcdetachment,deathORend};$/;"	e	enum:action_types
+field	random.h	/^    short** field;$/;"	m	class:pre_randomize
+field	random.h	/^  double* field;$/;"	m	class:gauss_randomize
+file_output	setparam.h	/^      dynarray<int> file_output;$/;"	m	class:Werte
+fileno	track.h	/^  typedef char fileno[5];$/;"	t	class:TRACK
+final_differentiation	cellthis.cpp	/^bool cellCC::final_differentiation() {$/;"	f	class:cellCC
+final_differentiation_rate	setparam.h	/^	selection,ccdiff,ccdiff_delay,ccdiff_delay_DEC,final_differentiation_rate,$/;"	m	class:Werte
+find	dynarray.h	/^long int dynarray<vartyp>::find(const vartyp& was) {$/;"	f	class:dynarray
+find	dynarray.h	/^long int dynarray<vartyp>::find(const vartyp& was, long int von, long int bis) {$/;"	f	class:dynarray
+find_contact	cell.cpp	/^short int cell::find_contact(states celltype, const long& i, space& l) {$/;"	f	class:cell
+find_largest_clone	rainbow.cpp	/^int rainbow::find_largest_clone(long* frequency) {$/;"	f	class:rainbow
+find_last_fragment	cell.cpp	/^long frag_cell::find_last_fragment(const long& li, const states& celltype, space& l,$/;"	f	class:frag_cell
+find_mitosis_place	cell.cpp	/^long cell::find_mitosis_place(const double& p, bool forceit, const double& dx_max, $/;"	f	class:cell
+find_nn2cell	cell.cpp	/^long frag_cell::find_nn2cell(space& l, long * k) {$/;"	f	class:frag_cell
+find_path	cell.cpp	/^short frag_cell::find_path(const long& source, const long& target,$/;"	f	class:frag_cell
+first	setparam.h	/^  char first;$/;"	m	class:Parameter
+fix_glucose_gradient	setparam.h	/^      bool fix_glucose_gradient;$/;"	m	class:Werte
+fix_glucose_gradient_max	setparam.h	/^      double const_dynamic_glucose_field,fix_glucose_gradient_min,fix_glucose_gradient_max;$/;"	m	class:Werte
+fix_glucose_gradient_min	setparam.h	/^      double const_dynamic_glucose_field,fix_glucose_gradient_min,fix_glucose_gradient_max;$/;"	m	class:Werte
+fix_neighbors	grid.cpp	/^void grid::fix_neighbors(long int wo) {$/;"	f	class:grid
+fix_neighbors	ss.cpp	/^void SS::fix_neighbors(const long int& wo) {$/;"	f	class:SS
+fix_neighbors	ss.cpp	/^void SS::fix_neighbors(const long int& wo, long* nextn) {$/;"	f	class:SS
+fix_signal	signals.h	/^  bool fix_signal[signals];$/;"	m	class:sigs
+fix_signals	setparam.h	/^      dynarray<bool> fix_signals;$/;"	m	class:Werte
+fixed_number_of_divisions	cellthis.cpp	/^bool cellCB::fixed_number_of_divisions() {$/;"	f	class:cellCB
+fixed_time_of_divisions_mode	setparam.h	/^      short fixed_time_of_divisions_mode;$/;"	m	class:Werte
+flag_no_correction	cell.h	/^  double flag_no_correction;$/;"	m	class:frag_cell
+founder	rainbow.h	/^    bool founder;$/;"	m	struct:rainbow::rainbow_data
+frac_average	cell.cpp	/^double frag_cell::frac_average=0.;$/;"	m	class:frag_cell	file:
+frac_average	cell.h	/^  static double frac_average; \/\/ alpha_mean averaged over all cells$/;"	m	class:frag_cell
+fraction_of_phase_width	cellthis.cpp	/^double cellCB::fraction_of_phase_width=0.0;$/;"	m	class:cellCB	file:
+fraction_of_phase_width	cellthis.h	/^  static double fraction_of_phase_width;$/;"	m	class:cellCB
+frag_cell	cell.cpp	/^frag_cell::frag_cell() {$/;"	f	class:frag_cell
+frag_cell	cell.cpp	/^frag_cell::frag_cell(const frag_cell& x) {$/;"	f	class:frag_cell
+frag_cell	cell.h	/^class frag_cell : public cell {$/;"	c
+fragdiffuse	cell.cpp	/^void frag_cell::fragdiffuse(states celltype, $/;"	f	class:frag_cell
+fragment_consistency	cellman.cpp	/^void cellman::fragment_consistency(space& l) {$/;"	f	class:cellman
+fragments	cell.h	/^  long * fragments;$/;"	m	class:frag_cell
+fragmove	cell.cpp	/^double frag_cell::fragmove(states celltype, $/;"	f	class:frag_cell
+g_Ca_L	cellthis.h	/^		       g_K_ATP,g_K_V,g_Na_V,g_Ca_L,g_Ca_T,        \/\/ 4-8   $/;"	e	enum:cellbeta::beta_quantities
+g_Ca_T	cellthis.h	/^		       g_K_ATP,g_K_V,g_Na_V,g_Ca_L,g_Ca_T,        \/\/ 4-8   $/;"	e	enum:cellbeta::beta_quantities
+g_IP3	cellthis.h	/^		       Ca_ER,V_ER,IP3,g_IP3,h_IP3,                \/\/ 15-19$/;"	e	enum:cellbeta::beta_quantities
+g_IP3_max	setparam.h	/^	g_IP3_max,  gbar_IP3,  C_IP3_act,    n_IP3_act, tau_IP3,$/;"	m	class:betaWerte
+g_K_ATP	cellthis.h	/^		       g_K_ATP,g_K_V,g_Na_V,g_Ca_L,g_Ca_T,        \/\/ 4-8   $/;"	e	enum:cellbeta::beta_quantities
+g_K_Ca	cellthis.h	/^		       g_K_Ca,C_K_Ca,                             \/\/ 13-14$/;"	e	enum:cellbeta::beta_quantities
+g_K_V	cellthis.h	/^		       g_K_ATP,g_K_V,g_Na_V,g_Ca_L,g_Ca_T,        \/\/ 4-8   $/;"	e	enum:cellbeta::beta_quantities
+g_Na_V	cellthis.h	/^		       g_K_ATP,g_K_V,g_Na_V,g_Ca_L,g_Ca_T,        \/\/ 4-8   $/;"	e	enum:cellbeta::beta_quantities
+g_fNa_V	cellthis.h	/^		       g_fNa_V,                                                      \/\/ 43$/;"	e	enum:cellbeta::beta_quantities
+g_sK_Ca	cellthis.h	/^		       g_sK_Ca,glu,                               \/\/ 20-21$/;"	e	enum:cellbeta::beta_quantities
+gabriel_fractions	rainbow.h	/^  bool gabriel_fractions;$/;"	m	class:rainbow
+gam	signals.h	/^  double* gam;$/;"	m	class:sigs
+gap	setparam.h	/^			 Ca_L,Ca_T,SERCA,IP3,gap,N_beta_proteins};$/;"	e	enum:betaWerte::beta_proteins
+gap_Ca	cellthis.h	/^		       gap_Ca,gap_Ca_0,gap_Ca_1,gap_Ca_2,gap_Ca_3,gap_Ca_4,gap_Ca_5, \/\/ 36-42$/;"	e	enum:cellbeta::beta_quantities
+gap_Ca_0	cellthis.h	/^		       gap_Ca,gap_Ca_0,gap_Ca_1,gap_Ca_2,gap_Ca_3,gap_Ca_4,gap_Ca_5, \/\/ 36-42$/;"	e	enum:cellbeta::beta_quantities
+gap_Ca_1	cellthis.h	/^		       gap_Ca,gap_Ca_0,gap_Ca_1,gap_Ca_2,gap_Ca_3,gap_Ca_4,gap_Ca_5, \/\/ 36-42$/;"	e	enum:cellbeta::beta_quantities
+gap_Ca_2	cellthis.h	/^		       gap_Ca,gap_Ca_0,gap_Ca_1,gap_Ca_2,gap_Ca_3,gap_Ca_4,gap_Ca_5, \/\/ 36-42$/;"	e	enum:cellbeta::beta_quantities
+gap_Ca_3	cellthis.h	/^		       gap_Ca,gap_Ca_0,gap_Ca_1,gap_Ca_2,gap_Ca_3,gap_Ca_4,gap_Ca_5, \/\/ 36-42$/;"	e	enum:cellbeta::beta_quantities
+gap_Ca_4	cellthis.h	/^		       gap_Ca,gap_Ca_0,gap_Ca_1,gap_Ca_2,gap_Ca_3,gap_Ca_4,gap_Ca_5, \/\/ 36-42$/;"	e	enum:cellbeta::beta_quantities
+gap_Ca_5	cellthis.h	/^		       gap_Ca,gap_Ca_0,gap_Ca_1,gap_Ca_2,gap_Ca_3,gap_Ca_4,gap_Ca_5, \/\/ 36-42$/;"	e	enum:cellbeta::beta_quantities
+gap_K	cellthis.h	/^		       gap_K,gap_K_0,gap_K_1,gap_K_2,gap_K_3,gap_K_4,gap_K_5,        \/\/ 22-28$/;"	e	enum:cellbeta::beta_quantities
+gap_K_0	cellthis.h	/^		       gap_K,gap_K_0,gap_K_1,gap_K_2,gap_K_3,gap_K_4,gap_K_5,        \/\/ 22-28$/;"	e	enum:cellbeta::beta_quantities
+gap_K_1	cellthis.h	/^		       gap_K,gap_K_0,gap_K_1,gap_K_2,gap_K_3,gap_K_4,gap_K_5,        \/\/ 22-28$/;"	e	enum:cellbeta::beta_quantities
+gap_K_2	cellthis.h	/^		       gap_K,gap_K_0,gap_K_1,gap_K_2,gap_K_3,gap_K_4,gap_K_5,        \/\/ 22-28$/;"	e	enum:cellbeta::beta_quantities
+gap_K_3	cellthis.h	/^		       gap_K,gap_K_0,gap_K_1,gap_K_2,gap_K_3,gap_K_4,gap_K_5,        \/\/ 22-28$/;"	e	enum:cellbeta::beta_quantities
+gap_K_4	cellthis.h	/^		       gap_K,gap_K_0,gap_K_1,gap_K_2,gap_K_3,gap_K_4,gap_K_5,        \/\/ 22-28$/;"	e	enum:cellbeta::beta_quantities
+gap_K_5	cellthis.h	/^		       gap_K,gap_K_0,gap_K_1,gap_K_2,gap_K_3,gap_K_4,gap_K_5,        \/\/ 22-28$/;"	e	enum:cellbeta::beta_quantities
+gap_Na	cellthis.h	/^		       gap_Na,gap_Na_0,gap_Na_1,gap_Na_2,gap_Na_3,gap_Na_4,gap_Na_5, \/\/ 29-35$/;"	e	enum:cellbeta::beta_quantities
+gap_Na_0	cellthis.h	/^		       gap_Na,gap_Na_0,gap_Na_1,gap_Na_2,gap_Na_3,gap_Na_4,gap_Na_5, \/\/ 29-35$/;"	e	enum:cellbeta::beta_quantities
+gap_Na_1	cellthis.h	/^		       gap_Na,gap_Na_0,gap_Na_1,gap_Na_2,gap_Na_3,gap_Na_4,gap_Na_5, \/\/ 29-35$/;"	e	enum:cellbeta::beta_quantities
+gap_Na_2	cellthis.h	/^		       gap_Na,gap_Na_0,gap_Na_1,gap_Na_2,gap_Na_3,gap_Na_4,gap_Na_5, \/\/ 29-35$/;"	e	enum:cellbeta::beta_quantities
+gap_Na_3	cellthis.h	/^		       gap_Na,gap_Na_0,gap_Na_1,gap_Na_2,gap_Na_3,gap_Na_4,gap_Na_5, \/\/ 29-35$/;"	e	enum:cellbeta::beta_quantities
+gap_Na_4	cellthis.h	/^		       gap_Na,gap_Na_0,gap_Na_1,gap_Na_2,gap_Na_3,gap_Na_4,gap_Na_5, \/\/ 29-35$/;"	e	enum:cellbeta::beta_quantities
+gap_Na_5	cellthis.h	/^		       gap_Na,gap_Na_0,gap_Na_1,gap_Na_2,gap_Na_3,gap_Na_4,gap_Na_5, \/\/ 29-35$/;"	e	enum:cellbeta::beta_quantities
+gap_dynamic	setparam.h	/^      bool gap_dynamic;$/;"	m	class:betaWerte
+gapfile	cellthis.h	/^  ofstream result,result2,currents,currents_rho,reversal,gapfile;$/;"	m	class:cellbeta
+gauss	random.cpp	/^double gauss_randomize::gauss(double& x, double& x0, double& width) {$/;"	f	class:gauss_randomize
+gauss	setparam.h	/^      enum random_laws{equal,poisson,gauss,N_random_laws};$/;"	e	enum:betaWerte::random_laws
+gauss_initialize	random.cpp	/^void gauss_randomize::gauss_initialize(double x0, double width, int Nx, double xmin, double xmax) {$/;"	f	class:gauss_randomize
+gauss_randomize	random.cpp	/^gauss_randomize::gauss_randomize() {$/;"	f	class:gauss_randomize
+gauss_randomize	random.cpp	/^gauss_randomize::gauss_randomize(short dataset) {$/;"	f	class:gauss_randomize
+gauss_randomize	random.h	/^class gauss_randomize {$/;"	c
+gbar_Ca_L	setparam.h	/^	gbar_Ca_L,  tau_Ca_L,  V_h_Ca_L,   kappa_Ca_L,theta_Ca_L,W_h_Ca_L,   $/;"	m	class:betaWerte
+gbar_Ca_T	setparam.h	/^	gbar_Ca_T,  tau_Ca_T,  V_h_Ca_T,   kappa_Ca_T,  theta_Ca_T,W_h_Ca_T,   lambda_Ca_T,$/;"	m	class:betaWerte
+gbar_IP3	setparam.h	/^	g_IP3_max,  gbar_IP3,  C_IP3_act,    n_IP3_act, tau_IP3,$/;"	m	class:betaWerte
+gbar_K_ATP	setparam.h	/^	gbar_K_ATP, tau_K_ATP, s_h_K_ATP,  kappa_K_ATP,$/;"	m	class:betaWerte
+gbar_K_Ca	setparam.h	/^	gbar_K_Ca,  H_K_Ca,    n_K_Ca,    V_h_K_Ca,  kappa_K_Ca, tau_K_Ca,$/;"	m	class:betaWerte
+gbar_K_V	setparam.h	/^	gbar_K_V,   tau_K_V,   V_h_K_V,    kappa_K_V, theta_K_V, W_h_K_V,    lambda_K_V,$/;"	m	class:betaWerte
+gbar_Na_V	setparam.h	/^	gbar_Na_V,  tau_Na_V,  V_h_Na_V,   kappa_Na_V,theta_Na_V,W_h_Na_V,   lambda_Na_V,$/;"	m	class:betaWerte
+gbar_fNa_V	setparam.h	/^	gbar_fNa_V, tau_fNa_V, V_h_fNa_V,  kappa_fNa_V,$/;"	m	class:betaWerte
+gbar_gap	setparam.h	/^	gbar_gap,   tau_gap;$/;"	m	class:betaWerte
+gbar_sK_Ca	setparam.h	/^	gbar_sK_Ca, C_sK_Ca,   kappa_sK_Ca,tau_sK_Ca,$/;"	m	class:betaWerte
+gemeinsam	dynarray.h	/^long int dynarray<vartyp>::gemeinsam(dynarray<vartyp>& vergl) {$/;"	f	class:dynarray
+get_1norm	grid.cpp	/^double grid::get_1norm(const double * k, const double * l) {$/;"	f	class:grid
+get_1norm	grid.cpp	/^double grid::get_1norm(const double * k, const long * l) {$/;"	f	class:grid
+get_1norm	grid.cpp	/^double grid::get_1norm(const long * k, const long * l) {$/;"	f	class:grid
+get_2norm	grid.cpp	/^double grid::get_2norm(const double * k, const double * l) {$/;"	f	class:grid
+get_2norm	grid.cpp	/^double grid::get_2norm(const double * k, const long * l) {$/;"	f	class:grid
+get_2norm	grid.cpp	/^double grid::get_2norm(const double * n) {$/;"	f	class:grid
+get_2norm	grid.cpp	/^double grid::get_2norm(const long * k, const long * l) {$/;"	f	class:grid
+get_2norm	grid.cpp	/^double grid::get_2norm(const long * n) {$/;"	f	class:grid
+get_2norm	track.cpp	/^double TRACK::get_2norm(const double * k, const double * l) {$/;"	f	class:TRACK
+get_2sigmoidal	cellthis.cpp	/^double cellbeta::get_2sigmoidal(double& t, double t_a, double t_b, $/;"	f	class:cellbeta
+get_2sigmoidal	signals.cpp	/^double sigs::get_2sigmoidal(double& t, double& t_a, double& t_b, $/;"	f	class:sigs
+get_Antigen	ss.cpp	/^long int SS::get_Antigen() {$/;"	f	class:SS
+get_Antigen	ss.cpp	/^long int SS::get_Antigen(int i) {$/;"	f	class:SS
+get_Ca_ER_free_fraction	cellthis.cpp	/^double cellbeta::get_Ca_ER_free_fraction(double& c) {$/;"	f	class:cellbeta
+get_Ca_free_fraction	cellthis.cpp	/^double cellbeta::get_Ca_free_fraction(double& c) {$/;"	f	class:cellbeta
+get_GCvolume	cellman.cpp	/^long cellman::get_GCvolume() {$/;"	f	class:cellman
+get_Hill	cellthis.cpp	/^double cellbeta::get_Hill(double& x, double& half, double& coefficient) {$/;"	f	class:cellbeta
+get_IP3	cellthis.cpp	/^double cellbeta::get_IP3(double& t) {$/;"	f	class:cellbeta
+get_K_ext	cellthis.cpp	/^double cellbeta::get_K_ext(double& t, double& k_0) {$/;"	f	class:cellbeta
+get_Nernst	cellthis.cpp	/^double cellbeta::get_Nernst(double& x, double& x_ext, double valence) {$/;"	f	class:cellbeta
+get_Seeder	ss.cpp	/^long int SS::get_Seeder() {$/;"	f	class:SS
+get_Seeder	ss.cpp	/^long int SS::get_Seeder(int i) {$/;"	f	class:SS
+get_adhesion	cell.cpp	/^void cell::get_adhesion(const double& max) {$/;"	f	class:cell
+get_all_Nernst	cellthis.cpp	/^void cellbeta::get_all_Nernst(double& t, double& K, double& Na, double& Ca, double& Ca_ER,$/;"	f	class:cellbeta
+get_average_and_sd	cellman.cpp	/^void cellman::get_average_and_sd(int* values, int& n, double& average, double& sd) {$/;"	f	class:cellman
+get_average_mutation_prob	cellman.cpp	/^void cellman::get_average_mutation_prob(double& muta_av, double& muta_sd) {$/;"	f	class:cellman
+get_axis_length	cell.cpp	/^double frag_cell::get_axis_length(const long& li, const states& celltype, space& l,$/;"	f	class:frag_cell
+get_barycenter	cell.cpp	/^long frag_cell::get_barycenter(space& l) {$/;"	f	class:frag_cell
+get_bin	cellman.cpp	/^short cellman::get_bin(double value) {$/;"	f	class:cellman
+get_ca_buffer	cellthis.cpp	/^double cellbeta::get_ca_buffer(double& b_0, double& c, double& dissociation) {$/;"	f	class:cellbeta
+get_cell_indices_at_time	rainbow.cpp	/^vector<long> rainbow::get_cell_indices_at_time(double& time) {$/;"	f	class:rainbow
+get_cellname	track.cpp	/^void TRACK::get_cellname(short c, char cc[10]) {$/;"	f	class:TRACK
+get_chi2	kinetics.cpp	/^double GCkinetics::get_chi2(const int& a) {$/;"	f	class:GCkinetics
+get_chi2	kinetics.cpp	/^double GCkinetics::get_chi2(const int& a, const short& liu, const int& day) {$/;"	f	class:GCkinetics
+get_clone_of_founder	rainbow.cpp	/^long rainbow::get_clone_of_founder(long& cell_index) {$/;"	f	class:rainbow
+get_color	track.cpp	/^void TRACK::get_color(int i, char color[10]) {$/;"	f	class:TRACK
+get_colour_fractions	rainbow.cpp	/^void rainbow::get_colour_fractions(long Ncells, long* colour_frequency, double* colour_fraction) {$/;"	f	class:rainbow
+get_const_signal_value	signals.cpp	/^double sigs::get_const_signal_value(double& t, double& ampl) {$/;"	f	class:sigs
+get_const_signal_value	signals.cpp	/^double sigs::get_const_signal_value(double& t, double& ampl, long* wo) {$/;"	f	class:sigs
+get_contact	cell.cpp	/^long cell::get_contact(const states& celltype, space& l) {$/;"	f	class:cell
+get_current_factors	cellthis.cpp	/^void cellbeta::get_current_factors(double t) {$/;"	f	class:cellbeta
+get_currents	cellthis.cpp	/^void cellbeta::get_currents(double* y, $/;"	f	class:cellbeta
+get_deltar	track.cpp	/^double TRACK::get_deltar(const int& i, const int& ab, const int& bis) {$/;"	f	class:TRACK
+get_deltar	track.cpp	/^double TRACK::get_deltar(double* a, double* b) {$/;"	f	class:TRACK
+get_diags	grid.cpp	/^void grid::get_diags(short int& n, $/;"	f	class:grid
+get_diff_vector	grid.cpp	/^void grid::get_diff_vector(const long& i, const long& j, double * v) {$/;"	f	class:grid
+get_distance2line	grid.cpp	/^double grid::get_distance2line(const long * c, const long * a, const long * b) {$/;"	f	class:grid
+get_distances	cell.cpp	/^double frag_cell::get_distances(char * which, double * ref_point, $/;"	f	class:frag_cell
+get_distribution_direction	grid.cpp	/^short grid::get_distribution_direction(double * n) {$/;"	f	class:grid
+get_distribution_value	random.cpp	/^double gauss_randomize::get_distribution_value() {$/;"	f	class:gauss_randomize
+get_diversity	ss.cpp	/^void SS::get_diversity(double time) {$/;"	f	class:SS
+get_dynamic_half	cellthis.cpp	/^double cellbeta::get_dynamic_half(double& x, double a, double b) {$/;"	f	class:cellbeta
+get_elongation	cell.cpp	/^double frag_cell::get_elongation(const long& li, const states& celltype, space& l) {$/;"	f	class:frag_cell
+get_first_index	track.cpp	/^int TRACK::get_first_index(int obj) {$/;"	f	class:TRACK
+get_founder_cell_index	rainbow.cpp	/^long rainbow::get_founder_cell_index(long& cell_index) {$/;"	f	class:rainbow
+get_free_nn	cell.cpp	/^int frag_cell::get_free_nn(space& l,$/;"	f	class:frag_cell
+get_gap_junction	cellthis.cpp	/^void cellbeta::get_gap_junction(dynarray<cellbeta>& bl, space& l) {$/;"	f	class:cellbeta
+get_gap_junction_dynamic	cellman.cpp	/^void cellman::get_gap_junction_dynamic(double* y, long startat, $/;"	f	class:cellman
+get_gap_junction_static	cellman.cpp	/^void cellman::get_gap_junction_static(double* y, long startat, $/;"	f	class:cellman
+get_gap_rhs	cellman.cpp	/^void cellman::get_gap_rhs(double* y, double* derivative, const long& startat, const long& celli,$/;"	f	class:cellman
+get_global_index	cellman.cpp	/^long cellman::get_global_index(long& li) {$/;"	f	class:cellman
+get_glucose	cellthis.cpp	/^double cellbeta::get_glucose(const long& i, sigs& s) { $/;"	f	class:cellbeta
+get_gradient	signals.cpp	/^void sigs::get_gradient(const signal_molecule& s, const long& index, double* gradient) {$/;"	f	class:sigs
+get_inactivation	cellthis.cpp	/^double cellbeta::get_inactivation(double& half, double& x, double& kappa) {$/;"	f	class:cellbeta
+get_index_for_time	rainbow.cpp	/^long rainbow::get_index_for_time(double& time) {$/;"	f	class:rainbow
+get_koord	grid.cpp	/^void grid::get_koord(long int wo, double * k) {$/;"	f	class:grid
+get_koord	grid.cpp	/^void grid::get_koord(long int wo, long * k) {$/;"	f	class:grid
+get_koord	ss.cpp	/^void SS::get_koord(long int wo, long int * k) {$/;"	f	class:SS
+get_last_index	track.cpp	/^int TRACK::get_last_index(int obj) {$/;"	f	class:TRACK
+get_long2short_axis	cell.cpp	/^double frag_cell::get_long2short_axis(const long& li, const states& celltype, space& l) {$/;"	f	class:frag_cell
+get_long2short_axis	cell.cpp	/^double frag_cell::get_long2short_axis(const long& li, const states& celltype, space& l,$/;"	f	class:frag_cell
+get_marker	track.cpp	/^void TRACK::get_marker(short c, char marker[10]) {$/;"	f	class:TRACK
+get_matrix_index	cellthis.cpp	/^int immunoglobulin_class::get_matrix_index(const Ig_classes& i, const Ig_classes& j) {$/;"	f	class:immunoglobulin_class
+get_max_a	track.cpp	/^int TRACK::get_max_a(int obj) {$/;"	f	class:TRACK
+get_min_a	track.cpp	/^int TRACK::get_min_a(int obj) {$/;"	f	class:TRACK
+get_n_self	space.cpp	/^short space::get_n_self(const long& i, const long& li, $/;"	f	class:space
+get_new_state	cellthis.cpp	/^void cellCB::get_new_state(const long& i, double& dt, space& l, sigs& s) {$/;"	f	class:cellCB
+get_new_state	cellthis.cpp	/^void cellbeta::get_new_state(const long& i, sigs& s) {$/;"	f	class:cellbeta
+get_nn_directed2	grid.cpp	/^long grid::get_nn_directed2(const long& i, const double* v) {$/;"	f	class:grid
+get_nn_directed2	grid.cpp	/^short grid::get_nn_directed2(const double * v, const long& i, long * indices) {$/;"	f	class:grid
+get_nn_directed2	grid.cpp	/^short grid::get_nn_directed2(const double * w, short * nnindex) {$/;"	f	class:grid
+get_pMHC_dependent_division	cellthis.cpp	/^double cellCC::get_pMHC_dependent_division(int& ag_portions) {$/;"	f	class:cellCC
+get_radius	cell.cpp	/^double frag_cell::get_radius(const short unsigned& d) {$/;"	f	class:frag_cell
+get_rand_set	random.cpp	/^short * pre_randomize::get_rand_set() {$/;"	f	class:pre_randomize
+get_rand_set	random.cpp	/^void pre_randomize::get_rand_set(dynarray<short>& xx) {$/;"	f	class:pre_randomize
+get_random_colour	rainbow.cpp	/^int rainbow::get_random_colour() {$/;"	f	class:rainbow
+get_random_direction	grid.cpp	/^short grid::get_random_direction(double * n) {$/;"	f	class:grid
+get_receptor_ligand	cell.cpp	/^double cell::get_receptor_ligand(double& kplus, double& kminus, $/;"	f	class:cell
+get_reshaping_force	cell.cpp	/^double frag_cell::get_reshaping_force(const double& p_max_tension, $/;"	f	class:frag_cell
+get_rhs_x_ADI	signals.cpp	/^double sigs::get_rhs_x_ADI(const long& r,  $/;"	f	class:sigs
+get_rhs_x_CN	signals.cpp	/^double sigs::get_rhs_x_CN(const long& r,const double& alpha,$/;"	f	class:sigs
+get_rhs_y_ADI	signals.cpp	/^double sigs::get_rhs_y_ADI(const long& r, const double& alpha, $/;"	f	class:sigs
+get_rhs_y_CN	signals.cpp	/^double sigs::get_rhs_y_CN(const long& r,const double& alpha,$/;"	f	class:sigs
+get_rhs_z_ADI	signals.cpp	/^double sigs::get_rhs_z_ADI(const long& r, const double& alpha, $/;"	f	class:sigs
+get_scalarproduct	grid.cpp	/^double grid::get_scalarproduct(const double * a, const double * b) {$/;"	f	class:grid
+get_scalarproduct	grid.cpp	/^double grid::get_scalarproduct(const long * a, const double * b) {$/;"	f	class:grid
+get_scalarproduct	grid.cpp	/^double grid::get_scalarproduct(const long * a, const long * b) {$/;"	f	class:grid
+get_scalarproduct	track.cpp	/^double TRACK::get_scalarproduct(const double * a, const double * b) {$/;"	f	class:TRACK
+get_set	random.cpp	/^short * pre_randomize::get_set(long n) {$/;"	f	class:pre_randomize
+get_set	random.cpp	/^void pre_randomize::get_set(long n, dynarray<short>& xx) {$/;"	f	class:pre_randomize
+get_sigma2_GCvolume	kinetics.cpp	/^double GCkinetics::get_sigma2_GCvolume() {$/;"	f	class:GCkinetics
+get_sigmoidal	cellthis.cpp	/^double cellbeta::get_sigmoidal(double& half, double& x, double& kappa) {$/;"	f	class:cellbeta
+get_signal_name	signals.cpp	/^void sigs::get_signal_name(const unsigned short& sx, char* name) {$/;"	f	class:sigs
+get_signal_total	signals.cpp	/^double sigs::get_signal_total(const signal_molecule& sig_type) {$/;"	f	class:sigs
+get_ss_receptor_ligand	cell.cpp	/^double cell::get_ss_receptor_ligand(const double& K, const double& r0, const double& s) {$/;"	f	class:cell
+get_tau_IP3	cellthis.cpp	/^double cellbeta::get_tau_IP3(double& ip3) {$/;"	f	class:cellbeta
+get_tau_K_V_sherman88	cellthis.cpp	/^double cellbeta::get_tau_K_V_sherman88(double& x, double& VbarK) {$/;"	f	class:cellbeta
+get_tau_V	cellthis.cpp	/^double cellbeta::get_tau_V(double& x, double a, double b, double c, double Vx) {$/;"	f	class:cellbeta
+get_tc_apoptosis	cellthis.cpp	/^short cellCC::get_tc_apoptosis(SS& shape) {$/;"	f	class:cellCC
+get_tc_selected	cellthis.cpp	/^short cellCC::get_tc_selected(SS& shape) {$/;"	f	class:cellCC
+get_total_antibodies	cellman.cpp	/^double cellman::get_total_antibodies(int& length) {$/;"	f	class:cellman
+get_total_antigen	cellthis.cpp	/^double cellFDC::get_total_antigen() {$/;"	f	class:cellFDC
+get_total_immune_complex	cellthis.cpp	/^double cellFDC::get_total_immune_complex() {$/;"	f	class:cellFDC
+get_total_immune_complex	cellthis.cpp	/^double cellFDC::get_total_immune_complex(int& length) {$/;"	f	class:cellFDC
+get_trackraw	track.cpp	/^void TRACK::get_trackraw() {$/;"	f	class:TRACK
+get_trackraw	track.cpp	/^void TRACK::get_trackraw(int Npertype) {$/;"	f	class:TRACK
+get_v_factor	cell.cpp	/^double cell::get_v_factor(const short& N_v, const double& p_slow_factor) {$/;"	f	class:cell
+glu	cellthis.h	/^		       g_sK_Ca,glu,                               \/\/ 20-21$/;"	e	enum:cellbeta::beta_quantities
+glu_0	setparam.h	/^	glu_0,IP3_0,K_0,Na_0,Ca_0,$/;"	m	class:betaWerte
+glucose	signals.h	/^  glucose,$/;"	e	enum:signal_molecule
+glucose_rest	cellthis.cpp	/^double cellbeta::glucose_rest;$/;"	m	class:cellbeta	file:
+glucose_rest	cellthis.h	/^  static double glucose_rest;$/;"	m	class:cellbeta
+go2TCselection	cellthis.cpp	/^void cellCC::go2TCselection(SS& shape) {$/;"	f	class:cellCC
+goon	setparam.cpp	/^void Parameter::goon() {$/;"	f	class:Parameter
+got_tc_signals	cellthis.cpp	/^short cellCC::got_tc_signals(const double& dt, cellTC& tcell, space& l, SS& shape) {$/;"	f	class:cellCC
+grid	grid.cpp	/^grid::grid()    $/;"	f	class:grid
+grid	grid.cpp	/^grid::grid(const grid_types& t, Parameter& par, ofstream& ana)    $/;"	f	class:grid
+grid	grid.cpp	/^grid::grid(const grid_types& t,$/;"	f	class:grid
+grid	grid.h	/^class grid {$/;"	c
+grid_states	gridpoint.h	/^enum grid_states{nothing,object,object_border,external,N_grid_states};$/;"	g
+grid_type	grid.h	/^   grid_types grid_type;$/;"	m	class:grid
+grid_types	grid.h	/^enum grid_types{cellspace,molecules,alltypes};$/;"	g
+gridpoint	gridpoint.cpp	/^gridpoint::gridpoint() {$/;"	f	class:gridpoint
+gridpoint	gridpoint.cpp	/^gridpoint::gridpoint(long int& i, grid_states& s) {$/;"	f	class:gridpoint
+gridpoint	gridpoint.h	/^class gridpoint {$/;"	c
+gridsize	setparam.h	/^      double gridsize[3];$/;"	m	class:Werte
+grow	cellthis.h	/^  short grow(const long& li, space& l)$/;"	f	class:cellCB
+grow	cellthis.h	/^  short grow(const long& li, space& l)$/;"	f	class:cellbeta
+grow	setparam.h	/^	grow,$/;"	m	class:Werte
+guest_grid_pointer	gridpoint.h	/^   long guest_grid_pointer;$/;"	m	class:gridpoint
+guest_grid_project	grid.cpp	/^void grid::guest_grid_project(const double& dq, const int* nq) {$/;"	f	class:grid
+h_Ca_L	cellthis.h	/^		       h_K_V,h_Na_V,h_Ca_L,h_Ca_T,                \/\/ 9-12$/;"	e	enum:cellbeta::beta_quantities
+h_Ca_T	cellthis.h	/^		       h_K_V,h_Na_V,h_Ca_L,h_Ca_T,                \/\/ 9-12$/;"	e	enum:cellbeta::beta_quantities
+h_IP3	cellthis.h	/^		       Ca_ER,V_ER,IP3,g_IP3,h_IP3,                \/\/ 15-19$/;"	e	enum:cellbeta::beta_quantities
+h_K_V	cellthis.h	/^		       h_K_V,h_Na_V,h_Ca_L,h_Ca_T,                \/\/ 9-12$/;"	e	enum:cellbeta::beta_quantities
+h_Na_V	cellthis.h	/^		       h_K_V,h_Na_V,h_Ca_L,h_Ca_T,                \/\/ 9-12$/;"	e	enum:cellbeta::beta_quantities
+hal	dynarray.h	/^   int hal;$/;"	m	class:dynarray
+half_tolerance_deformation	setparam.h	/^      double distance_tolerance,half_tolerance_deformation;$/;"	m	class:Werte
+hol92	kinetics.cpp	/^double GCkinetics::hol92(const int& day) {$/;"	f	class:GCkinetics
+howoften	dynarray.h	/^long int dynarray<vartyp>::howoften(const vartyp& was, long int von, long int bis) {$/;"	f	class:dynarray
+i_RAINBOW	rainbow.h	15;"	d
+i_SS	ss.h	2;"	d
+i_cell	cell.h	2;"	d
+i_cellman	cellman.h	2;"	d
+i_cellthis	cellthis.h	133;"	d
+i_dynarray	dynarray.h	2;"	d
+i_grid	grid.h	2;"	d
+i_gridpoint	gridpoint.h	2;"	d
+i_kinetics	kinetics.h	2;"	d
+i_ode	ode.h	2;"	d
+i_odelist	odelist.h	2;"	d
+i_random	random.h	2;"	d
+i_setparam	setparam.h	2;"	d
+i_signals	signals.h	2;"	d
+i_space	space.h	2;"	d
+i_track	track.h	28;"	d
+iamhighag	cellthis.h	/^  bool iamhighag;$/;"	m	class:cellCB
+ic_amount	cellthis.h	/^  double ** ic_amount;$/;"	m	class:cellFDC
+ic_calculations	cellthis.cpp	/^long cellFDC::ic_calculations=0;$/;"	m	class:cellFDC	file:
+ic_calculations	cellthis.h	/^  static long ab_sign_errors,ag_sign_errors,ic_sign_errors,ic_calculations;$/;"	m	class:cellFDC
+ic_k_off	cellthis.cpp	/^double cellFDC::ic_k_off=3600.*1.e-03; \/\/ \/hour$/;"	m	class:cellFDC	file:
+ic_k_off	cellthis.h	/^  static double ic_k_on,ic_k_off;$/;"	m	class:cellFDC
+ic_k_off	setparam.h	/^      double ic_k_on,ic_k_off,ag_threshold;$/;"	m	class:Werte
+ic_k_on	cellthis.cpp	/^double cellFDC::ic_k_on=3600.*1.e+06*cellFDC::ag_threshold; \/\/ \/(Mol hour)$/;"	m	class:cellFDC	file:
+ic_k_on	cellthis.h	/^  static double ic_k_on,ic_k_off;$/;"	m	class:cellFDC
+ic_k_on	setparam.h	/^      double ic_k_on,ic_k_off,ag_threshold;$/;"	m	class:Werte
+ic_sign_errors	cellthis.cpp	/^long cellFDC::ic_sign_errors=0;$/;"	m	class:cellFDC	file:
+ic_sign_errors	cellthis.h	/^  static long ab_sign_errors,ag_sign_errors,ic_sign_errors,ic_calculations;$/;"	m	class:cellFDC
+ignore_affinity	cellthis.cpp	/^double cellCC::ignore_affinity=-1.0;$/;"	m	class:cellCC	file:
+ignore_affinity	cellthis.h	/^  static double ignore_affinity;$/;"	m	class:cellCC
+ignore_affinity	setparam.h	/^      double shrink,apoptosis,apoptosis4FDCselected,macrophage,ignore_affinity,$/;"	m	class:Werte
+ignore_apoptotic_CC	cellman.h	/^   bool ignore_apoptotic_CC;$/;"	m	class:cellman
+ignore_apoptotic_CC	setparam.h	/^      bool ignore_apoptotic_CC; \/\/ 0: include them; 1: ignore them for cell number analysis$/;"	m	class:Werte
+ignore_objects	signals.h	/^  short ignore_objects;$/;"	m	class:sigs
+immunoglobulin_class	cellthis.cpp	/^immunoglobulin_class::immunoglobulin_class() { Ig_class=IgM; }$/;"	f	class:immunoglobulin_class
+immunoglobulin_class	cellthis.h	/^class immunoglobulin_class {$/;"	c
+in_datei	setparam.cpp	/^void Parameter::in_datei(suffix suff, suffix log) {$/;"	f	class:Parameter
+increment_fileno	track.cpp	/^void TRACK::increment_fileno(fileno& tmp) { \/\/ suffix declared in setparam.h$/;"	f	class:TRACK
+index	cell.h	/^  long index,born_index;$/;"	m	class:cell
+index	gridpoint.h	/^   long int index;$/;"	m	class:gridpoint
+index	ss.h	/^   long int index;$/;"	m	class:SSpoint
+individual_dif_delay	cellthis.h	/^  double individual_dif_delay;$/;"	m	class:cellCC
+ini	cellthis.cpp	/^void cellCB::ini(const long& i, const long& li, const double& t, space& l, SS& shape) {$/;"	f	class:cellCB
+ini	cellthis.cpp	/^void cellTC::ini(const long& i, const long& li, const double& t, space& l, SS& shape) {$/;"	f	class:cellTC
+ini	cellthis.cpp	/^void cellbeta::ini(const long& i, const long& li, const double& t, space& l) {$/;"	f	class:cellbeta
+ini	setparam.cpp	/^void betaWerte::ini() {$/;"	f	class:betaWerte
+ini2d	setparam.cpp	/^void Werte::ini2d() {$/;"	f	class:Werte
+ini3d	setparam.cpp	/^void Werte::ini3d() {$/;"	f	class:Werte
+ini_random	setparam.h	/^      long ini_random,late_ini_random;$/;"	m	class:Werte
+inialld	setparam.cpp	/^void Werte::inialld() {$/;"	f	class:Werte
+init	ss.cpp	/^void SSpoint::init(Parameter& par)$/;"	f	class:SSpoint
+init	track.cpp	/^void TRACK::init(const double& xr_ext, const double& dt_ext, $/;"	f	class:TRACK
+initial_ab_affinity	setparam.h	/^      double initial_ab_affinity; \/\/ -1 for take seeder cell average$/;"	m	class:Werte
+inject_Ki67	cellman.cpp	/^void cellman::inject_Ki67() {$/;"	f	class:cellman
+inject_antiDEC205OVA	cellman.h	/^   bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_differentiation,retain_DEC205_ag;$/;"	m	class:cellman
+inject_antiDEC205OVA	setparam.h	/^      bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_CBdifferentiation,retain_DEC205_ag;$/;"	m	class:Werte
+inject_antiDEC205OVA_t0	cellman.h	/^   double def_DEC205_t0,inject_antiDEC205OVA_t0,p_DEC205,DEC205_ova_activity,$/;"	m	class:cellman
+inject_antiDEC205OVA_t0	setparam.h	/^      double def_DEC205_t0,inject_antiDEC205OVA_t0,antiDEC205OVA_tend,p_DEC205,$/;"	m	class:Werte
+inject_antibody	setparam.h	/^      double inject_antibody,injected_antibody_affinity,inject_antibody_time;$/;"	m	class:Werte
+inject_antibody_time	setparam.h	/^      double inject_antibody,injected_antibody_affinity,inject_antibody_time;$/;"	m	class:Werte
+injected_antibody_affinity	setparam.h	/^      double inject_antibody,injected_antibody_affinity,inject_antibody_time;$/;"	m	class:Werte
+insert	cellthis.cpp	/^void cellbeta::insert(double& ion, double& voltage, double I_load, double valence_sign) {$/;"	f	class:cellbeta
+insert	dynarray.h	/^template<class vartyp> char dynarray<vartyp>::insert(const long int& wo, const vartyp& was) {$/;"	f	class:dynarray
+inverse_erf	cellthis.cpp	/^double cellCB::inverse_erf(double x) {$/;"	f	class:cellCB
+irandom	random.cpp	/^int irandom(int bis) {$/;"	f
+islet	setparam.h	/^enum representation{GC,tumour,islet};$/;"	e	enum:representation
+k	ss.h	/^   long* k;$/;"	m	class:SSpoint
+k_IP3_minus	setparam.h	/^	k_IP3_plus,k_IP3_minus,C_P,n_P,$/;"	m	class:betaWerte
+k_IP3_plus	setparam.h	/^	k_IP3_plus,k_IP3_minus,C_P,n_P,$/;"	m	class:betaWerte
+k_ic_exp_max	setparam.h	/^      double k_ic_exp_min,k_ic_exp_max;$/;"	m	class:Werte
+k_ic_exp_min	setparam.h	/^      double k_ic_exp_min,k_ic_exp_max;$/;"	m	class:Werte
+kappa_Ca_L	setparam.h	/^	gbar_Ca_L,  tau_Ca_L,  V_h_Ca_L,   kappa_Ca_L,theta_Ca_L,W_h_Ca_L,   $/;"	m	class:betaWerte
+kappa_Ca_T	setparam.h	/^	gbar_Ca_T,  tau_Ca_T,  V_h_Ca_T,   kappa_Ca_T,  theta_Ca_T,W_h_Ca_T,   lambda_Ca_T,$/;"	m	class:betaWerte
+kappa_IP3	setparam.h	/^	P_IP3,     kappa_IP3,$/;"	m	class:betaWerte
+kappa_K_ATP	setparam.h	/^	gbar_K_ATP, tau_K_ATP, s_h_K_ATP,  kappa_K_ATP,$/;"	m	class:betaWerte
+kappa_K_Ca	setparam.h	/^	gbar_K_Ca,  H_K_Ca,    n_K_Ca,    V_h_K_Ca,  kappa_K_Ca, tau_K_Ca,$/;"	m	class:betaWerte
+kappa_K_V	setparam.h	/^	gbar_K_V,   tau_K_V,   V_h_K_V,    kappa_K_V, theta_K_V, W_h_K_V,    lambda_K_V,$/;"	m	class:betaWerte
+kappa_Na_V	setparam.h	/^	gbar_Na_V,  tau_Na_V,  V_h_Na_V,   kappa_Na_V,theta_Na_V,W_h_Na_V,   lambda_Na_V,$/;"	m	class:betaWerte
+kappa_fNa_V	setparam.h	/^	gbar_fNa_V, tau_fNa_V, V_h_fNa_V,  kappa_fNa_V,$/;"	m	class:betaWerte
+kappa_sK_Ca	setparam.h	/^	gbar_sK_Ca, C_sK_Ca,   kappa_sK_Ca,tau_sK_Ca,$/;"	m	class:betaWerte
+kenntext	setparam.cpp	/^const char* Werte::kenntext(int nummer) {$/;"	f	class:Werte
+kenntext	setparam.cpp	/^const char* betaWerte::kenntext(int nummer) {$/;"	f	class:betaWerte
+kinetics	cellman.h	/^   GCkinetics kinetics;$/;"	m	class:cellman
+knot	grid.h	/^   gridpoint * knot;$/;"	m	class:grid
+kopie	dynarray.h	/^char dynarray<vartyp>::kopie(dynarray<vartyp>& ziel,$/;"	f	class:dynarray
+l2s_axis	track.h	/^    double elongation,l2s_axis;$/;"	m	struct:TRACK::track_data
+label_BrdU	cellman.cpp	/^void cellman::label_BrdU() {$/;"	f	class:cellman
+lambda_Ca_L	setparam.h	/^	            lambda_Ca_L,C_Ca_L,    n_Ca_L,$/;"	m	class:betaWerte
+lambda_Ca_T	setparam.h	/^	gbar_Ca_T,  tau_Ca_T,  V_h_Ca_T,   kappa_Ca_T,  theta_Ca_T,W_h_Ca_T,   lambda_Ca_T,$/;"	m	class:betaWerte
+lambda_K_V	setparam.h	/^	gbar_K_V,   tau_K_V,   V_h_K_V,    kappa_K_V, theta_K_V, W_h_K_V,    lambda_K_V,$/;"	m	class:betaWerte
+lambda_Na_V	setparam.h	/^	gbar_Na_V,  tau_Na_V,  V_h_Na_V,   kappa_Na_V,theta_Na_V,W_h_Na_V,   lambda_Na_V,$/;"	m	class:betaWerte
+lang	dynarray.h	/^template<class vartyp> long int dynarray<vartyp>::lang() { return max; }$/;"	f	class:dynarray
+last2days	cellman.h	/^   double last2days;$/;"	m	class:cellman
+last_position	cell.h	/^  double last_position[3];$/;"	m	class:cell
+late_ini_random	setparam.h	/^      long ini_random,late_ini_random;$/;"	m	class:Werte
+lattice_dim	cell.cpp	/^short cell::lattice_dim=3;$/;"	m	class:cell	file:
+lattice_dim	cell.h	/^  static short lattice_dim;$/;"	m	class:cell
+liberateCC	cellthis.cpp	/^void cellTC::liberateCC(const long& index) {$/;"	f	class:cellTC
+light_zone	cellman.h	/^   ofstream light_zone;$/;"	m	class:cellman
+limit_volume	cellthis.cpp	/^double cellCB::limit_volume=1.0;$/;"	m	class:cellCB	file:
+limit_volume	cellthis.h	/^    limit_volume,$/;"	m	class:cellCB
+listi	space.h	/^   long listi;$/;"	m	class:spacepoint
+liu91	kinetics.cpp	/^double GCkinetics::liu91(const int& day) {$/;"	f	class:GCkinetics
+load_matrix	cellthis.cpp	/^void immunoglobulin_class::load_matrix(const Parameter& par, ofstream& ana) {$/;"	f	class:immunoglobulin_class
+load_signal_file	signals.cpp	/^void sigs::load_signal_file(const signal_molecule sig_type) {$/;"	f	class:sigs
+log048aff	ss.h	/^   ofstream logmeanaff,loghighaff,log048aff,logdiversity;$/;"	m	class:SS
+log_outs	cellman.h	/^   ofstream log_outs;$/;"	m	class:cellman
+logdata	ss.h	/^   ofstream logdata[SSlogs];$/;"	m	class:SS
+logdiversity	ss.h	/^   ofstream logmeanaff,loghighaff,log048aff,logdiversity;$/;"	m	class:SS
+logfile	setparam.h	/^  char logfile[namelength];$/;"	m	class:Parameter
+loghighaff	ss.h	/^   ofstream logmeanaff,loghighaff,log048aff,logdiversity;$/;"	m	class:SS
+logmeanaff	ss.h	/^   ofstream logmeanaff,loghighaff,log048aff,logdiversity;$/;"	m	class:SS
+lrandom	random.cpp	/^long int lrandom(long int bis){$/;"	f
+macrophage	setparam.h	/^      double shrink,apoptosis,apoptosis4FDCselected,macrophage,ignore_affinity,$/;"	m	class:Werte
+macrophagocyte	cellthis.cpp	/^short cellCC::macrophagocyte(SS& shape) {$/;"	f	class:cellCC
+macrophagocyte_BETA	cellman.cpp	/^short cellman::macrophagocyte_BETA(long i, long li, space& l) {$/;"	f	class:cellman
+macrophagocyte_CB	cellman.cpp	/^short cellman::macrophagocyte_CB(long i, long li, space& l, SS& shape) {$/;"	f	class:cellman
+main	hyphasma.cpp	/^int main(int argn, char** argument)$/;"	f
+make_CB_new	cellthis.cpp	/^void cellCB::make_CB_new() {$/;"	f	class:cellCB
+make_apoptosis	cellthis.cpp	/^void cellCC::make_apoptosis(SS& shape) {$/;"	f	class:cellCC
+make_fluorescent	cellman.cpp	/^void cellman::make_fluorescent(space& l) {$/;"	f	class:cellman
+make_gle	track.cpp	/^void TRACK::make_gle() {$/;"	f	class:TRACK
+make_photoactivation	cellman.cpp	/^void cellman::make_photoactivation(space& l) {$/;"	f	class:cellman
+make_rainbow	rainbow.cpp	/^void rainbow::make_rainbow(double stain_time, double evaluation_time_interval, int Nevaluations) {$/;"	f	class:rainbow
+make_reach_dist_x	track.cpp	/^void TRACK::make_reach_dist_x() {$/;"	f	class:TRACK
+make_tc_cc_link	cellthis.cpp	/^void cellTC::make_tc_cc_link(const long& index, const int& nFDCcontacts, const bool& highag) {$/;"	f	class:cellTC
+make_tc_cc_link	cellthis.cpp	/^void cellTC::make_tc_cc_link(const long& index, const long& CCpos, SS& shape, const bool& highag) {$/;"	f	class:cellTC
+make_trace_types_a	track.cpp	/^void TRACK::make_trace_types_a() {$/;"	f	class:TRACK
+make_traces_a	track.cpp	/^void TRACK::make_traces_a() {$/;"	f	class:TRACK
+make_traces_r	track.cpp	/^void TRACK::make_traces_r() {$/;"	f	class:TRACK
+makehole	grid.cpp	/^void grid::makehole(const long * start, const int& wall_width, const int& slit_width) {$/;"	f	class:grid
+matrix_dimension	cellthis.h	/^  static const int matrix_dimension=nIg_classes*nIg_classes;$/;"	m	class:immunoglobulin_class
+max	dynarray.h	/^   long int max;$/;"	m	class:dynarray
+max_GCvolume	kinetics.h	/^  long max_GCvolume;$/;"	m	class:GCkinetics
+max_N_OBJECTS	track.h	/^  int N_OBJECTS,max_N_OBJECTS;$/;"	m	class:TRACK
+max_adhesion	cellthis.cpp	/^double cellCB::max_adhesion=0.0;$/;"	m	class:cellCB	file:
+max_adhesion	cellthis.cpp	/^double cellbeta::max_adhesion=0.0;$/;"	m	class:cellbeta	file:
+max_adhesion	cellthis.h	/^    max_adhesion;$/;"	m	class:cellCB
+max_adhesion	cellthis.h	/^    max_adhesion;$/;"	m	class:cellbeta
+max_affinity	cellthis.cpp	/^double cellOUT::max_affinity=0.;$/;"	m	class:cellOUT	file:
+max_affinity	cellthis.h	/^  static double average_affinity,max_affinity;$/;"	m	class:cellOUT
+max_mutation_bin	cellman.h	/^   static const int max_mutation_bin=30;$/;"	m	class:cellman
+max_n_of_ag_portions	cellthis.h	/^  static const int max_n_of_ag_portions=100;$/;"	m	class:cellCC
+max_n_of_divisions	cellthis.h	/^  static const int max_n_of_divisions=12;$/;"	m	class:cellCB
+max_pro_distance	cellthis.cpp	/^double cellCB::max_pro_distance=0.;$/;"	m	class:cellCB	file:
+max_pro_distance	cellthis.cpp	/^double cellbeta::max_pro_distance=0.;$/;"	m	class:cellbeta	file:
+max_pro_distance	cellthis.h	/^    max_pro_distance,$/;"	m	class:cellCB
+max_pro_distance	cellthis.h	/^    max_pro_distance,$/;"	m	class:cellbeta
+maxprodim	signals.h	/^  long maxprodim;$/;"	m	class:sigs
+mean_affinity	ss.cpp	/^double SS::mean_affinity(double* affinities) {$/;"	f	class:SS
+measure	ss.h	/^   short int measure;$/;"	m	class:SS
+method	cellman.h	/^   ode_method method;$/;"	m	class:cellman
+method	cellthis.h	/^  ode_method method;$/;"	m	class:cellbeta
+metrik	setparam.h	/^      short int metrik;$/;"	m	class:Werte
+mitosis	cellthis.h	/^  short mitosis(const long& i, const long& li, $/;"	f	class:cellCB
+mitosis	cellthis.h	/^  short mitosis(const long& i, const long& li, $/;"	f	class:cellbeta
+mkCXCL12	setparam.h	/^      double mksignal,mkCXCL12,mkCXCL13,mk_SEMA4D;$/;"	m	class:Werte
+mkCXCL13	setparam.h	/^      double mksignal,mkCXCL12,mkCXCL13,mk_SEMA4D;$/;"	m	class:Werte
+mk_SEMA4D	setparam.h	/^      double mksignal,mkCXCL12,mkCXCL13,mk_SEMA4D;$/;"	m	class:Werte
+mk_ab	setparam.h	/^      double mk_ab,pm_differentiation_time;$/;"	m	class:Werte
+mk_beta1file	cellman.cpp	/^void cellman::mk_beta1file(const long& ind, const char filename[30], const int columns) {$/;"	f	class:cellman
+mk_cell_sum	cellman.cpp	/^void cellman::mk_cell_sum(space& l, sigs& s, SS& shape) {$/;"	f	class:cellman
+mk_concentration	signals.h	/^  double mk_concentration;$/;"	m	class:sigs
+mk_const_signal	signals.cpp	/^void sigs::mk_const_signal(const signal_molecule sig_type, double t, double ampl) {$/;"	f	class:sigs
+mk_const_signal	signals.cpp	/^void sigs::mk_const_signal(const signal_molecule sig_type, double& value) {$/;"	f	class:sigs
+mk_grad1d_signal	signals.cpp	/^void sigs::mk_grad1d_signal(const signal_molecule sig_type, $/;"	f	class:sigs
+mk_immune_complex	cellthis.cpp	/^void cellFDC::mk_immune_complex(const double& d_t, double* antibodies, int& length,$/;"	f	class:cellFDC
+mk_immune_complex	cellthis.cpp	/^void cellFDC::mk_immune_complex(const double& d_t, sigs& l) {$/;"	f	class:cellFDC
+mk_immune_complex	cellthis.cpp	/^void cellFDC::mk_immune_complex(sigs& l) {$/;"	f	class:cellFDC
+mk_single_beta_files	cellman.cpp	/^void cellman::mk_single_beta_files(space& l) {$/;"	f	class:cellman
+mksignal	setparam.h	/^      double mksignal,mkCXCL12,mkCXCL13,mk_SEMA4D;$/;"	m	class:Werte
+mobile	cellthis.h	/^  short selectable,mobile;$/;"	m	class:cellCC
+molecules	grid.h	/^enum grid_types{cellspace,molecules,alltypes};$/;"	e	enum:grid_types
+mother_index	rainbow.h	/^    long mother_index;$/;"	m	struct:rainbow::rainbow_data
+move	cellthis.cpp	/^double cellCB::move(const long& li, space& l, sigs& s, TRACK& td, double& time) { $/;"	f	class:cellCB
+move	cellthis.cpp	/^double cellbeta::move(const long& li, space& l, sigs& s, TRACK& td, double& time) { $/;"	f	class:cellbeta
+move	cellthis.cpp	/^short cellCC::move(const long& li, space& l, sigs& s, TRACK& td, double& time) {$/;"	f	class:cellCC
+move	cellthis.cpp	/^short cellOUT::move(const long& li, space& l, sigs& s, TRACK& td, double& time) { $/;"	f	class:cellOUT
+move	cellthis.cpp	/^short cellTC::move(const long& li, space& l, sigs& s, TRACK& td, double& time) {$/;"	f	class:cellTC
+move_vdt	cellman.h	/^   ofstream move_vdt;$/;"	m	class:cellman
+movement	track.h	/^enum action_types{trackini,movement,polarisation,fdcdetachment,deathORend};$/;"	e	enum:action_types
+movement_list	track.h	/^  dynarray<track_data>* movement_list;$/;"	m	class:TRACK
+movements	cellman.h	/^   ofstream movements;$/;"	m	class:cellman
+movie	cellman.h	/^   ofstream movie;$/;"	m	class:cellman
+mutate	cellthis.h	/^  short mutate(SS& shape)$/;"	f	class:cellCB
+mutation	cellman.h	/^   ofstream mutation;$/;"	m	class:cellman
+mutation	setparam.h	/^	mutation,mutation_after_tc,mutation_after_dec_tc,mutation_affinity_exponent,$/;"	m	class:Werte
+mutation_affinity_exponent	setparam.h	/^	mutation,mutation_after_tc,mutation_after_dec_tc,mutation_affinity_exponent,$/;"	m	class:Werte
+mutation_after_dec_tc	setparam.h	/^	mutation,mutation_after_tc,mutation_after_dec_tc,mutation_affinity_exponent,$/;"	m	class:Werte
+mutation_after_tc	setparam.h	/^	mutation,mutation_after_tc,mutation_after_dec_tc,mutation_affinity_exponent,$/;"	m	class:Werte
+mutation_bins	cellthis.h	/^  static const int mutation_bins=20;$/;"	m	class:cellCB
+mutation_frequency	cellman.cpp	/^int cellman::mutation_frequency[max_mutation_bin]={ 0 };$/;"	m	class:cellman	file:
+mutation_frequency	cellman.h	/^   static int mutation_frequency[max_mutation_bin]; \/\/ write this to file in write_final(..)$/;"	m	class:cellman
+mutation_start_time	cellman.cpp	/^double cellman::mutation_start_time=0.;$/;"	m	class:cellman	file:
+mutation_start_time	cellman.h	/^   static double mutation_start_time;$/;"	m	class:cellman
+mutation_time	cellman.h	/^   ofstream mutation_time;$/;"	m	class:cellman
+n2_NaK	setparam.h	/^	Ihat_NaK,   H_NaK,     n_NaK,     H2_NaK,    n2_NaK,     alpha_NaK,$/;"	m	class:betaWerte
+nFDCcontacts	cellthis.h	/^  int nFDCcontacts;$/;"	m	class:cellCC
+nIg_classes	setparam.h	/^enum Ig_classes{IgM,IgG,IgE,IgA,nIg_classes};$/;"	e	enum:Ig_classes
+n_Antigen	ss.h	/^   int n_Antigen;$/;"	m	class:SS
+n_CC_nn	cellthis.h	/^  short n_CC_nn;$/;"	m	class:cellTC
+n_Ca_L	setparam.h	/^	            lambda_Ca_L,C_Ca_L,    n_Ca_L,$/;"	m	class:betaWerte
+n_IP3_act	setparam.h	/^	g_IP3_max,  gbar_IP3,  C_IP3_act,    n_IP3_act, tau_IP3,$/;"	m	class:betaWerte
+n_IP3_inh	setparam.h	/^	                       Cbar_IP3_inh, n_IP3_inh, theta_IP3,$/;"	m	class:betaWerte
+n_K_Ca	setparam.h	/^	gbar_K_Ca,  H_K_Ca,    n_K_Ca,    V_h_K_Ca,  kappa_K_Ca, tau_K_Ca,$/;"	m	class:betaWerte
+n_NCX	setparam.h	/^	Ihat_NCX,   H_NCX,     n_NCX,      alpha_NCX,$/;"	m	class:betaWerte
+n_NaK	setparam.h	/^	Ihat_NaK,   H_NaK,     n_NaK,     H2_NaK,    n2_NaK,     alpha_NaK,$/;"	m	class:betaWerte
+n_P	setparam.h	/^	k_IP3_plus,k_IP3_minus,C_P,n_P,$/;"	m	class:betaWerte
+n_PMCA	setparam.h	/^	Ihat_PMCA,  H_PMCA,    n_PMCA,     alpha_PMCA,$/;"	m	class:betaWerte
+n_SERCA	setparam.h	/^	Ihat_SERCA, H_SERCA, n_SERCA,$/;"	m	class:betaWerte
+n_Seeder	ss.h	/^   int n_Seeder;$/;"	m	class:SS
+n_cell	ss.h	/^   double n_cell[number];$/;"	m	class:SSpoint
+n_chi2_values	kinetics.h	/^  int n_chi2_values;$/;"	m	class:GCkinetics
+n_directed_moves	cell.h	/^  long n_directed_moves;$/;"	m	class:frag_cell
+n_divisions2do	cellthis.h	/^  int n_divisions2do;$/;"	m	class:cellCB
+n_fdc_encounters	cell.h	/^  int n_recycling, n_mutation, n_recandmute,n_fdc_encounters;$/;"	m	class:cell
+n_immobile	cell.h	/^  int n_immobile;$/;"	m	class:cell
+n_moves	cell.h	/^  long n_moves;$/;"	m	class:frag_cell
+n_mutation	cell.h	/^  int n_recycling, n_mutation, n_recandmute,n_fdc_encounters;$/;"	m	class:cell
+n_muts	cellman.h	/^   long int n_outs,n_outs_with_recycling,n_muts,n_recmuts;$/;"	m	class:cellman
+n_outs	cellman.h	/^   long int n_outs,n_outs_with_recycling,n_muts,n_recmuts;$/;"	m	class:cellman
+n_outs_with_recycling	cellman.h	/^   long int n_outs,n_outs_with_recycling,n_muts,n_recmuts;$/;"	m	class:cellman
+n_recandmute	cell.h	/^  int n_recycling, n_mutation, n_recandmute,n_fdc_encounters;$/;"	m	class:cell
+n_recmuts	cellman.h	/^   long int n_outs,n_outs_with_recycling,n_muts,n_recmuts;$/;"	m	class:cellman
+n_recycling	cell.h	/^  int n_recycling, n_mutation, n_recandmute,n_fdc_encounters;$/;"	m	class:cell
+n_recycling_events	cellman.h	/^   long int n_recycling_events,n_recycling_events_last;$/;"	m	class:cellman
+n_recycling_events_last	cellman.h	/^   long int n_recycling_events,n_recycling_events_last;$/;"	m	class:cellman
+n_v_states	cellthis.cpp	/^short cellCB::n_v_states=1;$/;"	m	class:cellCB	file:
+n_v_states	cellthis.cpp	/^short cellCC::n_v_states=1;$/;"	m	class:cellCC	file:
+n_v_states	cellthis.cpp	/^short cellOUT::n_v_states=1;$/;"	m	class:cellOUT	file:
+n_v_states	cellthis.cpp	/^short cellbeta::n_v_states=1;$/;"	m	class:cellbeta	file:
+n_v_states	cellthis.h	/^  static short v_modi,n_v_states,apoptotic_motility_mode;$/;"	m	class:cellCC
+n_v_states	cellthis.h	/^  static short v_modi,n_v_states;$/;"	m	class:cellCB
+n_v_states	cellthis.h	/^  static short v_modi,n_v_states;$/;"	m	class:cellOUT
+n_v_states	cellthis.h	/^  static short v_modi,n_v_states;$/;"	m	class:cellbeta
+n_vol_max	kinetics.h	/^  static const int n_vol_max=20;$/;"	m	class:GCkinetics
+n_vol_values	kinetics.h	/^  int n_vol_values;$/;"	m	class:GCkinetics
+n_write	cellthis.cpp	/^long cellbeta::n_write;$/;"	m	class:cellbeta	file:
+n_write	cellthis.h	/^  static long n_write;$/;"	m	class:cellbeta
+name	setparam.h	/^  char name[namelength];$/;"	m	class:Parameter
+namelength	setparam.h	/^  static const short namelength=50;$/;"	m	class:Parameter
+namesuffix	setparam.h	/^  char namesuffix[namelength];$/;"	m	class:Parameter
+narrow_neck	cell.cpp	/^short frag_cell::narrow_neck(const long& source, long& target,$/;"	f	class:frag_cell
+ndivtime	cellman.h	/^   ofstream ndivtime;$/;"	m	class:cellman
+near_n	gridpoint.h	/^   long int near_n[6];$/;"	m	class:gridpoint
+necrotic	cell.h	/^enum cell_status{proliferate,quiescent,necrotic};$/;"	e	enum:cell_status
+negativeTCselection	cellthis.cpp	/^bool cellCC::negativeTCselection=true;$/;"	m	class:cellCC	file:
+negativeTCselection	cellthis.h	/^  static bool negativeTCselection;$/;"	m	class:cellCC
+negativeTCselection	setparam.h	/^      bool negativeTCselection;$/;"	m	class:Werte
+next_border	space.cpp	/^long space::next_border(const long& i) {$/;"	f	class:space
+nhess	track.cpp	/^double TRACK::nhess[3]={0,0,0};$/;"	m	class:TRACK	file:
+nhess	track.h	/^  static double nhess[3];$/;"	m	class:TRACK
+nn	grid.h	/^   short * nn;$/;"	m	class:grid
+nn	ss.h	/^   long* nn;$/;"	m	class:SSpoint
+nn_permuts	grid.h	/^   pre_randomize nn_permuts;$/;"	m	class:grid
+no_border	grid.cpp	/^short grid::no_border(const long& i) {$/;"	f	class:grid
+no_external	grid.cpp	/^short grid::no_external(const long& i) {$/;"	f	class:grid
+nocell	space.h	/^  nocell,$/;"	e	enum:states
+none	cellthis.h	/^enum FDCstates {none,soma,dendrite};$/;"	e	enum:FDCstates
+norm	cellman.h	/^   short int norm;$/;"	m	class:cellman
+north_weight	cell.cpp	/^double cell::north_weight=0.;$/;"	m	class:cell	file:
+north_weight	cell.h	/^  static double north_weight;$/;"	m	class:cell
+north_weight	setparam.h	/^      double north_weight;  \/\/ tendency "a" to walk north: p=(1-a)r+an with r: random, n: north$/;"	m	class:Werte
+nothing	gridpoint.h	/^enum grid_states{nothing,object,object_border,external,N_grid_states};$/;"	e	enum:grid_states
+ntmp	setparam.h	/^  char ntmp[namelength];$/;"	m	class:Parameter
+number	ss.h	/^	    number}; \/\/ Zahl der Zelltypen$/;"	e	enum:cells
+object	gridpoint.h	/^enum grid_states{nothing,object,object_border,external,N_grid_states};$/;"	e	enum:grid_states
+object_border	gridpoint.h	/^enum grid_states{nothing,object,object_border,external,N_grid_states};$/;"	e	enum:grid_states
+object_border	space.cpp	/^short space::object_border(const long& i) {$/;"	f	class:space
+objects_transparent	setparam.h	/^      short objects_transparent;$/;"	m	class:Werte
+obstacles	setparam.h	/^      short obstacles;$/;"	m	class:Werte
+ode	ode.h	/^  ode() { dydt = new double[10]; };$/;"	f	class:ode
+ode	ode.h	/^  ode(const int& N) { dydt = new double[N]; };$/;"	f	class:ode
+ode	ode.h	/^class ode {$/;"	c
+ode_method	ode.h	/^enum ode_method{Euler,RungeKutta_2nd,RungeKutta_4th,all_ode_methods};$/;"	g
+ode_step	ode.cpp	/^void ode::ode_step(double* y_n, $/;"	f	class:ode
+ode_step	odelist.cpp	/^void odelist::ode_step(double* y_n, $/;"	f	class:odelist
+odelist	odelist.h	/^  odelist() { dydt = new double[10]; };$/;"	f	class:odelist
+odelist	odelist.h	/^  odelist(const int& N) { dydt = new double[N]; };$/;"	f	class:odelist
+odelist	odelist.h	/^class odelist {$/;"	c
+oldsum_cell	ss.h	/^   double oldsum_cell[number];$/;"	m	class:SS
+open_files	cellthis.cpp	/^void cellbeta::open_files() {$/;"	f	class:cellbeta
+operator !=	cell.cpp	/^char operator!=(const cell& a, const cell& b) {$/;"	f
+operator !=	cellthis.cpp	/^char operator!=(const cellCB& a, const cellCB& b) {$/;"	f
+operator !=	gridpoint.cpp	/^char operator!=(const gridpoint& a, const gridpoint& b) {$/;"	f
+operator !=	signals.cpp	/^char operator!=(const spoint& a, const spoint& b) {$/;"	f
+operator !=	space.cpp	/^char operator!=(const spacepoint& a, const spacepoint& b) {$/;"	f
+operator !=	ss.cpp	/^char operator!=(const SSpoint& a, const SSpoint& b) {$/;"	f
+operator =	cell.cpp	/^cell& cell::operator=(const cell& x) {$/;"	f	class:cell
+operator =	cell.cpp	/^frag_cell& frag_cell::operator=(const frag_cell& x) {$/;"	f	class:frag_cell
+operator =	cellthis.cpp	/^cellCB& cellCB::operator=(const cellCB& x) {$/;"	f	class:cellCB
+operator =	cellthis.cpp	/^cellCB& cellCB::operator=(const cellCC& x) {$/;"	f	class:cellCB
+operator =	cellthis.cpp	/^cellCC& cellCC::operator=(const cellCB& x) {$/;"	f	class:cellCC
+operator =	cellthis.cpp	/^cellCC& cellCC::operator=(const cellCC& x) {$/;"	f	class:cellCC
+operator =	cellthis.cpp	/^cellFDC& cellFDC::operator=(const cellFDC& x) {$/;"	f	class:cellFDC
+operator =	cellthis.cpp	/^cellOUT& cellOUT::operator=(const cellCB& x) $/;"	f	class:cellOUT
+operator =	cellthis.cpp	/^cellOUT& cellOUT::operator=(const cellCC& x) $/;"	f	class:cellOUT
+operator =	cellthis.cpp	/^cellOUT& cellOUT::operator=(const cellOUT& x) {$/;"	f	class:cellOUT
+operator =	cellthis.cpp	/^cellTC& cellTC::operator=(const cellTC& x) {$/;"	f	class:cellTC
+operator =	cellthis.cpp	/^cellbeta& cellbeta::operator=(const cellbeta& x) {$/;"	f	class:cellbeta
+operator =	dynarray.h	/^dynarray<vartyp>& dynarray<vartyp>::operator=(dynarray<vartyp>& x) {$/;"	f	class:dynarray
+operator ==	cell.cpp	/^char operator==(const cell& a, const cell& b) {$/;"	f
+operator ==	cellthis.cpp	/^char operator==(const cellCB& a, const cellCB& b) {$/;"	f
+operator ==	gridpoint.cpp	/^char operator==(const gridpoint& a, const gridpoint& b) {$/;"	f
+operator ==	signals.cpp	/^char operator==(const spoint& a, const spoint& b) {$/;"	f
+operator ==	space.cpp	/^char operator==(const spacepoint& a, const spacepoint& b) {$/;"	f
+operator ==	ss.cpp	/^char operator==(const SSpoint& a, const SSpoint& b) {$/;"	f
+operator []	dynarray.h	/^vartyp& dynarray<vartyp>::operator[](long int i) {$/;"	f	class:dynarray
+out	random.h	/^    ofstream out;$/;"	m	class:pre_randomize
+out	space.h	/^  out,$/;"	e	enum:states
+out_sphere	grid.cpp	/^void grid::out_sphere() {   $/;"	f	class:grid
+output	setparam.h	/^      double TCell,output,output_DEC,FDCsignalling;$/;"	m	class:Werte
+output_DEC	setparam.h	/^      double TCell,output,output_DEC,FDCsignalling;$/;"	m	class:Werte
+outputfiles	cellman.h	/^   short int outputfiles;$/;"	m	class:cellman
+outputfiles	setparam.h	/^      short system,outputfiles,timevalues,show_Ki67,safety_checks;$/;"	m	class:Werte
+overcritical_signal	signals.cpp	/^bool sigs::overcritical_signal(const long& index, const signal_molecule& s, const double& crit) {$/;"	f	class:sigs
+oxygen	signals.h	/^  oxygen,$/;"	e	enum:signal_molecule
+p	cellthis.cpp	/^betaWerte cellbeta::p;$/;"	m	class:cellbeta	file:
+p	cellthis.h	/^  static betaWerte p;$/;"	m	class:cellbeta
+pMHC_dependent_K	cellthis.cpp	/^double cellCC::pMHC_dependent_K=8.0;$/;"	m	class:cellCC	file:
+pMHC_dependent_K	cellthis.h	/^  static double pMHC_dependent_K;$/;"	m	class:cellCC
+pMHC_dependent_K	setparam.h	/^      double pMHC_dependent_P_max, pMHC_dependent_K, pMHC_dependent_nHill, pMHC_dependent_P_min,$/;"	m	class:Werte
+pMHC_dependent_P_max	cellthis.cpp	/^double cellCC::pMHC_dependent_P_max=6.0;$/;"	m	class:cellCC	file:
+pMHC_dependent_P_max	cellthis.h	/^  static double pMHC_dependent_P_max;$/;"	m	class:cellCC
+pMHC_dependent_P_max	setparam.h	/^      double pMHC_dependent_P_max, pMHC_dependent_K, pMHC_dependent_nHill, pMHC_dependent_P_min,$/;"	m	class:Werte
+pMHC_dependent_P_min	cellthis.cpp	/^double cellCC::pMHC_dependent_P_min=1.0;$/;"	m	class:cellCC	file:
+pMHC_dependent_P_min	cellthis.h	/^  static double pMHC_dependent_P_min;$/;"	m	class:cellCC
+pMHC_dependent_P_min	setparam.h	/^      double pMHC_dependent_P_max, pMHC_dependent_K, pMHC_dependent_nHill, pMHC_dependent_P_min,$/;"	m	class:Werte
+pMHC_dependent_P_standard	cellthis.cpp	/^double cellCC::pMHC_dependent_P_standard=2.0;$/;"	m	class:cellCC	file:
+pMHC_dependent_P_standard	cellthis.h	/^  static double pMHC_dependent_P_standard;$/;"	m	class:cellCC
+pMHC_dependent_P_standard	setparam.h	/^	pMHC_dependent_P_standard, pMHC_dependent_pMHC_of_2divisions;$/;"	m	class:Werte
+pMHC_dependent_division	cellthis.cpp	/^bool cellCC::pMHC_dependent_division=false;$/;"	m	class:cellCC	file:
+pMHC_dependent_division	cellthis.h	/^  static bool pMHC_dependent_division;$/;"	m	class:cellCC
+pMHC_dependent_division	setparam.h	/^      bool pMHC_dependent_division;$/;"	m	class:Werte
+pMHC_dependent_nHill	cellthis.cpp	/^double cellCC::pMHC_dependent_nHill=1.0;$/;"	m	class:cellCC	file:
+pMHC_dependent_nHill	cellthis.h	/^  static double pMHC_dependent_nHill;$/;"	m	class:cellCC
+pMHC_dependent_nHill	setparam.h	/^      double pMHC_dependent_P_max, pMHC_dependent_K, pMHC_dependent_nHill, pMHC_dependent_P_min,$/;"	m	class:Werte
+pMHC_dependent_number_of_divisions	cellthis.h	/^  double pMHC_dependent_number_of_divisions;$/;"	m	class:cellCC
+pMHC_dependent_pMHC_of_2divisions	cellthis.cpp	/^double cellCC::pMHC_dependent_pMHC_of_2divisions=2.0;$/;"	m	class:cellCC	file:
+pMHC_dependent_pMHC_of_2divisions	cellthis.h	/^  static double pMHC_dependent_pMHC_of_2divisions;$/;"	m	class:cellCC
+pMHC_dependent_pMHC_of_2divisions	setparam.h	/^	pMHC_dependent_P_standard, pMHC_dependent_pMHC_of_2divisions;$/;"	m	class:Werte
+p_CB2OUT	cellman.h	/^     TC_factor_dec205ova,DEC205_forces_output,p_CB2OUT;$/;"	m	class:cellman
+p_CXCR4down	cellthis.cpp	/^double cellCB::p_CXCR4down=0.;$/;"	m	class:cellCB	file:
+p_CXCR4down	cellthis.h	/^  static double p_pro,delta_p_pro,average_seeder_affinity,p_CXCR4down;$/;"	m	class:cellCB
+p_CXCR5down	cellthis.cpp	/^double cellCC::p_CXCR5down=0.;$/;"	m	class:cellCC	file:
+p_CXCR5down	cellthis.h	/^  static double p_CXCR5down;$/;"	m	class:cellCC
+p_DEC205	cellman.h	/^   double def_DEC205_t0,inject_antiDEC205OVA_t0,p_DEC205,DEC205_ova_activity,$/;"	m	class:cellman
+p_DEC205	setparam.h	/^      double def_DEC205_t0,inject_antiDEC205OVA_t0,antiDEC205OVA_tend,p_DEC205,$/;"	m	class:Werte
+p_FDCsignalling	cellthis.cpp	/^double cellCC::p_FDCsignalling=1.;$/;"	m	class:cellCC	file:
+p_FDCsignalling	cellthis.h	/^    p_FDCsignalling,$/;"	m	class:cellCC
+p_apo	cellthis.cpp	/^double cellCC::p_apo=0.;$/;"	m	class:cellCC	file:
+p_apo	cellthis.h	/^    p_apo,$/;"	m	class:cellCC
+p_apo4FDCselected	cellthis.cpp	/^double cellCC::p_apo4FDCselected=0.;$/;"	m	class:cellCC	file:
+p_apo4FDCselected	cellthis.h	/^    p_apo4FDCselected,$/;"	m	class:cellCC
+p_apo_randomwalk	cellthis.cpp	/^double cellCC::p_apo_randomwalk=0.0;$/;"	m	class:cellCC	file:
+p_apo_randomwalk	cellthis.h	/^  static double p_apo_randomwalk;$/;"	m	class:cellCC
+p_apo_randomwalk	setparam.h	/^      double p_apo_randomwalk;$/;"	m	class:Werte
+p_dif	cellthis.cpp	/^double cellCB::p_dif=0.;$/;"	m	class:cellCB	file:
+p_dif	cellthis.cpp	/^double cellCC::p_dif=0.;$/;"	m	class:cellCC	file:
+p_dif	cellthis.h	/^    p_dif,$/;"	m	class:cellCB
+p_dif	cellthis.h	/^    p_dif,$/;"	m	class:cellCC
+p_dif2out	cellthis.cpp	/^double cellCC::p_dif2out=0.;$/;"	m	class:cellCC	file:
+p_dif2out	cellthis.h	/^    p_dif2out,$/;"	m	class:cellCC
+p_dif2out_DEC	cellthis.cpp	/^double cellCC::p_dif2out_DEC=0.;$/;"	m	class:cellCC	file:
+p_dif2out_DEC	cellthis.h	/^    p_dif2out_DEC,$/;"	m	class:cellCC
+p_dif2out_DEC_target	cellthis.cpp	/^double cellCC::p_dif2out_DEC_target=0.;$/;"	m	class:cellCC	file:
+p_dif2out_DEC_target	cellthis.h	/^    p_dif2out_DEC_target,$/;"	m	class:cellCC
+p_dif2out_target	cellthis.cpp	/^double cellCC::p_dif2out_target=0.;$/;"	m	class:cellCC	file:
+p_dif2out_target	cellthis.h	/^    p_dif2out_target,$/;"	m	class:cellCC
+p_dif_target	cellthis.cpp	/^double cellCB::p_dif_target=0.;$/;"	m	class:cellCB	file:
+p_dif_target	cellthis.h	/^    p_dif_target,$/;"	m	class:cellCB
+p_diffuse_signal	signals.h	/^  double p_diffuse_signal[signals];$/;"	m	class:sigs
+p_difu	cellthis.cpp	/^double cellCB::p_difu=0.;$/;"	m	class:cellCB	file:
+p_difu	cellthis.cpp	/^double cellCC::p_difu=0.;$/;"	m	class:cellCC	file:
+p_difu	cellthis.cpp	/^double cellOUT::p_difu=0.;$/;"	m	class:cellOUT	file:
+p_difu	cellthis.cpp	/^double cellTC::p_difu=0.;$/;"	m	class:cellTC	file:
+p_difu	cellthis.cpp	/^double cellbeta::p_difu=0.;$/;"	m	class:cellbeta	file:
+p_difu	cellthis.h	/^    p_difu,$/;"	m	class:cellCB
+p_difu	cellthis.h	/^    p_difu,$/;"	m	class:cellCC
+p_difu	cellthis.h	/^    p_difu,$/;"	m	class:cellOUT
+p_difu	cellthis.h	/^    p_difu,$/;"	m	class:cellTC
+p_difu	cellthis.h	/^    p_difu,$/;"	m	class:cellbeta
+p_final_differentiation	cellthis.cpp	/^double cellCC::p_final_differentiation=-1.;$/;"	m	class:cellCC	file:
+p_final_differentiation	cellthis.h	/^    p_final_differentiation,$/;"	m	class:cellCC
+p_grow	cellthis.cpp	/^double cellCB::p_grow=0.;$/;"	m	class:cellCB	file:
+p_grow	cellthis.cpp	/^double cellbeta::p_grow=0.;$/;"	m	class:cellbeta	file:
+p_grow	cellthis.h	/^    p_grow,$/;"	m	class:cellCB
+p_grow	cellthis.h	/^    p_grow,$/;"	m	class:cellbeta
+p_macrophage	cellman.h	/^   double p_macrophage;$/;"	m	class:cellman
+p_macrophage	setparam.h	/^      double p_macrophage;$/;"	m	class:Werte
+p_macrophage_BETA	cellman.h	/^   double p_macrophage_BETA;$/;"	m	class:cellman
+p_mkCXCL12	cellman.h	/^   double p_mkCXCL12;$/;"	m	class:cellman
+p_mkCXCL13	cellthis.cpp	/^double cellFDC::p_mkCXCL13=0.;$/;"	m	class:cellFDC	file:
+p_mkCXCL13	cellthis.h	/^  static double p_mksignal,p_mkCXCL13,p_mkSEMA4D;$/;"	m	class:cellFDC
+p_mkSEMA4D	cellthis.cpp	/^double cellFDC::p_mkSEMA4D=0.;$/;"	m	class:cellFDC	file:
+p_mkSEMA4D	cellthis.h	/^  static double p_mksignal,p_mkCXCL13,p_mkSEMA4D;$/;"	m	class:cellFDC
+p_mk_ab	cellthis.cpp	/^double cellOUT::p_mk_ab=0.;$/;"	m	class:cellOUT	file:
+p_mk_ab	cellthis.h	/^  static double p_mk_ab;$/;"	m	class:cellOUT
+p_mksignal	cellthis.cpp	/^double cellFDC::p_mksignal=0.;$/;"	m	class:cellFDC	file:
+p_mksignal	cellthis.h	/^  static double p_mksignal,p_mkCXCL13,p_mkSEMA4D;$/;"	m	class:cellFDC
+p_mph	cellthis.cpp	/^double cellCC::p_mph=0.;$/;"	m	class:cellCC	file:
+p_mph	cellthis.h	/^    p_mph,$/;"	m	class:cellCC
+p_mut	cellthis.cpp	/^double cellCB::p_mut=0.;$/;"	m	class:cellCB	file:
+p_mut	cellthis.h	/^    p_mut,$/;"	m	class:cellCB
+p_mut_affinity_dependent	cellthis.cpp	/^bool cellCB::p_mut_affinity_dependent=false;$/;"	m	class:cellCB	file:
+p_mut_affinity_dependent	cellthis.h	/^  static bool p_mut_affinity_dependent;$/;"	m	class:cellCB
+p_mut_affinity_exponent	cellthis.cpp	/^double cellCB::p_mut_affinity_exponent=0.;$/;"	m	class:cellCB	file:
+p_mut_affinity_exponent	cellthis.h	/^    p_mut_affinity_exponent,$/;"	m	class:cellCB
+p_mut_after_dec_selection	cellthis.cpp	/^double cellCB::p_mut_after_dec_selection=0.;$/;"	m	class:cellCB	file:
+p_mut_after_dec_selection	cellthis.h	/^    p_mut_after_dec_selection,$/;"	m	class:cellCB
+p_mut_after_selection	cellthis.cpp	/^double cellCB::p_mut_after_selection=0.;$/;"	m	class:cellCB	file:
+p_mut_after_selection	cellthis.h	/^    p_mut_after_selection,$/;"	m	class:cellCB
+p_mutation	cell.h	/^  double p_mutation;$/;"	m	class:cell
+p_pro	cellthis.cpp	/^double cellCB::p_pro=0.;$/;"	m	class:cellCB	file:
+p_pro	cellthis.cpp	/^double cellbeta::p_pro=0.;$/;"	m	class:cellbeta	file:
+p_pro	cellthis.h	/^  static double p_pro,delta_p_pro,average_seeder_affinity,p_CXCR4down;$/;"	m	class:cellCB
+p_pro	cellthis.h	/^  static double p_pro;$/;"	m	class:cellbeta
+p_sel	cellthis.cpp	/^double cellCC::p_sel=0.;$/;"	m	class:cellCC	file:
+p_sel	cellthis.h	/^    p_sel,$/;"	m	class:cellCC
+p_shrink	cellthis.cpp	/^double cellCB::p_shrink=0.;$/;"	m	class:cellCB	file:
+p_shrink	cellthis.cpp	/^double cellbeta::p_shrink=0.;$/;"	m	class:cellbeta	file:
+p_shrink	cellthis.h	/^    p_shrink,$/;"	m	class:cellCB
+p_shrink	cellthis.h	/^    p_shrink,$/;"	m	class:cellbeta
+p_switch_v	cellthis.cpp	/^double cellCB::p_switch_v=0.0;$/;"	m	class:cellCB	file:
+p_switch_v	cellthis.cpp	/^double cellCC::p_switch_v=0.0;$/;"	m	class:cellCC	file:
+p_switch_v	cellthis.cpp	/^double cellOUT::p_switch_v=0.0;$/;"	m	class:cellOUT	file:
+p_switch_v	cellthis.cpp	/^double cellbeta::p_switch_v=0.0;$/;"	m	class:cellbeta	file:
+p_switch_v	cellthis.h	/^    p_switch_v,$/;"	m	class:cellCB
+p_switch_v	cellthis.h	/^    p_switch_v,$/;"	m	class:cellbeta
+p_switch_v	cellthis.h	/^    p_switch_v;$/;"	m	class:cellCC
+p_switch_v	cellthis.h	/^    p_switch_v;$/;"	m	class:cellOUT
+p_tension	cellthis.cpp	/^double cellCB::p_tension=0.;$/;"	m	class:cellCB	file:
+p_tension	cellthis.cpp	/^double cellbeta::p_tension=0.;$/;"	m	class:cellbeta	file:
+p_tension	cellthis.h	/^    p_tension,$/;"	m	class:cellCB
+p_tension	cellthis.h	/^    p_tension,$/;"	m	class:cellbeta
+performed2aimed_move	cell.h	/^  double performed2aimed_move,performed2aimed_move_now;$/;"	m	class:frag_cell
+performed2aimed_move_now	cell.h	/^  double performed2aimed_move,performed2aimed_move_now;$/;"	m	class:frag_cell
+permut	random.h	/^    long permut;$/;"	m	class:pre_randomize
+persistence	cellthis.cpp	/^double cellCB::persistence=0.0;$/;"	m	class:cellCB	file:
+persistence	cellthis.cpp	/^double cellCC::persistence=0.;$/;"	m	class:cellCC	file:
+persistence	cellthis.cpp	/^double cellOUT::persistence=0.;$/;"	m	class:cellOUT	file:
+persistence	cellthis.cpp	/^double cellTC::persistence=0.0;$/;"	m	class:cellTC	file:
+persistence	cellthis.cpp	/^double cellbeta::persistence=0.0;$/;"	m	class:cellbeta	file:
+persistence	cellthis.h	/^    persistence,$/;"	m	class:cellCB
+persistence	cellthis.h	/^    persistence,$/;"	m	class:cellCC
+persistence	cellthis.h	/^    persistence,$/;"	m	class:cellOUT
+persistence	cellthis.h	/^    persistence,$/;"	m	class:cellbeta
+persistence	cellthis.h	/^    persistence;$/;"	m	class:cellTC
+phase_number	cellthis.h	/^  static const short phase_number=5;$/;"	m	class:cellCB
+photoactivation	cellman.h	/^   bool photoactivation;$/;"	m	class:cellman
+photoactivation	setparam.h	/^      bool photoactivation;$/;"	m	class:Werte
+photoactivation_delta_x	setparam.h	/^	photoactivation_delta_x,photoactivation_delta_y,photoactivation_delta_z;$/;"	m	class:Werte
+photoactivation_delta_y	setparam.h	/^	photoactivation_delta_x,photoactivation_delta_y,photoactivation_delta_z;$/;"	m	class:Werte
+photoactivation_delta_z	setparam.h	/^	photoactivation_delta_x,photoactivation_delta_y,photoactivation_delta_z;$/;"	m	class:Werte
+photoactivation_rmax	cellman.h	/^   long * photoactivation_rmin, * photoactivation_rmax;$/;"	m	class:cellman
+photoactivation_rmin	cellman.h	/^   long * photoactivation_rmin, * photoactivation_rmax;$/;"	m	class:cellman
+photoactivation_t0	cellman.h	/^   double photoactivation_t0;$/;"	m	class:cellman
+photoactivation_t0	setparam.h	/^      double photoactivation_t0,$/;"	m	class:Werte
+photoactivation_x0	setparam.h	/^	photoactivation_x0,photoactivation_y0,photoactivation_z0,$/;"	m	class:Werte
+photoactivation_y0	setparam.h	/^	photoactivation_x0,photoactivation_y0,photoactivation_z0,$/;"	m	class:Werte
+photoactivation_z0	setparam.h	/^	photoactivation_x0,photoactivation_y0,photoactivation_z0,$/;"	m	class:Werte
+pi	cellthis.h	/^  static const double pi = 3.141592654; $/;"	m	class:cellbeta
+pi	grid.h	/^   static const double pi = 3.141592654;$/;"	m	class:grid
+pm_differentiation_rate	ss.h	/^   double pm_differentiation_rate;$/;"	m	class:SS
+pm_differentiation_time	setparam.h	/^      double mk_ab,pm_differentiation_time;$/;"	m	class:Werte
+point_project	grid.cpp	/^long grid::point_project(long& which, const double& dq, const int* nq) {$/;"	f	class:grid
+pointnumber	grid.h	/^   long pointnumber;$/;"	m	class:grid
+poisson	setparam.h	/^      enum random_laws{equal,poisson,gauss,N_random_laws};$/;"	e	enum:betaWerte::random_laws
+pol	track.h	/^    double pol[3];$/;"	m	struct:TRACK::track_data
+polarisation	track.h	/^enum action_types{trackini,movement,polarisation,fdcdetachment,deathORend};$/;"	e	enum:action_types
+polarities	cellman.h	/^   ofstream polarities;$/;"	m	class:cellman
+polarity	cell.h	/^  double polarity[3];$/;"	m	class:cell
+posCB	setparam.h	/^      dynarray<long int> posCB;$/;"	m	class:Werte
+posFDC	setparam.h	/^      dynarray<long int> posFDC;$/;"	m	class:Werte
+pos_blast2	setparam.h	/^      dynarray<long int> pos_blast2;$/;"	m	class:Werte
+pos_ss	cell.h	/^  long int pos_ss;$/;"	m	class:cell
+pp	cellman.h	/^   long pp[4];$/;"	m	class:cellman
+pre_randomize	random.cpp	/^pre_randomize::pre_randomize() {$/;"	f	class:pre_randomize
+pre_randomize	random.cpp	/^pre_randomize::pre_randomize(short dim2) {$/;"	f	class:pre_randomize
+pre_randomize	random.h	/^class pre_randomize {$/;"	c
+preload_CB_with_ag	cellman.cpp	/^void cellman::preload_CB_with_ag(const double& agmean) {$/;"	f	class:cellman
+pressure	cell.h	/^  double pressure;$/;"	m	class:cell
+prhs	cellman.h	/^   void (*prhs)(double, double*, double*, dynarray<cellbeta>&, space&); \/\/ Pointer on rhs(...)$/;"	m	class:cellman
+prhs	cellthis.h	/^  void (*prhs)(double, double*, double*); \/\/ Pointer on rhs(...)$/;"	m	class:cellbeta
+process_antigen	cellthis.cpp	/^void cellCC::process_antigen() {$/;"	f	class:cellCC
+prodim2	grid.h	/^   int prodim2;$/;"	m	class:grid
+prodimvec	grid.h	/^   int prodimvec[3];$/;"	m	class:grid
+produce_antibodies_outside	ss.cpp	/^void SS::produce_antibodies_outside(double* antibodies, int& antibodies_resolution, $/;"	f	class:SS
+progress_cycle_phase	cellthis.cpp	/^centroblasts cellCB::progress_cycle_phase() {$/;"	f	class:cellCB
+progress_selection_state	cellthis.cpp	/^void cellCC::progress_selection_state(SS& shape) {$/;"	f	class:cellCC
+proliferate	cell.h	/^enum cell_status{proliferate,quiescent,necrotic};$/;"	e	enum:cell_status
+proliferate	setparam.h	/^	proliferate,   \/\/ Rate per hr$/;"	m	class:Werte
+proliferate_BETA	cellman.cpp	/^short cellman::proliferate_BETA(long i, long li, space& l) {$/;"	f	class:cellman
+proliferate_CB	cellman.cpp	/^short cellman::proliferate_CB(long i, long li, space& l, SS& shape) {$/;"	f	class:cellman
+prolog	cellman.h	/^   ofstream prolog;$/;"	m	class:cellman
+ptrfield	dynarray.h	/^   vartyp* ptrfield;$/;"	m	class:dynarray
+put_BETA	cellman.cpp	/^long cellman::put_BETA(long i, cellbeta& newBETA, space& l) {$/;"	f	class:cellman
+put_CB	cellman.cpp	/^long cellman::put_CB(long i, cellCB& newCB, space& l, SS& shape) {$/;"	f	class:cellman
+put_CC	cellman.cpp	/^short int cellman::put_CC(long i, cellCC& newCC, space& l, SS& shape) {$/;"	f	class:cellman
+put_FDC	cellman.cpp	/^short int cellman::put_FDC(long i, int armlength,space& l, SS& shape, $/;"	f	class:cellman
+put_TC	cellman.cpp	/^long cellman::put_TC(long i, cellTC& newTC, space& l, SS& shape) {$/;"	f	class:cellman
+quiescent	cell.h	/^enum cell_status{proliferate,quiescent,necrotic};$/;"	e	enum:cell_status
+r	track.h	/^    double r[3];$/;"	m	struct:TRACK::track_data
+radius	cell.h	/^  double radius;$/;"	m	class:frag_cell
+rainbow	rainbow.cpp	/^rainbow::rainbow() {$/;"	f	class:rainbow
+rainbow	rainbow.cpp	/^rainbow::rainbow(double from, double until) {$/;"	f	class:rainbow
+rainbow	rainbow.h	/^class rainbow {$/;"	c
+rainbow_data	rainbow.h	/^  struct rainbow_data {$/;"	s	class:rainbow
+rainbow_index	cell.h	/^  long rainbow_index;$/;"	m	class:cell
+random2_sequence	random.cpp	/^void random2_sequence(long* m, long max) {$/;"	f
+random_laws	setparam.h	/^      enum random_laws{equal,poisson,gauss,N_random_laws};$/;"	g	class:betaWerte
+random_sequence	random.cpp	/^void random_sequence(dynarray<long>& m, long int max) {$/;"	f
+randomisation_range	setparam.h	/^      double randomisation_range;$/;"	m	class:betaWerte
+randomisation_type	setparam.h	/^      random_laws randomisation_type;$/;"	m	class:betaWerte
+randomise_beta_proteins	setparam.h	/^      bool randomise_beta_proteins;$/;"	m	class:betaWerte
+randomise_protein_expression	cellthis.cpp	/^void cellbeta::randomise_protein_expression() {$/;"	f	class:cellbeta
+rb_dim_ini	rainbow.h	/^  long rb_dim_ini;$/;"	m	class:rainbow
+rb_list	rainbow.h	/^  vector<rainbow_data> rb_list;$/;"	m	class:rainbow
+read	dynarray.h	/^template<class vartyp> vartyp& dynarray<vartyp>::read(const long int& wo) {$/;"	f	class:dynarray
+read	setparam.cpp	/^void Parameter::read()$/;"	f	class:Parameter
+read_from_file	rainbow.cpp	/^void rainbow::read_from_file() {$/;"	f	class:rainbow
+receptor_activation	cellthis.cpp	/^double cellCB::receptor_activation=0.0;$/;"	m	class:cellCB	file:
+receptor_activation	cellthis.h	/^    receptor_activation,$/;"	m	class:cellCB
+receptor_binding	cellthis.cpp	/^double cellCB::receptor_binding=0.0;$/;"	m	class:cellCB	file:
+receptor_binding	cellthis.h	/^    receptor_binding,$/;"	m	class:cellCB
+receptor_dissociation	cellthis.cpp	/^double cellCB::receptor_dissociation=0.0;$/;"	m	class:cellCB	file:
+receptor_dissociation	cellthis.h	/^    receptor_dissociation,$/;"	m	class:cellCB
+receptor_ligand	cellthis.h	/^  double receptor_ligand;                \/\/ receptors with ligand bound$/;"	m	class:cellCB
+receptor_use	cellthis.cpp	/^short cellCB::receptor_use=0;$/;"	m	class:cellCB	file:
+receptor_use	cellthis.h	/^  static short receptor_use;$/;"	m	class:cellCB
+receptors	cellthis.cpp	/^double cellCB::receptors=0.0;$/;"	m	class:cellCB	file:
+receptors	cellthis.h	/^    receptors,$/;"	m	class:cellCB
+recover	setparam.cpp	/^void Parameter::recover() {$/;"	f	class:Parameter
+reference	signals.cpp	/^double sigs::reference(long* v, double& t, const signal_molecule& s) {$/;"	f	class:sigs
+rem_cell	ss.cpp	/^void SS::rem_cell(cells typ, long int pos){$/;"	f	class:SS
+representation	setparam.h	/^enum representation{GC,tumour,islet};$/;"	g
+resensitise4CXCL12	cellthis.cpp	/^void cellCB::resensitise4CXCL12(sigs& s) {$/;"	f	class:cellCB
+resensitise4CXCL12	cellthis.cpp	/^void cellCC::resensitise4CXCL12(sigs& s) {$/;"	f	class:cellCC
+resensitise4CXCL13	cellthis.cpp	/^void cellCC::resensitise4CXCL13(sigs& s) {$/;"	f	class:cellCC
+reset_antigen_after_collection	cellthis.cpp	/^int cellCC::reset_antigen_after_collection=-1;$/;"	m	class:cellCC	file:
+reset_antigen_after_collection	cellthis.h	/^  static int reset_antigen_after_collection;$/;"	m	class:cellCC
+reset_antigen_after_collection	setparam.h	/^      int reset_antigen_after_collection;$/;"	m	class:Werte
+reset_clock	cell.cpp	/^void frag_cell::reset_clock(const int& i) {$/;"	f	class:frag_cell
+reset_random_ini	setparam.cpp	/^void Parameter::reset_random_ini(const char* namecommand, int value) {$/;"	f	class:Parameter
+responsive2signal	cell.h	/^  bool responsive2signal[signals];$/;"	m	class:cell
+result	cellthis.h	/^  ofstream result,result2,currents,currents_rho,reversal,gapfile;$/;"	m	class:cellbeta
+result2	cellthis.h	/^  ofstream result,result2,currents,currents_rho,reversal,gapfile;$/;"	m	class:cellbeta
+retain_DEC205_ag	cellman.h	/^   bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_differentiation,retain_DEC205_ag;$/;"	m	class:cellman
+retain_DEC205_ag	setparam.h	/^      bool def_DEC205,inject_antiDEC205OVA,DEC205_induce_CBdifferentiation,retain_DEC205_ag;$/;"	m	class:Werte
+retain_ag	cellman.h	/^   bool retain_ag;$/;"	m	class:cellman
+retain_ag	setparam.h	/^      bool retain_ag,ag_loaded_CB_diff2output,ag_loaded_CC_directly2TFH,$/;"	m	class:Werte
+retained_ag	cellthis.h	/^  double retained_ag;$/;"	m	class:cellCB
+retry_movement	cellman.cpp	/^long cellman::retry_movement(dynarray<long>& redolist, space& l) {$/;"	f	class:cellman
+return2unselected	cellthis.cpp	/^void cellCC::return2unselected(SS& shape) {$/;"	f	class:cellCC
+reversal	cellthis.h	/^  ofstream result,result2,currents,currents_rho,reversal,gapfile;$/;"	m	class:cellbeta
+rho	cellthis.h	/^  double* rho;$/;"	m	class:cellbeta
+rho	setparam.h	/^      double* rho;$/;"	m	class:betaWerte
+rho_NaK	setparam.h	/^	rho_NaK,   $/;"	m	class:betaWerte
+rhs	cellman.cpp	/^void cellman::rhs(double t, double* y, double* derivative, $/;"	f	class:cellman
+rhs	cellthis.cpp	/^void cellbeta::rhs(double t, double* y, double* derivative) {$/;"	f	class:cellbeta
+run_step	ode.cpp	/^void ode::run_step(double* y1, $/;"	f	class:ode
+run_step	odelist.cpp	/^void odelist::run_step(double* y1, $/;"	f	class:odelist
+run_t	hyphasma.cpp	/^int run_t(Parameter& p, cellman& c, space& l, sigs& g, SS& s, ofstream& ana)$/;"	f
+sCB	ss.h	/^enum cells {sCB,$/;"	e	enum:cells
+sCC	ss.h	/^	    sCC, \/\/ Summe aller CC Zustaende$/;"	e	enum:cells
+sCCFDCselected	ss.h	/^	    sCCFDCselected,$/;"	e	enum:cells
+sCCTCcontact	ss.h	/^	    sCCTCcontact,$/;"	e	enum:cells
+sCCapoptosis	ss.h	/^	    sCCapoptosis, \/\/ die toten Zellen auf dem Gitter (nicht alle toten)$/;"	e	enum:cells
+sCCcontact	ss.h	/^	    sCCcontact,$/;"	e	enum:cells
+sCCselected	ss.h	/^	    sCCselected,$/;"	e	enum:cells
+sCCunselected	ss.h	/^	    sCCunselected,$/;"	e	enum:cells
+sFDC	ss.h	/^	    sFDC,$/;"	e	enum:cells
+sK_Ca	cellthis.h	/^  enum beta_currents{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,Ca_L,Ca_T,$/;"	e	enum:cellbeta::beta_currents
+sK_Ca	setparam.h	/^      enum beta_proteins{NaK,K_ATP,K_V,K_Ca,sK_Ca,Na_V,fNa_V,NCX,PMCA,$/;"	e	enum:betaWerte::beta_proteins
+sTcell	ss.h	/^	    sTcell,$/;"	e	enum:cells
+s_h_K_ATP	setparam.h	/^	gbar_K_ATP, tau_K_ATP, s_h_K_ATP,  kappa_K_ATP,$/;"	m	class:betaWerte
+s_resolution	setparam.h	/^      int v_resolution,s_resolution,alpha_resolution;$/;"	m	class:Werte
+safety_checks	setparam.h	/^      short system,outputfiles,timevalues,show_Ki67,safety_checks;$/;"	m	class:Werte
+sallapoptosis	ss.h	/^	    sallapoptosis, \/\/ alle jemals gestorbenen Zellen$/;"	e	enum:cells
+save	setparam.cpp	/^void Parameter::save() {$/;"	f	class:Parameter
+save_GCvolume	kinetics.cpp	/^void GCkinetics::save_GCvolume(const long& vol, const double& t) {$/;"	f	class:GCkinetics
+save_to_file	rainbow.cpp	/^void rainbow::save_to_file() {$/;"	f	class:rainbow
+select	cellthis.cpp	/^short cellCC::select(SS& shape) {$/;"	f	class:cellCC
+selectable	cellthis.h	/^  short selectable,mobile;$/;"	m	class:cellCC
+selected	cellthis.h	/^enum centrocytes {unselected,contact,FDCselected,TCcontact,selected,apoptosis};$/;"	e	enum:centrocytes
+selected4output	cellthis.h	/^  bool selected4output;$/;"	m	class:cellCC
+selected_clock	cellthis.h	/^  double selected_clock;$/;"	m	class:cellCC
+selection	setparam.h	/^	selection,ccdiff,ccdiff_delay,ccdiff_delay_DEC,final_differentiation_rate,$/;"	m	class:Werte
+self	space.cpp	/^short space::self(const long& i, const long& li, const states& s) {$/;"	f	class:space
+set2differentiation	cellthis.cpp	/^centroblasts cellCB::set2differentiation() {$/;"	f	class:cellCB
+set_CXCR4expression	cellthis.cpp	/^void cellCB::set_CXCR4expression() {$/;"	f	class:cellCB
+set_CXCR4expression	cellthis.cpp	/^void cellCC::set_CXCR4expression() {$/;"	f	class:cellCC
+set_CXCR5expression	cellthis.cpp	/^void cellCC::set_CXCR5expression() {$/;"	f	class:cellCC
+set_N_OBJECTS	track.cpp	/^void TRACK::set_N_OBJECTS(int n) {$/;"	f	class:TRACK
+set_Ncolour	rainbow.cpp	/^void rainbow::set_Ncolour(int c) {  Ncolours=c; }$/;"	f	class:rainbow
+set_adhesion	cellthis.h	/^  void set_adhesion() { get_adhesion(max_adhesion); }$/;"	f	class:cellCB
+set_adhesion	cellthis.h	/^  void set_adhesion() { get_adhesion(max_adhesion); }$/;"	f	class:cellbeta
+set_antigen_amount	cellthis.cpp	/^void cellFDC::set_antigen_amount(double time, double dt) {$/;"	f	class:cellFDC
+set_apoptotic_motility	cellthis.cpp	/^bool cellCC::set_apoptotic_motility(sigs& s) {$/;"	f	class:cellCC
+set_changed_nn	cellthis.cpp	/^void cellTC::set_changed_nn(short x) {$/;"	f	class:cellTC
+set_chemotaxis_polarity	cell.cpp	/^void cell::set_chemotaxis_polarity(const signal_molecule& chemokine, double* pol, sigs& s) {$/;"	f	class:cell
+set_class	cellthis.cpp	/^void immunoglobulin_class::set_class(const immunoglobulin_class& c) { Ig_class=c.Ig_class; }$/;"	f	class:immunoglobulin_class
+set_clock	cell.cpp	/^void cell::set_clock() {$/;"	f	class:cell
+set_clock	cell.cpp	/^void frag_cell::set_clock() {$/;"	f	class:frag_cell
+set_collagen	grid.cpp	/^void grid::set_collagen(const double& collagen_density, const double& collagen_cluster) {$/;"	f	class:grid
+set_cycle_state_duration	cellthis.cpp	/^double cellCB::set_cycle_state_duration(centroblasts& s) {$/;"	f	class:cellCB
+set_differentiation	cellthis.cpp	/^void cellCB::set_differentiation(const double& time) {$/;"	f	class:cellCB
+set_differentiation	cellthis.cpp	/^void cellCC::set_differentiation(const double& time) {$/;"	f	class:cellCC
+set_forbidden_counts	cell.cpp	/^void frag_cell::set_forbidden_counts(const long& j, double* target, double* old, space& l) {$/;"	f	class:frag_cell
+set_gabriel_fractions	rainbow.cpp	/^void rainbow::set_gabriel_fractions(bool b) { gabriel_fractions=b; }$/;"	f	class:rainbow
+set_initial_condition	signals.cpp	/^void sigs::set_initial_condition(const signal_molecule& s) {$/;"	f	class:sigs
+set_initial_values	cellthis.cpp	/^void cellbeta::set_initial_values() {$/;"	f	class:cellbeta
+set_knot	space.cpp	/^void space::set_knot(const long& i, const states& s, const long& li) {$/;"	f	class:space
+set_leakage_zero	setparam.h	/^      short use_Nernst,set_leakage_zero,use_inactivation,$/;"	m	class:betaWerte
+set_mutation_after_TC	cellthis.cpp	/^void cellCB::set_mutation_after_TC(SS& shape) {$/;"	f	class:cellCB
+set_nhess	track.cpp	/^void TRACK::set_nhess(short& d) {$/;"	f	class:TRACK
+set_north_polarity	cell.cpp	/^void cell::set_north_polarity(space& l) {$/;"	f	class:cell
+set_pars	cellman.cpp	/^void cellman::set_pars(Parameter& par, space& l) {$/;"	f	class:cellman
+set_polarity	cellthis.cpp	/^void cellTC::set_polarity(space& l) {$/;"	f	class:cellTC
+set_polarity_velocity	cell.cpp	/^void cell::set_polarity_velocity(const double& persistence, space& l, sigs& s) {$/;"	f	class:cell
+set_polarity_velocity	cell.cpp	/^void cell::set_polarity_velocity(const double& persistence,$/;"	f	class:cell
+set_pov_sphere	cellman.cpp	/^void cellman::set_pov_sphere(int x, int y, int z, double r,$/;"	f	class:cellman
+set_remaining_divisions	cellthis.cpp	/^void cellCB::set_remaining_divisions() {$/;"	f	class:cellCB
+set_selectable	cellthis.cpp	/^void cellCC::set_selectable() {$/;"	f	class:cellCC
+set_selected_CC_delay	cellthis.cpp	/^double cellCC::set_selected_CC_delay() {$/;"	f	class:cellCC
+set_slit	grid.cpp	/^void grid::set_slit(const double& wall_level, const int& wall_width,$/;"	f	class:grid
+set_south_polarity	cell.cpp	/^void cell::set_south_polarity(space& l) {$/;"	f	class:cell
+set_stain_fraction	rainbow.cpp	/^void rainbow::set_stain_fraction(double f) { stain_fraction=f; }$/;"	f	class:rainbow
+set_statics	cell.cpp	/^void cell::set_statics(const Parameter& par, ofstream& ana) {$/;"	f	class:cell
+set_statics	cellthis.cpp	/^void cellCB::set_statics(const Parameter& par, space& l, ofstream& ana) {$/;"	f	class:cellCB
+set_statics	cellthis.cpp	/^void cellCB::set_statics(const double& time, const Parameter& par) {$/;"	f	class:cellCB
+set_statics	cellthis.cpp	/^void cellCC::set_statics(const Parameter& par, space& l, ofstream& ana) {$/;"	f	class:cellCC
+set_statics	cellthis.cpp	/^void cellCC::set_statics(const double& time, const Parameter& par) {$/;"	f	class:cellCC
+set_statics	cellthis.cpp	/^void cellFDC::set_statics(const Parameter& par, space& l, ofstream& ana) {$/;"	f	class:cellFDC
+set_statics	cellthis.cpp	/^void cellFDC::set_statics(const double& time, const Parameter& par) {$/;"	f	class:cellFDC
+set_statics	cellthis.cpp	/^void cellOUT::set_statics(const Parameter& par, space& l, ofstream& ana) {$/;"	f	class:cellOUT
+set_statics	cellthis.cpp	/^void cellTC::set_statics(const Parameter& par, space& l, ofstream& ana) {$/;"	f	class:cellTC
+set_statics	cellthis.cpp	/^void cellbeta::set_statics(const Parameter& par, space& l, ofstream& ana) {$/;"	f	class:cellbeta
+set_tracking	cellman.cpp	/^void cellman::set_tracking(Parameter& p) {$/;"	f	class:cellman
+set_wall	grid.cpp	/^int grid::set_wall(const double& wall_level, const int& wall_width) {$/;"	f	class:grid
+setcontrol	dynarray.h	/^template<class vartyp> void dynarray<vartyp>::setcontrol(char wert) { $/;"	f	class:dynarray
+setstep	dynarray.h	/^template<class vartyp> void dynarray<vartyp>::setstep(const int& wert) { step=wert; }$/;"	f	class:dynarray
+sfield	dynarray.h	/^void dynarray<vartyp>::sfield(const long int n, const vartyp& was) {$/;"	f	class:dynarray
+show	cellthis.cpp	/^void cellbeta::show(double t, double* y_n, ofstream& file, ofstream& file2) {$/;"	f	class:cellbeta
+show	dynarray.h	/^void dynarray<vartyp>::show() {$/;"	f	class:dynarray
+show	setparam.cpp	/^void Werte::show() {$/;"	f	class:Werte
+show	setparam.cpp	/^void betaWerte::show() {$/;"	f	class:betaWerte
+show_BETA	cellman.cpp	/^void cellman::show_BETA() {$/;"	f	class:cellman
+show_BrdU	cellman.cpp	/^void cellman::show_BrdU() {$/;"	f	class:cellman
+show_Ki67	cellman.h	/^   short show_Ki67;$/;"	m	class:cellman
+show_Ki67	setparam.h	/^      short system,outputfiles,timevalues,show_Ki67,safety_checks;$/;"	m	class:Werte
+show_ag_BrdU	cellman.cpp	/^void cellman::show_ag_BrdU(bool ini) {$/;"	f	class:cellman
+show_ag_collected	cellman.cpp	/^void cellman::show_ag_collected() {$/;"	f	class:cellman
+show_ag_loaded	cellman.cpp	/^void cellman::show_ag_loaded() {$/;"	f	class:cellman
+show_all	cellthis.cpp	/^void cellbeta::show_all(double t) {$/;"	f	class:cellbeta
+show_all	cellthis.cpp	/^void cellbeta::show_all(double t, $/;"	f	class:cellbeta
+show_antibodies	cellman.cpp	/^void cellman::show_antibodies() {$/;"	f	class:cellman
+show_barycenter	cell.cpp	/^void frag_cell::show_barycenter(short unsigned& d) {$/;"	f	class:frag_cell
+show_c	cellthis.cpp	/^void cellbeta::show_c(double t, ofstream& file) {$/;"	f	class:cellbeta
+show_cell_cycle_phase_duration	cellthis.cpp	/^void cellCB::show_cell_cycle_phase_duration() {$/;"	f	class:cellCB
+show_cell_in_BrdU	cellman.cpp	/^void cellman::show_cell_in_BrdU() {$/;"	f	class:cellman
+show_cr	cellthis.cpp	/^void cellbeta::show_cr(double t, ofstream& file) {$/;"	f	class:cellbeta
+show_cummulative_ag_collection	cellthis.cpp	/^void cellCC::show_cummulative_ag_collection() {$/;"	f	class:cellCC
+show_cummulative_mutation_prob	cellthis.cpp	/^void cellCB::show_cummulative_mutation_prob() {$/;"	f	class:cellCB
+show_cummulative_number_of_divisions	cellthis.cpp	/^void cellCB::show_cummulative_number_of_divisions() {$/;"	f	class:cellCB
+show_fragment_immobility	cell.cpp	/^void frag_cell::show_fragment_immobility() {$/;"	f	class:frag_cell
+show_fragments	cell.cpp	/^void frag_cell::show_fragments() {$/;"	f	class:frag_cell
+show_gap	cellthis.cpp	/^void cellbeta::show_gap(double t, double* y, ofstream& file) {$/;"	f	class:cellbeta
+show_mode	cellman.h	/^   representation show_mode;$/;"	m	class:cellman
+show_mode	setparam.h	/^      representation show_mode;$/;"	m	class:Werte
+show_mutation_prob	cellthis.cpp	/^void cellCB::show_mutation_prob(double& time, double& muta_av, double& muta_sd, ofstream& mutation_time) {$/;"	f	class:cellCB
+show_number_of_divisions	cellthis.cpp	/^void cellCB::show_number_of_divisions(double& time, ofstream& ndivtime) {$/;"	f	class:cellCB
+show_rev	cellthis.cpp	/^void cellbeta::show_rev(double t, double* v, ofstream& file) {$/;"	f	class:cellbeta
+shrink	setparam.h	/^      double shrink,apoptosis,apoptosis4FDCselected,macrophage,ignore_affinity,$/;"	m	class:Werte
+sig_differ2CC	signals.h	/^  sig_differ2CC,     \/\/ hypothetic signal inducing CB differentiation to CC$/;"	e	enum:signal_molecule
+sig_proliferate	signals.h	/^  sig_proliferate,   \/\/ hypothetic signal inducing mitosis$/;"	e	enum:signal_molecule
+siglog	signals.h	/^  ofstream siglog;$/;"	m	class:sigs
+signal	signals.h	/^   double signal[signals];$/;"	m	class:spoint
+signal_anregung	signals.cpp	/^double sigs::signal_anregung(const long& n, const signal_molecule& sig) {$/;"	f	class:sigs
+signal_diffout	signals.h	/^  double signal_diffout[signals]; \/\/ Zaehle alle jemals durch Diffusion $/;"	m	class:sigs
+signal_diffuse	signals.cpp	/^void sigs::signal_diffuse(space& xyz) {$/;"	f	class:sigs
+signal_diffuse_ADI	signals.cpp	/^void sigs::signal_diffuse_ADI(const signal_molecule& sig_type) {$/;"	f	class:sigs
+signal_diffuse_CN	signals.cpp	/^void sigs::signal_diffuse_CN(const signal_molecule& sig_type) {$/;"	f	class:sigs
+signal_diffuse_EULER	signals.cpp	/^void sigs::signal_diffuse_EULER(const long& i, $/;"	f	class:sigs
+signal_diffuse_EULER	signals.cpp	/^void sigs::signal_diffuse_EULER(const signal_molecule& sig_type) {$/;"	f	class:sigs
+signal_diffuse_QUANTA	signals.cpp	/^void sigs::signal_diffuse_QUANTA(const long& i, const signal_molecule& sig_type) {$/;"	f	class:sigs
+signal_get	signals.cpp	/^short sigs::signal_get(const long& i, const signal_molecule& sig_type, const double& howmuch) {$/;"	f	class:sigs
+signal_mode	setparam.h	/^      short signal_mode;$/;"	m	class:Werte
+signal_molecule	signals.h	/^enum signal_molecule {$/;"	g
+signal_new	signals.h	/^   double signal_new[signals];$/;"	m	class:spoint
+signal_produced	signals.h	/^  double signal_produced[signals]; \/\/ Zaehle die zwischen zwei Ausgaben produzierten Quanta$/;"	m	class:sigs
+signal_production	cellthis.cpp	/^void cellFDC::signal_production(const long& i, sigs& l) {$/;"	f	class:cellFDC
+signal_production	cellthis.cpp	/^void cellOUT::signal_production(const long& i, sigs& l) {$/;"	f	class:cellOUT
+signal_put	signals.cpp	/^void sigs::signal_put(const long& i, const signal_molecule& sig_type, const double& zahl) {$/;"	f	class:sigs
+signal_secretion	cell.cpp	/^void cell::signal_secretion(const long& i, $/;"	f	class:cell
+signal_set	signals.cpp	/^void sigs::signal_set(const long& i, const signal_molecule& sig_type, const double& zahl) {$/;"	f	class:sigs
+signal_tmp	signals.h	/^   double signal_tmp[signals];$/;"	m	class:spoint
+signal_total	signals.h	/^  double signal_total[signals];   \/\/ Zaehle alle jemals sekretierten Signale$/;"	m	class:sigs
+signal_use	signals.h	/^  short signal_use[signals];$/;"	m	class:sigs
+signal_used	signals.h	/^  double signal_used[signals];    \/\/ Alle durch Rezeptoren gebundenen Signale$/;"	m	class:sigs
+signals	signals.h	/^  signals            \/\/ number of signals$/;"	e	enum:signal_molecule
+sigs	signals.cpp	/^sigs::sigs()    $/;"	f	class:sigs
+sigs	signals.cpp	/^sigs::sigs(space& xyz, Parameter& par, ofstream& ana)    $/;"	f	class:sigs
+sigs	signals.h	/^class sigs : public grid {$/;"	c
+sigsknot	signals.h	/^  spoint * sigsknot;$/;"	m	class:sigs
+sl	random.h	/^    short sl;$/;"	m	class:pre_randomize
+slit_number	setparam.h	/^      int wall_width,slit_number,slit_width;$/;"	m	class:Werte
+slit_width	setparam.h	/^      int wall_width,slit_number,slit_width;$/;"	m	class:Werte
+smooth_PI	cellthis.cpp	/^double cellCB::smooth_PI=0.0;$/;"	m	class:cellCB	file:
+smooth_PI	cellthis.h	/^  static double asymmetric_polarity_index,smooth_PI;$/;"	m	class:cellCB
+smooth_PI	setparam.h	/^      double divide_ag_asymmetric,asymmetric_polarity_index,smooth_PI,BC_ag_preloaded;$/;"	m	class:Werte
+smooth_dif2out	setparam.h	/^      bool smooth_differentiation,smooth_dif2out,exit2tz;$/;"	m	class:Werte
+smooth_dif2out_time	setparam.h	/^      double smooth_differentiation_time,smooth_dif2out_time;$/;"	m	class:Werte
+smooth_differentiation	setparam.h	/^      bool smooth_differentiation,smooth_dif2out,exit2tz;$/;"	m	class:Werte
+smooth_differentiation_time	cellthis.cpp	/^double cellCB::smooth_differentiation_time=3.0;$/;"	m	class:cellCB	file:
+smooth_differentiation_time	cellthis.cpp	/^double cellCC::smooth_differentiation_time=3.0;$/;"	m	class:cellCC	file:
+smooth_differentiation_time	cellthis.h	/^  static double smooth_differentiation_time;$/;"	m	class:cellCB
+smooth_differentiation_time	cellthis.h	/^  static double smooth_differentiation_time;$/;"	m	class:cellCC
+smooth_differentiation_time	setparam.h	/^      double smooth_differentiation_time,smooth_dif2out_time;$/;"	m	class:Werte
+smoothmove	cellthis.cpp	/^double cellCB::smoothmove=1.0;$/;"	m	class:cellCB	file:
+smoothmove	cellthis.cpp	/^double cellbeta::smoothmove=1.0;$/;"	m	class:cellbeta	file:
+smoothmove	cellthis.h	/^    smoothmove,$/;"	m	class:cellCB
+smoothmove	cellthis.h	/^    smoothmove,$/;"	m	class:cellbeta
+solver	cellman.h	/^   odelist solver;$/;"	m	class:cellman
+solver	cellthis.h	/^  static ode solver;$/;"	m	class:cellbeta
+soma	cellthis.h	/^enum FDCstates {none,soma,dendrite};$/;"	e	enum:FDCstates
+sout	ss.h	/^	    sout, \/\/ Zahl der output-Zellen die erzeugt wurden (alle)$/;"	e	enum:cells
+soutdec	ss.h	/^	    soutdec, \/\/ Zahl der DEC205+ output-Zellen, die erzeugt wurden (wie sout nur dec)$/;"	e	enum:cells
+soutext	ss.h	/^	    soutext, \/\/ Zahl der ausgeworfenen output-Zellen (ohne Raumgitter)$/;"	e	enum:cells
+soutextproduce	ss.h	/^	    soutextproduce, \/\/ Zahl der ausgeworfenen output-Zellen, die Antikoerper produzieren$/;"	e	enum:cells
+space	space.cpp	/^space::space() $/;"	f	class:space
+space	space.cpp	/^space::space(Parameter& par, ofstream& ana)$/;"	f	class:space
+space	space.h	/^class space : public grid {$/;"	c
+spacepoint	space.cpp	/^spacepoint::spacepoint() {$/;"	f	class:spacepoint
+spacepoint	space.cpp	/^spacepoint::spacepoint(long int& i, states& c, long& listindex, long& FDClistindex) {$/;"	f	class:spacepoint
+spacepoint	space.h	/^class spacepoint {$/;"	c
+spoint	signals.cpp	/^spoint::spoint() {$/;"	f	class:spoint
+spoint	signals.h	/^class spoint {$/;"	c
+ss_position	rainbow.h	/^    long ss_position;$/;"	m	struct:rainbow::rainbow_data
+ssp	ss.h	/^   SSpoint* ssp;$/;"	m	class:SS
+stain	rainbow.cpp	/^void rainbow::stain(double time) {$/;"	f	class:rainbow
+stain_fraction	rainbow.h	/^  double stain_fraction;$/;"	m	class:rainbow
+start_differentiate	cellthis.cpp	/^double cellCB::start_differentiate=72.;$/;"	m	class:cellCB	file:
+start_differentiate	cellthis.cpp	/^double cellCC::start_differentiate=120.;$/;"	m	class:cellCC	file:
+start_differentiate	cellthis.h	/^    start_differentiate,$/;"	m	class:cellCB
+start_differentiate	cellthis.h	/^    start_differentiate,$/;"	m	class:cellCC
+state	cellthis.h	/^  FDCstates state;$/;"	m	class:cellFDC
+state	cellthis.h	/^  centroblasts state;                    \/\/ Differentiation state of CB$/;"	m	class:cellCB
+state	cellthis.h	/^  centrocytes state;$/;"	m	class:cellCC
+state	cellthis.h	/^  tcells state;$/;"	m	class:cellTC
+states	space.h	/^enum states { \/\/ state of knots, attribution to cell types$/;"	g
+status	cell.h	/^  cell_status status;$/;"	m	class:cell
+status	gridpoint.h	/^   grid_states status;$/;"	m	class:gridpoint
+status	track.h	/^    states status;$/;"	m	struct:TRACK::track_data
+step	dynarray.h	/^   int step;$/;"	m	class:dynarray
+step_count	cellthis.h	/^  long step_count;$/;"	m	class:cellbeta
+stop_collecting_FDCsignals	cellthis.cpp	/^short cellCC::stop_collecting_FDCsignals(SS& shape, double& dt) {$/;"	f	class:cellCC
+stop_fluorescent	cellman.cpp	/^void cellman::stop_fluorescent() {$/;"	f	class:cellman
+suffix	setparam.h	/^typedef char suffix[5];$/;"	t
+sum_cell	ss.h	/^   double sum_cell[number];$/;"	m	class:SS
+sum_check	ss.cpp	/^short int SS::sum_check() {$/;"	f	class:SS
+switch_dimension	setparam.h	/^      static const int switch_dimension=nIg_classes*nIg_classes;$/;"	m	class:Werte
+switch_matrix	cellthis.cpp	/^double immunoglobulin_class::switch_matrix[immunoglobulin_class::matrix_dimension];$/;"	m	class:immunoglobulin_class	file:
+switch_matrix	cellthis.h	/^  static double switch_matrix[matrix_dimension];$/;"	m	class:immunoglobulin_class
+switch_matrix	setparam.h	/^      double switch_matrix[switch_dimension];$/;"	m	class:Werte
+synchronise	cellthis.cpp	/^void cellbeta::synchronise() {$/;"	f	class:cellbeta
+system	grid.h	/^   short int system;$/;"	m	class:grid
+system	setparam.h	/^      short system,outputfiles,timevalues,show_Ki67,safety_checks;$/;"	m	class:Werte
+t	track.h	/^    double t;$/;"	m	struct:TRACK::track_data
+tALL	cellman.cpp	/^int cellman::tALL=0;$/;"	m	class:cellman	file:
+tALL	cellman.h	/^  static int tALL;$/;"	m	class:cellman
+tALL	setparam.h	/^      int tALL,tCB,tCC,tOUT,tTC,tBETA;$/;"	m	class:Werte
+tBETA	cellman.cpp	/^int cellman::tBETA=0;$/;"	m	class:cellman	file:
+tBETA	cellman.h	/^  static int tBETA;$/;"	m	class:cellman
+tBETA	setparam.h	/^      int tALL,tCB,tCC,tOUT,tTC,tBETA;$/;"	m	class:Werte
+tCB	cellman.cpp	/^int cellman::tCB=0;$/;"	m	class:cellman	file:
+tCB	cellman.h	/^  static int tCB;$/;"	m	class:cellman
+tCB	setparam.h	/^      int tALL,tCB,tCC,tOUT,tTC,tBETA;$/;"	m	class:Werte
+tCC	cellman.cpp	/^int cellman::tCC=0;$/;"	m	class:cellman	file:
+tCC	cellman.h	/^  static int tCC;$/;"	m	class:cellman
+tCC	setparam.h	/^      int tALL,tCB,tCC,tOUT,tTC,tBETA;$/;"	m	class:Werte
+tOUT	cellman.cpp	/^int cellman::tOUT=0;$/;"	m	class:cellman	file:
+tOUT	cellman.h	/^  static int tOUT;$/;"	m	class:cellman
+tOUT	setparam.h	/^      int tALL,tCB,tCC,tOUT,tTC,tBETA;$/;"	m	class:Werte
+tTC	cellman.cpp	/^int cellman::tTC=0;$/;"	m	class:cellman	file:
+tTC	cellman.h	/^  static int tTC;$/;"	m	class:cellman
+tTC	setparam.h	/^      int tALL,tCB,tCC,tOUT,tTC,tBETA;$/;"	m	class:Werte
+t_0	setparam.h	/^      double t_0;             \/\/ inital t$/;"	m	class:betaWerte
+t_1st_under100	cellman.h	/^   double t_dark_end,CC2CBratio,t_1st_under100;$/;"	m	class:cellman
+t_GCvolume	kinetics.h	/^  double t_GCvolume[n_vol_max];$/;"	m	class:GCkinetics
+t_dark_end	cellman.h	/^   double t_dark_end,CC2CBratio,t_1st_under100;$/;"	m	class:cellman
+t_immobile	cell.h	/^  long * t_immobile;$/;"	m	class:frag_cell
+t_max	setparam.h	/^      double t_max;           \/\/ final t  $/;"	m	class:betaWerte
+takeA	setparam.h	/^      dynarray<long int> takeA;$/;"	m	class:Werte
+takeB	setparam.h	/^      dynarray<long int> takeB;$/;"	m	class:Werte
+target_volume	cellthis.cpp	/^int cellCB::target_volume=1;$/;"	m	class:cellCB	file:
+target_volume	cellthis.cpp	/^int cellbeta::target_volume=1;$/;"	m	class:cellbeta	file:
+target_volume	cellthis.h	/^  static int target_volume;$/;"	m	class:cellCB
+target_volume	cellthis.h	/^  static int target_volume;$/;"	m	class:cellbeta
+tau_Ca_L	setparam.h	/^	gbar_Ca_L,  tau_Ca_L,  V_h_Ca_L,   kappa_Ca_L,theta_Ca_L,W_h_Ca_L,   $/;"	m	class:betaWerte
+tau_Ca_T	setparam.h	/^	gbar_Ca_T,  tau_Ca_T,  V_h_Ca_T,   kappa_Ca_T,  theta_Ca_T,W_h_Ca_T,   lambda_Ca_T,$/;"	m	class:betaWerte
+tau_IP3	setparam.h	/^	g_IP3_max,  gbar_IP3,  C_IP3_act,    n_IP3_act, tau_IP3,$/;"	m	class:betaWerte
+tau_K_ATP	setparam.h	/^	gbar_K_ATP, tau_K_ATP, s_h_K_ATP,  kappa_K_ATP,$/;"	m	class:betaWerte
+tau_K_Ca	setparam.h	/^	gbar_K_Ca,  H_K_Ca,    n_K_Ca,    V_h_K_Ca,  kappa_K_Ca, tau_K_Ca,$/;"	m	class:betaWerte
+tau_K_V	setparam.h	/^	gbar_K_V,   tau_K_V,   V_h_K_V,    kappa_K_V, theta_K_V, W_h_K_V,    lambda_K_V,$/;"	m	class:betaWerte
+tau_Na_V	setparam.h	/^	gbar_Na_V,  tau_Na_V,  V_h_Na_V,   kappa_Na_V,theta_Na_V,W_h_Na_V,   lambda_Na_V,$/;"	m	class:betaWerte
+tau_fNa_V	setparam.h	/^	gbar_fNa_V, tau_fNa_V, V_h_fNa_V,  kappa_fNa_V,$/;"	m	class:betaWerte
+tau_gap	setparam.h	/^	gbar_gap,   tau_gap;$/;"	m	class:betaWerte
+tau_sK_Ca	setparam.h	/^	gbar_sK_Ca, C_sK_Ca,   kappa_sK_Ca,tau_sK_Ca,$/;"	m	class:betaWerte
+tc_clock	cellthis.h	/^  double tc_clock,tc_signal_duration;$/;"	m	class:cellCC
+tc_dec205ova_binding_time	cellthis.cpp	/^double cellCC::tc_dec205ova_binding_time=0.0;$/;"	m	class:cellCC	file:
+tc_dec205ova_binding_time	cellthis.h	/^  static double tc_time,tc_rescue_time,tc_dec205ova_binding_time;$/;"	m	class:cellCC
+tc_index	cellthis.h	/^  long tc_index;$/;"	m	class:cellCC
+tc_rescue_time	cellthis.cpp	/^double cellCC::tc_rescue_time=1.0;$/;"	m	class:cellCC	file:
+tc_rescue_time	cellthis.h	/^  static double tc_time,tc_rescue_time,tc_dec205ova_binding_time;$/;"	m	class:cellCC
+tc_signal_duration	cellthis.h	/^  double tc_clock,tc_signal_duration;$/;"	m	class:cellCC
+tc_time	cellthis.cpp	/^double cellCC::tc_time=1.5;$/;"	m	class:cellCC	file:
+tc_time	cellthis.h	/^  static double tc_time,tc_rescue_time,tc_dec205ova_binding_time;$/;"	m	class:cellCC
+tcells	cellthis.h	/^enum tcells{TCnormal,TC_CCcontact};$/;"	g
+tcounter	cellman.h	/^   short int tcounter;$/;"	m	class:cellman
+tension	cellthis.h	/^    tension,$/;"	m	class:cellCB
+tension	cellthis.h	/^    tension,$/;"	m	class:cellbeta
+test_delay	cellthis.cpp	/^long cellCC::test_delay=-1;$/;"	m	class:cellCC	file:
+test_delay	cellthis.h	/^  static long test_delay, ICAM_delay;$/;"	m	class:cellCC
+theta_Ca_L	setparam.h	/^	gbar_Ca_L,  tau_Ca_L,  V_h_Ca_L,   kappa_Ca_L,theta_Ca_L,W_h_Ca_L,   $/;"	m	class:betaWerte
+theta_Ca_T	setparam.h	/^	gbar_Ca_T,  tau_Ca_T,  V_h_Ca_T,   kappa_Ca_T,  theta_Ca_T,W_h_Ca_T,   lambda_Ca_T,$/;"	m	class:betaWerte
+theta_IP3	setparam.h	/^	                       Cbar_IP3_inh, n_IP3_inh, theta_IP3,$/;"	m	class:betaWerte
+theta_K_V	setparam.h	/^	gbar_K_V,   tau_K_V,   V_h_K_V,    kappa_K_V, theta_K_V, W_h_K_V,    lambda_K_V,$/;"	m	class:betaWerte
+theta_Na_V	setparam.h	/^	gbar_Na_V,  tau_Na_V,  V_h_Na_V,   kappa_Na_V,theta_Na_V,W_h_Na_V,   lambda_Na_V,$/;"	m	class:betaWerte
+thetas	grid.h	/^   gauss_randomize thetas;$/;"	m	class:grid
+time	cellman.h	/^   double time;$/;"	m	class:cellman
+time	rainbow.h	/^    double time;$/;"	m	struct:rainbow::rainbow_data
+time	track.h	/^  double time,dt;$/;"	m	class:TRACK
+time_of_cycle_state_switch	cellthis.h	/^  double time_of_cycle_state_switch;$/;"	m	class:cellCB
+time_step	cellman.cpp	/^void cellman::time_step(short int ss_save, space& l, sigs& s, SS& shape, ofstream& ana) {$/;"	f	class:cellman
+timevalues	setparam.h	/^      short system,outputfiles,timevalues,show_Ki67,safety_checks;$/;"	m	class:Werte
+tmax	setparam.h	/^      double deltat, tmin, tmax;$/;"	m	class:Werte
+tmin	setparam.h	/^      double deltat, tmin, tmax;$/;"	m	class:Werte
+to_ssfiles	ss.cpp	/^void SS::to_ssfiles(double time) {$/;"	f	class:SS
+tolight	setparam.h	/^	tolight,$/;"	m	class:Werte
+total	ss.h	/^            total, \/\/ Zahl lebender CB,CC,out im SS auf und ausserhalb des Gitters$/;"	e	enum:cells
+totalA	setparam.h	/^      int totalA,APeakNumber;$/;"	m	class:Werte
+totalB	setparam.h	/^      long int totalB,totalBss;$/;"	m	class:Werte
+totalBss	setparam.h	/^      long int totalB,totalBss;$/;"	m	class:Werte
+totalTC	setparam.h	/^      long int totalTC;$/;"	m	class:Werte
+total_blast2	setparam.h	/^      long total_blast2;$/;"	m	class:Werte
+total_cell_cycle_duration	cellthis.cpp	/^double cellCB::total_cell_cycle_duration() {$/;"	f	class:cellCB
+total_n_of_DEC205_divisions	cellthis.cpp	/^double cellCB::total_n_of_DEC205_divisions=0;$/;"	m	class:cellCB	file:
+total_n_of_DEC205_divisions	cellthis.h	/^  static double total_n_of_DEC205_divisions;$/;"	m	class:cellCB
+total_n_of_divisions	cellthis.cpp	/^double cellCB::total_n_of_divisions=0;$/;"	m	class:cellCB	file:
+total_n_of_divisions	cellthis.h	/^  static double total_n_of_divisions;$/;"	m	class:cellCB
+track_data	track.h	/^  struct track_data {$/;"	s	class:TRACK
+track_delta_t	setparam.h	/^      double delta_v,delta_s,delta_alpha,trackfrom,trackuntil,track_delta_t;$/;"	m	class:Werte
+track_mutations	cellman.h	/^   bool track_mutations; \/\/ true if rainbow class shall be used$/;"	m	class:cellman
+trackdata	cellman.h	/^   TRACK trackdata;$/;"	m	class:cellman
+trackfrom	rainbow.h	/^  double trackfrom;$/;"	m	class:rainbow
+trackfrom	setparam.h	/^      double delta_v,delta_s,delta_alpha,trackfrom,trackuntil,track_delta_t;$/;"	m	class:Werte
+trackini	track.h	/^enum action_types{trackini,movement,polarisation,fdcdetachment,deathORend};$/;"	e	enum:action_types
+trackit	cell.h	/^  bool trackit;$/;"	m	class:cell
+trackmutations	cellman.h	/^   rainbow trackmutations; \/\/ uses default constructor$/;"	m	class:cellman
+trackno	cell.h	/^  int trackno;$/;"	m	class:cell
+trackuntil	rainbow.h	/^  double trackuntil;$/;"	m	class:rainbow
+trackuntil	setparam.h	/^      double delta_v,delta_s,delta_alpha,trackfrom,trackuntil,track_delta_t;$/;"	m	class:Werte
+transfer_colour2daughters	rainbow.cpp	/^void rainbow::transfer_colour2daughters(long cell_index) {$/;"	f	class:rainbow
+transmit_CC_delay_to_CB_cycle	setparam.h	/^      bool transmit_CC_delay_to_CB_cycle;$/;"	m	class:Werte
+transmit_CCdelay2cellcycle	cellthis.cpp	/^bool cellCB::transmit_CCdelay2cellcycle=false;$/;"	m	class:cellCB	file:
+transmit_CCdelay2cellcycle	cellthis.h	/^  static bool transmit_CCdelay2cellcycle;$/;"	m	class:cellCB
+transmit_CCdelay2cycle	cellthis.cpp	/^void cellCB::transmit_CCdelay2cycle(double waited_time) {$/;"	f	class:cellCB
+try2exchange_cells	cellman.cpp	/^long cellman::try2exchange_cells(long& i, long& li, states my_type, double* pol, $/;"	f	class:cellman
+try_eject	cellthis.cpp	/^short cellOUT::try_eject(long i, space& l, SS& shape) {$/;"	f	class:cellOUT
+tumour	setparam.h	/^enum representation{GC,tumour,islet};$/;"	e	enum:representation
+typelong	dynarray.h	/^   int typelong;$/;"	m	class:dynarray
+undercritical_signal	signals.cpp	/^bool sigs::undercritical_signal(const long& index, const signal_molecule& s, const double& crit) {$/;"	f	class:sigs
+unselected	cellthis.h	/^enum centrocytes {unselected,contact,FDCselected,TCcontact,selected,apoptosis};$/;"	e	enum:centrocytes
+use_D_correction	cell.h	/^  static const short use_D_correction=0;$/;"	m	class:frag_cell
+use_Nernst	setparam.h	/^      short use_Nernst,set_leakage_zero,use_inactivation,$/;"	m	class:betaWerte
+use_ab_dynamics	setparam.h	/^      short use_ab_dynamics; \/\/ =0 for old affinity model; $/;"	m	class:Werte
+use_ab_dynamics	ss.h	/^   short use_ab_dynamics;$/;"	m	class:SS
+use_antigen	cellthis.cpp	/^unsigned short cellFDC::use_antigen=0;$/;"	m	class:cellFDC	file:
+use_antigen	cellthis.h	/^  static unsigned short use_antigen;$/;"	m	class:cellFDC
+use_dynamic_H_K_Ca	setparam.h	/^	use_dynamic_H_K_Ca,use_voltage_gating_K_Ca,$/;"	m	class:betaWerte
+use_dynamic_IP3	setparam.h	/^	use_dynamic_IP3,use_dynamic_tau_IP3;$/;"	m	class:betaWerte
+use_dynamic_correction	cell.h	/^  static const short use_dynamic_correction=0;$/;"	m	class:frag_cell
+use_dynamic_tau_IP3	setparam.h	/^	use_dynamic_IP3,use_dynamic_tau_IP3;$/;"	m	class:betaWerte
+use_dynamic_tau_K_V	setparam.h	/^	use_dynamic_tau_K_V,use_dynamic_tau_Na_V,use_dynamic_tau_fNa_V,$/;"	m	class:betaWerte
+use_dynamic_tau_Na_V	setparam.h	/^	use_dynamic_tau_K_V,use_dynamic_tau_Na_V,use_dynamic_tau_fNa_V,$/;"	m	class:betaWerte
+use_dynamic_tau_fNa_V	setparam.h	/^	use_dynamic_tau_K_V,use_dynamic_tau_Na_V,use_dynamic_tau_fNa_V,$/;"	m	class:betaWerte
+use_glucose	cell.cpp	/^double cell::use_glucose=20.e-18;  \/\/ 22. in Gernot's continuous model (mol\/(cell sec))$/;"	m	class:cell	file:
+use_glucose	cell.h	/^  static double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:cell
+use_glucose	setparam.h	/^      double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:Werte
+use_glucose_pro	cell.cpp	/^double cell::use_glucose_pro=20.e-18;  \/\/ identical in Gernot's models$/;"	m	class:cell	file:
+use_glucose_pro	cell.h	/^  static double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:cell
+use_glucose_pro	setparam.h	/^      double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:Werte
+use_inactivation	setparam.h	/^      short use_Nernst,set_leakage_zero,use_inactivation,$/;"	m	class:betaWerte
+use_nutrient	cell.cpp	/^void cell::use_nutrient(sigs& s, long& sigindex) {$/;"	f	class:cell
+use_oxygen	cell.cpp	/^double cell::use_oxygen=95.e-18;   \/\/ 34. in Gernot's continuous model$/;"	m	class:cell	file:
+use_oxygen	cell.h	/^  static double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:cell
+use_oxygen	setparam.h	/^      double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:Werte
+use_oxygen_pro	cell.cpp	/^double cell::use_oxygen_pro=95.e-18;   \/\/ identical in Gernot's models$/;"	m	class:cell	file:
+use_oxygen_pro	cell.h	/^  static double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:cell
+use_oxygen_pro	setparam.h	/^      double use_glucose,use_oxygen,use_glucose_pro,use_oxygen_pro,critical_nutrient;$/;"	m	class:Werte
+use_sigma_n_1	kinetics.h	/^  static const double use_sigma_n_1=0.;$/;"	m	class:GCkinetics
+use_specific_turning_angles	cell.cpp	/^short cell::use_specific_turning_angles=0; \/\/ use isotropic target polarisation$/;"	m	class:cell	file:
+use_specific_turning_angles	cell.h	/^  static short use_specific_turning_angles;$/;"	m	class:cell
+use_specific_turning_angles	setparam.h	/^      short use_specific_turning_angles;$/;"	m	class:Werte
+use_threshold	cellthis.cpp	/^short cellOUT::use_threshold=1;$/;"	m	class:cellOUT	file:
+use_threshold	cellthis.h	/^  static short use_threshold;$/;"	m	class:cellOUT
+use_voltage_gating_K_Ca	setparam.h	/^	use_dynamic_H_K_Ca,use_voltage_gating_K_Ca,$/;"	m	class:betaWerte
+used_cell_type	track.h	/^  bool used_cell_type[N_cells];$/;"	m	class:TRACK
+v_CB	setparam.h	/^      double v_CB;          \/\/ CB-velocity (alternative to diffusion -- if D is used take -1)$/;"	m	class:Werte
+v_CB_cytosol	setparam.h	/^      double v_CB_cytosol;  \/\/ Alternative to CB_D_cytosol (one of both has to be set to -1).$/;"	m	class:Werte
+v_CB_factor	setparam.h	/^      double v_CB_factor;   \/\/ for 2 velocities: the factor by which the velocity is reduced$/;"	m	class:Werte
+v_CB_switch_deltat	setparam.h	/^      double v_CB_switch_deltat; \/\/ Mean duration in a v-state in minutes$/;"	m	class:Werte
+v_CC	setparam.h	/^      double v_CC;          \/\/ CB-velocity (alternative to diffusion -- if D is used take -1)$/;"	m	class:Werte
+v_CC_factor	setparam.h	/^      double v_CC_factor;   \/\/ for 2 velocities: the factor by which the velocity is reduced$/;"	m	class:Werte
+v_CC_switch_deltat	setparam.h	/^      double v_CC_switch_deltat; \/\/ Mean duration in a v-state in minutes$/;"	m	class:Werte
+v_OUT	setparam.h	/^      double v_OUT;          \/\/ OUT-velocity $/;"	m	class:Werte
+v_TC	setparam.h	/^      double v_TC;          \/\/ TC-velocity$/;"	m	class:Werte
+v_TC_CC	setparam.h	/^      double v_TC_CC;       \/\/ TC-velocity if encountering a CC$/;"	m	class:Werte
+v_modi	cellthis.cpp	/^short cellCB::v_modi=1;$/;"	m	class:cellCB	file:
+v_modi	cellthis.cpp	/^short cellCC::v_modi=1;$/;"	m	class:cellCC	file:
+v_modi	cellthis.cpp	/^short cellOUT::v_modi=1;$/;"	m	class:cellOUT	file:
+v_modi	cellthis.cpp	/^short cellbeta::v_modi=1;$/;"	m	class:cellbeta	file:
+v_modi	cellthis.h	/^  static short v_modi,n_v_states,apoptotic_motility_mode;$/;"	m	class:cellCC
+v_modi	cellthis.h	/^  static short v_modi,n_v_states;$/;"	m	class:cellCB
+v_modi	cellthis.h	/^  static short v_modi,n_v_states;$/;"	m	class:cellOUT
+v_modi	cellthis.h	/^  static short v_modi,n_v_states;$/;"	m	class:cellbeta
+v_resolution	cellman.cpp	/^int cellman::v_resolution=100;$/;"	m	class:cellman	file:
+v_resolution	cellman.h	/^  static int v_resolution;$/;"	m	class:cellman
+v_resolution	setparam.h	/^      int v_resolution,s_resolution,alpha_resolution;$/;"	m	class:Werte
+v_slow_factor	cellthis.cpp	/^double cellCB::v_slow_factor=1.0;$/;"	m	class:cellCB	file:
+v_slow_factor	cellthis.cpp	/^double cellCC::v_slow_factor=1.0;$/;"	m	class:cellCC	file:
+v_slow_factor	cellthis.cpp	/^double cellOUT::v_slow_factor=1.0;$/;"	m	class:cellOUT	file:
+v_slow_factor	cellthis.cpp	/^double cellbeta::v_slow_factor=1.0;$/;"	m	class:cellbeta	file:
+v_slow_factor	cellthis.h	/^    v_slow_factor,$/;"	m	class:cellCB
+v_slow_factor	cellthis.h	/^    v_slow_factor,$/;"	m	class:cellCC
+v_slow_factor	cellthis.h	/^    v_slow_factor,$/;"	m	class:cellOUT
+v_slow_factor	cellthis.h	/^    v_slow_factor,$/;"	m	class:cellbeta
+v_state	cell.h	/^  double v_state;$/;"	m	class:cell
+velocity	cellman.h	/^   long * velocity;$/;"	m	class:cellman
+vesicle	cellthis.cpp	/^short cellFDC::vesicle=1;$/;"	m	class:cellFDC	file:
+vesicle	cellthis.cpp	/^short cellOUT::vesicle=1;$/;"	m	class:cellOUT	file:
+vesicle	cellthis.h	/^  static short vesicle;$/;"	m	class:cellFDC
+vesicle	cellthis.h	/^  static short vesicle;$/;"	m	class:cellOUT
+vol_shape	setparam.h	/^      short vol_shape;$/;"	m	class:Werte
+volume	cell.h	/^  int volume;$/;"	m	class:cell
+volume_D_factor	cell.cpp	/^double frag_cell::volume_D_factor() {$/;"	f	class:frag_cell
+vonNEUMANNinwards	signals.cpp	/^double sigs::vonNEUMANNinwards=-1.0;$/;"	m	class:sigs	file:
+vonNEUMANNinwards	signals.h	/^  static double vonNEUMANNinwards;$/;"	m	class:sigs
+vtmp	setparam.h	/^  Werte vtmp;$/;"	m	class:Parameter
+wahl	setparam.cpp	/^int Parameter::wahl(const char* namecommand)$/;"	f	class:Parameter
+wall_level	setparam.h	/^      double wall_level,collagen_density,collagen_cluster;$/;"	m	class:Werte
+wall_width	setparam.h	/^      int wall_width,slit_number,slit_width;$/;"	m	class:Werte
+where_fragment	cell.cpp	/^int frag_cell::where_fragment(const long& i) {$/;"	f	class:frag_cell
+where_fragment	cell.cpp	/^int frag_cell::where_fragment(const long& i, long * frags, const int& max) {$/;"	f	class:frag_cell
+width2	ss.h	/^   double width2,amplitude;$/;"	m	class:SS
+write	dynarray.h	/^template<class vartyp> char dynarray<vartyp>::write(const long int& wo, const vartyp& was) {$/;"	f	class:dynarray
+write	rainbow.cpp	/^long rainbow::write(double time, bool founder, bool birth, long mother_index, long ss_position) {$/;"	f	class:rainbow
+write	setparam.cpp	/^void Parameter::write()$/;"	f	class:Parameter
+write_TEST	signals.cpp	/^void sigs::write_TEST(double& t) {$/;"	f	class:sigs
+write_all_signals	signals.cpp	/^void sigs::write_all_signals(double& chemo_max, double& chemo_steep, $/;"	f	class:sigs
+write_files	signals.cpp	/^void sigs::write_files(suffix tnr, bool forceit) {$/;"	f	class:sigs
+write_final	cellman.cpp	/^void cellman::write_final(const double& deltax) {$/;"	f	class:cellman
+write_siglog	signals.cpp	/^void sigs::write_siglog(double& t) {$/;"	f	class:sigs
+writethis2track	cell.h	/^  action_types writethis2track;$/;"	m	class:cell
+wrote_data	track.h	/^  bool wrote_data;$/;"	m	class:TRACK
+x	gridpoint.h	/^   long x[3];$/;"	m	class:gridpoint
+x_resolution	track.h	/^  double x_resolution;$/;"	m	class:TRACK
+xaffig	cellman.h	/^   ofstream xaffig;$/;"	m	class:cellman
+xapoig	cellman.h	/^   ofstream xapoig,xapoigdz,xapoiglz;$/;"	m	class:cellman
+xapoigdz	cellman.h	/^   ofstream xapoig,xapoigdz,xapoiglz;$/;"	m	class:cellman
+xapoiglz	cellman.h	/^   ofstream xapoig,xapoigdz,xapoiglz;$/;"	m	class:cellman
+xdec205	cellman.h	/^   ofstream xdec205;$/;"	m	class:cellman
+xfiles	cellman.cpp	/^void cellman::xfiles(suffix tnr, space& l) {$/;"	f	class:cellman
+xi	cellthis.cpp	/^double cellbeta::xi,cellbeta::xi_ER,cellbeta::xi_ERC,cellbeta::xi_S_ERC;$/;"	m	class:cellbeta	file:
+xi	cellthis.h	/^  static double xi,xi_ER,xi_ERC,xi_S_ERC;$/;"	m	class:cellbeta
+xi_ER	cellthis.cpp	/^double cellbeta::xi,cellbeta::xi_ER,cellbeta::xi_ERC,cellbeta::xi_S_ERC;$/;"	m	class:cellbeta	file:
+xi_ER	cellthis.h	/^  static double xi,xi_ER,xi_ERC,xi_S_ERC;$/;"	m	class:cellbeta
+xi_ERC	cellthis.cpp	/^double cellbeta::xi,cellbeta::xi_ER,cellbeta::xi_ERC,cellbeta::xi_S_ERC;$/;"	m	class:cellbeta	file:
+xi_ERC	cellthis.h	/^  static double xi,xi_ER,xi_ERC,xi_S_ERC;$/;"	m	class:cellbeta
+xi_S_ERC	cellthis.cpp	/^double cellbeta::xi,cellbeta::xi_ER,cellbeta::xi_ERC,cellbeta::xi_S_ERC;$/;"	m	class:cellbeta	file:
+xi_S_ERC	cellthis.h	/^  static double xi,xi_ER,xi_ERC,xi_S_ERC;$/;"	m	class:cellbeta
+xlogs	cellman.h	/^const short int xlogs = N_cells;$/;"	v
+xsumBCOig	cellman.h	/^   ofstream xsumBCOig;$/;"	m	class:cellman
+xsumBCig	cellman.h	/^   ofstream xsumBCig;$/;"	m	class:cellman
+xsums	cellman.h	/^   ofstream xsums[xlogs];$/;"	m	class:cellman
+xtc	cellman.h	/^   ofstream xtc;$/;"	m	class:cellman
+xvolume	cellman.h	/^   ofstream xvolume;$/;"	m	class:cellman
+y_n	cellthis.h	/^  double* y_n;$/;"	m	class:cellbeta
+y_n1	cellthis.h	/^  double* y_n1; \/\/ try these to be static! ###$/;"	m	class:cellbeta
+y_n_old	cellthis.h	/^  double* y_n_old;$/;"	m	class:cellbeta
+z_Ca	cellthis.h	/^  static const double z_Ca = 2.0; \/\/ valence of calcium ions$/;"	m	class:cellbeta
+z_K	cellthis.h	/^  static const double z_K = 1.0; \/\/ valence of potassium ions$/;"	m	class:cellbeta
+z_Na	cellthis.h	/^  static const double z_Na = 1.0; \/\/ valence of sodium ions$/;"	m	class:cellbeta
+zone_add	cellman.cpp	/^void cellman::zone_add(long i, long& n_CB, long& n_CB_nr, $/;"	f	class:cellman
+zone_files	cellman.cpp	/^void cellman::zone_files(suffix tnr, space& l) {$/;"	f	class:cellman
+zone_put	cellman.cpp	/^void cellman::zone_put(double t, long n_CB, long n_CB_nr, $/;"	f	class:cellman
+~GCkinetics	kinetics.h	/^  ~GCkinetics() {};$/;"	f	class:GCkinetics
+~SS	ss.cpp	/^SS::~SS(){$/;"	f	class:SS
+~SSpoint	ss.cpp	/^SSpoint::~SSpoint() {$/;"	f	class:SSpoint
+~TRACK	track.cpp	/^TRACK::~TRACK() {$/;"	f	class:TRACK
+~cell	cell.cpp	/^cell::~cell() {$/;"	f	class:cell
+~cellCB	cellthis.cpp	/^cellCB::~cellCB() { $/;"	f	class:cellCB
+~cellCC	cellthis.cpp	/^cellCC::~cellCC() { \/\/cout<<"in ~cellCC() ...\\n"; $/;"	f	class:cellCC
+~cellFDC	cellthis.cpp	/^cellFDC::~cellFDC() {$/;"	f	class:cellFDC
+~cellOUT	cellthis.cpp	/^cellOUT::~cellOUT() { \/\/cout<<"in ~cellOUT() ,,,\\n"; $/;"	f	class:cellOUT
+~cellTC	cellthis.cpp	/^cellTC::~cellTC() { $/;"	f	class:cellTC
+~cellbeta	cellthis.cpp	/^cellbeta::~cellbeta() { $/;"	f	class:cellbeta
+~cellman	cellman.cpp	/^cellman::~cellman() {$/;"	f	class:cellman
+~dynarray	dynarray.h	/^template<class vartyp> dynarray<vartyp>::~dynarray() {$/;"	f	class:dynarray
+~frag_cell	cell.cpp	/^frag_cell::~frag_cell() { $/;"	f	class:frag_cell
+~gauss_randomize	random.cpp	/^gauss_randomize::~gauss_randomize() {$/;"	f	class:gauss_randomize
+~grid	grid.cpp	/^grid::~grid() {$/;"	f	class:grid
+~gridpoint	gridpoint.cpp	/^gridpoint::~gridpoint() {$/;"	f	class:gridpoint
+~immunoglobulin_class	cellthis.cpp	/^immunoglobulin_class::~immunoglobulin_class() { }$/;"	f	class:immunoglobulin_class
+~ode	ode.h	/^  ~ode() {};$/;"	f	class:ode
+~odelist	odelist.h	/^  ~odelist() {};$/;"	f	class:odelist
+~pre_randomize	random.cpp	/^pre_randomize::~pre_randomize() { }$/;"	f	class:pre_randomize
+~rainbow	rainbow.cpp	/^rainbow::~rainbow() {$/;"	f	class:rainbow
+~sigs	signals.cpp	/^sigs::~sigs() {$/;"	f	class:sigs
+~space	space.cpp	/^space::~space() {$/;"	f	class:space
+~spacepoint	space.cpp	/^spacepoint::~spacepoint() {$/;"	f	class:spacepoint
+~spoint	signals.cpp	/^spoint::~spoint() {$/;"	f	class:spoint
