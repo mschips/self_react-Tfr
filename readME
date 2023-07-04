@@ -1,0 +1,24 @@
+- upload contains:
+    - files to start multiple runs
+    - hyphasma folder which contains:
+        - files necessary for running hyphasma
+        - src folder containing code files
+        - results folder containing results folder and R scripts to generate the paper figures
+        - parameter_files folder (readME file in parameter_files folder)
+        
+to run hyphasma:
+    - move desired parameter files in 'to_run' parameter_files/to_run (note that parameter files need to be both in parameter_files and in to_run)
+    - in 'runmulticore_settings' set number of cores (ncores) and number of run per cores (nrunspercore)
+    - run 'new_multirun.R' --> this will give number of set runs for each parameter file in hyphasma/parameter_files/to_run; each completed set of runs will automatically be stored in hyphasma/results
+    
+to generate the figures:
+    - in hyphasma/results each set of simulations needs to be placed in the right folder named by '*TfrModel*_model'; eg: SemiGate_*NW* results need to be moved in semigatenw_model folder (readME file in each *_model folder)
+    - run 'coll_noPar_paper.R' --> this will generate in each *_model folder the corresponding *_folder containing the necessary csv file to generate the plots
+    
+    - each R file produces the corresponding figure & supplementary
+    - each R file containes lines to modify the selected 'pSelf' and Tfh:Tfr ratio (Tfh_by_Tfr)
+    
+NOTE:
+- due to size restriction, the uploaded csv files are portions of the results presented in the paper
+- complete sets can be generated independently
+- R files work with any number of simulations
